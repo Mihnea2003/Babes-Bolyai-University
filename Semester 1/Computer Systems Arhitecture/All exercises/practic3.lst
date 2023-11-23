@@ -1,0 +1,49 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start        
+     4                                  
+     5                                  ; declare extern functions used by the programme
+     6                                  extern exit, printf, scanf ; add printf and scanf as extern functions            
+     7                                  import exit msvcrt.dll    
+     8                                  import printf msvcrt.dll    ; tell the assembler that function printf is found in msvcrt.dll library
+     9                                  import scanf msvcrt.dll     ; similar for scanf
+    10                                                            
+    11                                  segment data use32 class=data
+    12 00000000 0000                        a dw 0
+    13 00000002 0000                        b dw 0
+    14 00000004 00000000                    result dd 0
+    15 00000008 613D00                      message1 db "a=",0
+    16 0000000B 623D00                      message2 db "b=",0
+    17 0000000E 256400                      format db "%d",0
+    18                                  segment  code use32 class=code ; code segment
+    19                                      start:
+    20                                      ;Read two numbers a and b (base 10) from the keyboard and calculate: (a+b)*(a-b). The result of multiplication will be stored in a variable called ;"result" (defined in the data segment).
+    21 00000000 68[08000000]                push dword message1
+    22 00000005 FF15[00000000]              call [printf]
+    23 0000000B 83C404                      add esp,4
+    24 0000000E 68[00000000]                push dword a
+    25 00000013 68[0E000000]                push dword format
+    26 00000018 FF15[00000000]              call [scanf]
+    27 0000001E 83C408                      add esp,4*2
+    28 00000021 68[0B000000]                push dword message2
+    29 00000026 FF15[00000000]              call [printf]
+    30 0000002C 83C404                      add esp,4
+    31 0000002F 68[02000000]                push dword b
+    32 00000034 68[0E000000]                push dword format
+    33 00000039 FF15[00000000]              call [scanf]
+    34 0000003F 83C408                      add esp,4*2
+    35 00000042 66A1[00000000]              mov ax,[a]
+    36 00000048 660305[02000000]            add ax,word[b]
+    37 0000004F 668B1D[00000000]            mov bx,[a]
+    38 00000056 662B1D[02000000]            sub bx,word[b]
+    39 0000005D 66F7E3                      mul bx   ;result in dx:ax
+    40 00000060 6652                        push dx
+    41 00000062 6650                        push ax
+    42 00000064 58                          pop eax
+    43 00000065 50                          push eax
+    44 00000066 68[0E000000]                push dword format
+    45 0000006B FF15[00000000]              call[printf]
+    46 00000071 83C408                      add esp,4*2
+    47 00000074 FF15[00000000]              call[exit]
+    48                                      
+    49                                      

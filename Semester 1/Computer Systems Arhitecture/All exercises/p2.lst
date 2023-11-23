@@ -1,0 +1,23 @@
+     1                                  bits 32 ;assembling for the 32 bits architecture
+     2                                  ; the start label will be the entry point in the program
+     3                                  global  start 
+     4                                  
+     5                                  extern  exit ; we inform the assembler that the exit symbol is foreign, i.e. it exists even if we won't be defining it
+     6                                  
+     7                                  import  exit msvcrt.dll; exit is a function that ends the process, it is defined in msvcrt.dll
+     8                                          ; msvcrt.dll contains exit, printf and all the other important C-runtime functions
+     9                                  segment  data use32 class=data ; the data segment where the variables are declared 
+    10 00000000 0F                          a  db 15
+    11 00000001 05                      	b  db 5
+    12 00000002 05                          c  db 5
+    13 00000003 0F                          d  db 15
+    14                                  segment  code use32 class=code ; code segment
+    15                                  start: 
+    16                                      ;(a-b)+(d-c)  a,b,c,d - byte
+    17 00000000 66A1[00000000]              mov AX, [a]
+    18 00000006 662B05[01000000]            sub AX, [b] ;  AX ->>a-b 
+    19 0000000D 668B1D[03000000]            mov BX, [d]
+    20 00000014 662B1D[02000000]            sub BX, [c] ;  BX-->>d-c
+    21 0000001B 6601D8                      add AX, BX ; AX->>(a-b)+(d-c)
+    22 0000001E FF15[00000000]              call [exit]
+    23                                      

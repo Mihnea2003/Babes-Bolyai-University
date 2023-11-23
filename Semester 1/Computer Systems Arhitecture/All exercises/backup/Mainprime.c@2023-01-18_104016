@@ -1,0 +1,23 @@
+
+#include <stdio.h>
+
+// the function declased in the en_prime.asm file
+int prime(int a);
+
+int main()
+{
+    // declare variables
+    int a = 1; 
+    int sem = 0;
+    while (a>0) {
+    // read the one integer from the keyboard
+    printf("a=");
+    scanf("%d", &a);
+    // call the function written in assembly language
+    sem = prime(a);
+    // display the result
+    if (sem==1)
+        printf("%d is a prime number\n", a);
+    }
+    return 0;
+}

@@ -1,0 +1,30 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start        
+     4                                  
+     5                                  ; declare extern functions used by the programme
+     6                                  extern exit, printf, scanf ; add printf and scanf as extern functions            
+     7                                  import exit msvcrt.dll    
+     8                                  import printf msvcrt.dll    ; tell the assembler that function printf is found in msvcrt.dll library
+     9                                  import scanf msvcrt.dll     ; similar for scanf
+    10                                                            
+    11                                  segment data use32 class=data
+    12 00000000 0F                          a db 15
+    13 00000001 0A                          b db 10
+    14 00000002 07                          c db 7
+    15 00000003 1400                        d dw 20
+    16 00000005 02                          two db 2
+    17 00000006 05                          five db 5
+    18                                  segment  code use32 class=code ; code segment
+    19                                      start:
+    20                                      ;[(a-b)5+d]-2c
+    21                                  ;a,b,c - byte, d - word
+    22 00000000 A0[00000000]                mov al, [a]
+    23 00000005 2A05[01000000]              sub al,byte[b]
+    24 0000000B F625[06000000]              mul byte[five]
+    25 00000011 660305[03000000]            add ax,word[d]
+    26 00000018 6689C3                      mov bx,ax
+    27 0000001B A0[02000000]                mov al,byte[c]
+    28 00000020 F625[05000000]              mul byte[two]
+    29 00000026 6629C3                      sub bx,ax
+    30 00000029 FF15[00000000]              call[exit]

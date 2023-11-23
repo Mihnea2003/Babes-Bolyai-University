@@ -1,0 +1,36 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start        
+     4                                  
+     5                                  ; declare extern functions used by the programme
+     6                                  extern exit, printf, scanf ; add printf and scanf as extern functions            
+     7                                  import exit msvcrt.dll    
+     8                                  import printf msvcrt.dll    ; tell the assembler that function printf is found in msvcrt.dll library
+     9                                  import scanf msvcrt.dll     ; similar for scanf
+    10                                                            
+    11                                  segment data use32 class=data
+    12 00000000 785634124D3C2B1A76-         s DD 12345678h, 1A2B3C4Dh, 0FE98DC76h
+    12 00000009 DC98FE             
+    13                                      len equ ($-s)/4
+    14 0000000C 0A                          ten db 10
+    15 0000000D 00                          d db 0
+    16                                  segment  code use32 class=code ; code segment
+    17                                      start:
+    18 00000000 B903000000                      mov ecx,len
+    19 00000005 BE[00000000]                    mov esi,s
+    20 0000000A BF[0D000000]                    mov edi,d
+    21 0000000F FC                              cld
+    22                                          loop_1:
+    23 00000010 AC                                  lodsb
+    24 00000011 AC                                  lodsb    ;in al e numarul
+    25 00000012 88C2                                mov dl,al
+    26 00000014 B400                                mov Ah,0         ;in ax e nr
+    27 00000016 F635[0C000000]                      div byte[ten]    ;al e catul  ah e restul
+    28 0000001C 80FC00                              cmp ah,0
+    29 0000001F 7503                                jne final
+    30 00000021 88D0                                    mov al,dl
+    31 00000023 AA                                      stosb
+    32                                              final:
+    33 00000024 66AD                                lodsw
+    34 00000026 E2E8                            loop loop_1
+    35 00000028 FF15[00000000]              call [exit]

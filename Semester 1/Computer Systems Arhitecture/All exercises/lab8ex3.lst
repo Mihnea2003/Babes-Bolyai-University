@@ -1,0 +1,54 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start        
+     4                                  
+     5                                  ; declare extern functions used by the programme
+     6                                  extern exit, printf, scanf ; add printf and scanf as extern functions            
+     7                                  import exit msvcrt.dll    
+     8                                  import printf msvcrt.dll    ; tell the assembler that function printf is found in msvcrt.dll library
+     9                                  import scanf msvcrt.dll     ; similar for scanf
+    10                                                            
+    11                                  segment data use32 class=data
+    12 00000000 0000                    	a dw  0h       
+    13 00000002 0000                        b dw 0h
+    14 00000004 613D00                  	message1  db "a=", 0  
+    15 00000007 623D00                      message2 db "b=", 0
+    16 0000000A 256400                  	format  db "%d", 0  ; %d <=> a decimal number (base 10)
+    17 0000000D 257800                      format1 db "%x", 0 ;hexa
+    18                                      
+    19                                  segment code use32 class=code
+    20                                      start:
+    21                                          ;Read two words a and b in base 10 from the keyboard. Determine the doubleword c such that the low word of c is given by the sum of the a and b and the high word of c is given by the difference between a and
+    22 00000000 68[04000000]                    push dword message1
+    23 00000005 FF15[00000000]                  call [printf]      ; call function printf for printing
+    24 0000000B 83C404                          add esp, 4       ; free parameters on the stack; 
+    25 0000000E 68[00000000]                    push dword a       ; ! addressa of a, not value
+    26 00000013 68[0A000000]                    push dword format
+    27 00000018 FF15[00000000]                  call [scanf]       ; call function scanf for reading
+    28 0000001E 83C408                          add esp, 4 * 2
+    29 00000021 68[07000000]                    push dword message2 
+    30 00000026 FF15[00000000]                  call [printf]      
+    31 0000002C 83C404                          add esp, 4       
+    32 0000002F 68[02000000]                    push dword b       ; ! addressa of b, not value
+    33 00000034 68[0A000000]                    push dword format
+    34 00000039 FF15[00000000]                  call [scanf]       ; call function scanf for reading
+    35 0000003F 83C408                          add esp, 4 * 2     ; free parameters on the stack
+    36 00000042 66A1[00000000]                  mov AX, [a]
+    37 00000048 662B05[02000000]                sub AX,[b]
+    38 0000004F B400                            mov AH,0 
+    39 00000051 25FFFF0000                      and eax,0000ffffh
+    40 00000056 B110                            mov cl,16          ;making the high word with the difference between a and b
+    41 00000058 D3E0                            sal eax,cl
+    42 0000005A BB00000000                      mov ebx,0
+    43 0000005F 668B1D[00000000]                mov BX, [a]
+    44 00000066 66031D[02000000]                add BX, [b]
+    45 0000006D B700                            mov Bh, 0
+    46 0000006F 81E3FFFF0000                    and ebx,0000ffffh ;making the low word with the sum of a and b
+    47 00000075 01D8                            add eax,ebx        ;the doubleword is in eax
+    48 00000077 50                              push dword eax
+    49 00000078 68[0D000000]                    push dword format1
+    50 0000007D FF15[00000000]                  call [printf]
+    51 00000083 83C408                          add esp,4 *2
+    52                                          ; exit(0)
+    53 00000086 6A00                            push dword 0      ; place on stack parameter for exit
+    54 00000088 FF15[00000000]                  call [exit]       ; call exit to terminate the program

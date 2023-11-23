@@ -1,0 +1,31 @@
+     1                                  bits 32 ;assembling for the 32 bits architecture
+     2                                  ; the start label will be the entry point in the program
+     3                                  global  start 
+     4                                  
+     5                                  extern  exit ; we inform the assembler that the exit symbol is foreign, i.e. it exists even if we won't be defining it
+     6                                  
+     7                                  import  exit msvcrt.dll; exit is a function that ends the process, it is defined in msvcrt.dll
+     8                                          ; msvcrt.dll contains exit, printf and all the other important C-runtime functions
+     9                                  segment  data use32 class=data ; the data segment where the variables are declared 
+    10                                      ;signed
+    11 00000000 010203040506070809-         s1 db 1,2,3,4,5,6,7,8,9,10
+    11 00000009 0A                 
+    12                                      lens1 equ $-s1   ;the length of s1
+    13                                      
+    14 0000000A 00                          sum db 0
+    15                                  segment  code use32 class=code ; code segment
+    16                                      start:
+    17                                      ;sum of elements(bytes) in s1
+    18 00000000 B300                        mov bl, 0 ;compute the sum here
+    19 00000002 B90A000000                  mov ecx, lens1
+    20 00000007 BE00000000                  mov esi, 0
+    21 0000000C E30B                        jecxz skip_loop
+    22                                      sum_loop:
+    23 0000000E 8A86[00000000]                  mov AL, [s1+esi]  ;s1[esi]
+    24 00000014 00C3                            add bl, al 
+    25 00000016 46                              inc esi 
+    26 00000017 E2F5                        loop sum_loop
+    27                                      skip_loop:
+    28                                      
+    29 00000019 881D[0A000000]              mov [sum], bl
+    30 0000001F FF15[00000000]              call [exit]

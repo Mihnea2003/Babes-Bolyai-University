@@ -1,0 +1,57 @@
+     1                                  bits 32 ;assembling for the 32 bits architecture
+     2                                  ; the start label will be the entry point in the program
+     3                                  global  start 
+     4                                  
+     5                                  extern  exit ; we inform the assembler that the exit symbol is foreign, i.e. it exists even if we won't be defining it
+     6                                  
+     7                                  import  exit msvcrt.dll; exit is a function that ends the process, it is defined in msvcrt.dll
+     8                                          ; msvcrt.dll contains exit, printf and all the other important C-runtime functions
+     9                                  segment  data use32 class=data ; the data segment where the variables are declared 
+    10                                      ;signed
+    11 00000000 0C1C                        a  dw 001110000001100b 
+    12 00000002 4767                    	b  dw 110011101000111b
+    13 00000004 00000000                    c  dd 0
+    14                                  segment  code use32 class=code ; code segment
+    15                                      start:
+    16                                      ;Given the words A and B, compute the doubleword C as follows:
+    17                                      ;the bits 0-3 of C are the same as the bits 5-8 of B
+    18                                      ;the bits 4-10 of C are the invert of the bits 0-6 of B
+    19                                      ;the bits 11-18 of C have the value 1
+    20                                      ;the bits 19-31 of C are the same as the bits 3-15 of B
+    21                                      
+    22 00000000 8B1D[04000000]                  mov EBX, [c]  ;we compute the result in EDX
+    23                                          
+    24 00000006 66A1[02000000]                  mov AX, [b] 
+    25 0000000C 6625E001                        and AX, 000000111100000b    ;we isolate bits 5-8 of B
+    26 00000010 B105                            mov CL, 5
+    27 00000012 66D3C8                          ror AX, CL ;we rotate 10 positions to the right
+    28 00000015 66BA0000                        mov DX, 0
+    29 00000019 6652                            push dx
+    30 0000001B 6650                            push ax
+    31 0000001D 58                              pop eax
+    32 0000001E 09C3                            or EBX, EAX ;we put the bits into the result EBX->00000000000000000000000000001010b
+    33                                  
+    34 00000020 66A1[02000000]                  mov AX, [b] 
+    35 00000026 6635FF7F                        XOR AX, 111111111111111b    ;we invert the bits
+    36 0000002A 6683E07F                        and AX, 000000001111111b    ;we isolate bits 0-6 of B
+    37 0000002E B104                            mov CL, 4
+    38 00000030 66D3C0                          rol AX, CL  ;rotate to the left 4 positions
+    39 00000033 66BA0000                        mov DX, 0
+    40 00000037 6652                            push dx
+    41 00000039 6650                            push ax
+    42 0000003B 58                              pop eax
+    43 0000003C 09C3                            or EBX,EAX  ;we put the bits into the result EDX->00000000000000000000001110001010b
+    44                                          
+    45 0000003E 81CB00F80700                    or EBX,00000000000001111111100000000000b ;we force the value of bits 11-18 of the result to the value 1
+    46                                          ;EBX-> 00000000000001111111101110001010b
+    47                                          
+    48 00000044 66A1[02000000]                  mov AX, [b] 
+    49 0000004A 66BA0000                        mov DX, 0
+    50 0000004E 6652                            push dx
+    51 00000050 6650                            push ax
+    52 00000052 58                              pop eax
+    53 00000053 25F8FF0000                      and EAX, 00000000000000001111111111111000b ;we isolate bits 3-15 of B
+    54 00000058 B110                            mov CL,16
+    55 0000005A D3C0                            rol EAX, CL ;rotate to the left 16 positions
+    56 0000005C 09C3                            or EBX, EAX ;we put the bits into the result  EBX->1100111010001111111101110001010b 1732770698d
+    57 0000005E FF15[00000000]                  call [exit]

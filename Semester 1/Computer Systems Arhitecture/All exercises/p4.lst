@@ -1,0 +1,42 @@
+     1                                  bits 32 ;assembling for the 32 bits architecture
+     2                                  ; the start label will be the entry point in the program
+     3                                  global  start 
+     4                                  
+     5                                  extern  exit ; we inform the assembler that the exit symbol is foreign, i.e. it exists even if we won't be defining it
+     6                                  
+     7                                  import  exit msvcrt.dll; exit is a function that ends the process, it is defined in msvcrt.dll
+     8                                          ; msvcrt.dll contains exit, printf and all the other important C-runtime functions
+     9                                  segment  data use32 class=data ; the data segment where the variables are declared 
+    10 00000000 0F                          a  db 15
+    11 00000001 05                      	b  db 5
+    12 00000002 05                          c  db 5
+    13 00000003 0F00                        d  dw 15
+    14                                  segment  code use32 class=code ; code segment
+    15                                  start: 
+    16                                      ;d-[3*(a+b+2)-5*(c+2)] a,b,c - byte, d - word
+    17 00000000 A0[00000000]                mov AL, [a]
+    18 00000005 0205[01000000]              add AL, [b] 
+    19                                      
+    20                                      ;AL->>a+b 
+    21 0000000B 0402                        add AL, 2 
+    22                                      
+    23                                      ;AL->>a+b+2
+    24 0000000D B303                        mov BL, 3
+    25 0000000F F6E3                        mul BL 
+    26                                      
+    27 00000011 6689C1                      mov CX, AX 
+    28                                      ; AL*BL-->AL=3*(a+b+2)
+    29 00000014 8A1D[02000000]              mov BL, [c]
+    30 0000001A 80C302                      add BL, 2
+    31 0000001D B005                        mov AL, 5
+    32 0000001F F6E3                        mul BL   
+    33                                      
+    34                                      ;BL->5*(c+2)
+    35 00000021 6629C1                      sub CX, AX  
+    36                                  
+    37                                      ;CX->>3*(a+b+2)-5*(c+2)
+    38 00000024 66A1[03000000]              mov AX, [d]
+    39 0000002A 6629C8                      sub AX, CX  
+    40                                      
+    41                                      ;AX->>d-[3*(a+b+2)-5*(c+2)]
+    42 0000002D FF15[00000000]              call[exit]

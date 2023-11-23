@@ -1,0 +1,44 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start        
+     4                                  
+     5                                  ; declare extern functions used by the programme
+     6                                  extern exit, printf, scanf ; add printf and scanf as extern functions            
+     7                                  import exit msvcrt.dll    
+     8                                  import printf msvcrt.dll    ; tell the assembler that function printf is found in msvcrt.dll library
+     9                                  import scanf msvcrt.dll     ; similar for scanf
+    10                                  segment data use32 class=data
+    11 00000000 E7000000                	number dd  11100111b       
+    12 00000004 00                          r db 0
+    13 00000005 0A                          ten db 10
+    14 00000006 02                          two db 2
+    15 00000007 04                          four db 4
+    16 00000008 257800                      format1 db "%x", 0 ;hexa
+    17                                      
+    18                                  segment code use32 class=code
+    19                                      start:
+    20 00000000 A1[00000000]                 mov eax,[number]
+    21                                      ; Convert EAX (binary) to hexadecimal
+    22                                  
+    23                                      ; Convert EAX (binary) to hexadecimal
+    24                                  
+    25 00000005 66BA1000                mov dx, 16 ; Set base (16) for conversion
+    26                                  
+    27                                  convert_loop:
+    28 00000009 66F7FA                      idiv dx ; Divide EAX by 16 and store result in EAX, remainder in EDX
+    29 0000000C 80C230                      add dl, '0' ; Convert remainder to hexadecimal digit
+    30 0000000F 80FA39                      cmp dl, '9' ; Check if digit is a number
+    31 00000012 7603                        jbe print_digit ; If digit is a number, print it
+    32 00000014 80C207                      add dl, 7 ; If digit is a letter, convert it to the corresponding hexadecimal letter
+    33                                  
+    34                                  print_digit:
+    35                                      ; Print hexadecimal digit
+    36 00000017 52                          push dword edx
+    37 00000018 68[08000000]                push dword format1
+    38 0000001D FF15[00000000]              call [printf]
+    39 00000023 83C408                      add esp,4 *2
+    40 00000026 83F800                      cmp eax, 0 ; Check if result is 0
+    41 00000029 75DE                        jne convert_loop ; If result is not 0, repeat loop
+    42                                  
+    43                                          
+    44 0000002B FF15[00000000]              call [exit]

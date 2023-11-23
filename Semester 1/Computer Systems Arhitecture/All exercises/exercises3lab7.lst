@@ -1,0 +1,46 @@
+     1                                  bits 32 ;assembling for the 32 bits architecture
+     2                                  ; the start label will be the entry point in the program
+     3                                  global  start 
+     4                                  
+     5                                  extern  exit ; we inform the assembler that the exit symbol is foreign, i.e. it exists even if we won't be defining it
+     6                                  
+     7                                  import  exit msvcrt.dll; exit is a function that ends the process, it is defined in msvcrt.dll
+     8                                          ; msvcrt.dll contains exit, printf and all the other important C-runtime functions
+     9                                  segment  data use32 class=data ; the data segment where the variables are declared 
+    10 00000000 1504EB006304                sir DW 1045, 235, 1123
+    11                                      len equ ($-sir)/2
+    12 00000006 0A                          ten db 10
+    13 00000007 00<rept>                    b times len*3 db 0
+    14 00000010 00<rept>                    r times len db 0
+    15                                  segment  code use32 class=code ; code segment
+    16                                      start:
+    17                                      ;Being given a string of words, obtain the string (of bytes) of the digits in base 10 of each word from this string
+    18                                      ;the result will be 1, 0, 4, 5, 2, 3, 5, 1, 1, 2, 3
+    19 00000000 B903000000                  mov ecx, len
+    20 00000005 BE[04000000]                mov esi, sir+len+1      ;index for sir
+    21 0000000A BF00000000                  mov edi, 0              ;index for the new string
+    22 0000000F E31C                        jecxz end_loop
+    23                                      add_elem_digit:
+    24 00000011 FD                              std
+    25 00000012 66AD                            lodsw           ;AX->DS:ESI
+    26                                          while_1:
+    27 00000014 F635[06000000]                  div byte [ten]  ;AL=AX/10   AH=AX%10
+    28 0000001A 88A7[07000000]                  mov [b+edi], AH
+    29 00000020 83C701                          add edi,1
+    30 00000023 B400                            mov AH, 0
+    31 00000025 6683F800                        cmp AX, 0
+    32 00000029 77E9                            ja while_1
+    33 0000002B E2E4                        loop add_elem_digit
+    34                                      end_loop:
+    35 0000002D 89F9                        mov ecx, edi
+    36 0000002F BE[07000000]                mov esi, b    ;index for b
+    37 00000034 FC                          cld
+    38 00000035 E30A                        jecxz end_loop_1
+    39                                      reverse_order:
+    40 00000037 AC                              lodsb
+    41 00000038 8887[10000000]                  mov [r+edi], AL  ;we add the elements from b in a reverse order
+    42 0000003E 4F                              dec edi
+    43 0000003F E2F6                        loop reverse_order
+    44                                      end_loop_1:
+    45 00000041 FF15[00000000]              call [exit]   
+    46                                      

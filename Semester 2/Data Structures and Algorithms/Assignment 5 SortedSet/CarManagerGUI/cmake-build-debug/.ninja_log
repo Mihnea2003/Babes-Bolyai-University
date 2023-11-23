@@ -1,0 +1,56 @@
+# ninja log v5
+6	274	7063931960896382	CarManagerGUI_autogen/timestamp	8541a49658390dd6
+6	274	7063931960896382	CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+6	274	7063931960896382	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+1143	2039	7063840614674757	CMakeFiles/CarManagerGUI.dir/Repository/Repo.cpp.obj	3f843c18e0e38755
+6	274	7063931960896382	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/timestamp	8541a49658390dd6
+852	1603	7063872762051474	CMakeFiles/CarManagerGUI.dir/Service/Services.cpp.obj	a80add933c1dff98
+1129	2023	7063840614529558	CMakeFiles/CarManagerGUI.dir/Domain/Car.cpp.obj	16680329fb836548
+841	3602	7063911452896655	CMakeFiles/CarManagerGUI.dir/CarManagerGUI_autogen/mocs_compilation.cpp.obj	4cf55600c509db18
+835	3566	7063911452538884	CMakeFiles/CarManagerGUI.dir/main.cpp.obj	460c26bb5276ec67
+277	3863	7063931996779699	CMakeFiles/CarManagerGUI.dir/GUI/gui.cpp.obj	7a9b7ccb46c6f9ac
+3864	4379	7063931999640851	CarManagerGUI.exe	61dafa337799f9b4
+7	268	7063947108126693	CarManagerGUI_autogen/timestamp	8541a49658390dd6
+7	268	7063947108126693	CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+7	268	7063947108126693	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/timestamp	8541a49658390dd6
+7	268	7063947108126693	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+273	3674	7063947142187656	CMakeFiles/CarManagerGUI.dir/GUI/gui.cpp.obj	7a9b7ccb46c6f9ac
+3674	4193	7063947145088975	CarManagerGUI.exe	61dafa337799f9b4
+7	402	7063947753995693	CarManagerGUI_autogen/timestamp	8541a49658390dd6
+7	402	7063947753995693	CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+7	402	7063947753995693	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/timestamp	8541a49658390dd6
+7	402	7063947753995693	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+406	3774	7063947787722809	CMakeFiles/CarManagerGUI.dir/GUI/gui.cpp.obj	7a9b7ccb46c6f9ac
+3774	4602	7063947790503196	CarManagerGUI.exe	61dafa337799f9b4
+8	275	7063949634854519	CarManagerGUI_autogen/timestamp	8541a49658390dd6
+8	275	7063949634854519	CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+8	275	7063949634854519	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/timestamp	8541a49658390dd6
+8	275	7063949634854519	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+279	4378	7063949675860592	CMakeFiles/CarManagerGUI.dir/GUI/gui.cpp.obj	7a9b7ccb46c6f9ac
+4378	4925	7063949678705551	CarManagerGUI.exe	61dafa337799f9b4
+11	327	7063950220567086	CarManagerGUI_autogen/timestamp	8541a49658390dd6
+11	327	7063950220567086	CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+11	327	7063950220567086	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/timestamp	8541a49658390dd6
+11	327	7063950220567086	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+6	269	7063950286121499	CarManagerGUI_autogen/timestamp	8541a49658390dd6
+6	269	7063950286121499	CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+6	269	7063950286121499	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/timestamp	8541a49658390dd6
+6	269	7063950286121499	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+273	3650	7063950319908783	CMakeFiles/CarManagerGUI.dir/GUI/gui.cpp.obj	7a9b7ccb46c6f9ac
+3650	4145	7063950322737053	CarManagerGUI.exe	61dafa337799f9b4
+7	317	7063950721139256	CarManagerGUI_autogen/timestamp	8541a49658390dd6
+7	317	7063950721139256	CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+7	317	7063950721139256	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/timestamp	8541a49658390dd6
+7	317	7063950721139256	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+321	3742	7063950755437152	CMakeFiles/CarManagerGUI.dir/GUI/gui.cpp.obj	7a9b7ccb46c6f9ac
+3743	4255	7063950758309593	CarManagerGUI.exe	61dafa337799f9b4
+7	320	7063951228607129	CarManagerGUI_autogen/timestamp	8541a49658390dd6
+7	320	7063951228607129	CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+7	320	7063951228607129	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/timestamp	8541a49658390dd6
+7	320	7063951228607129	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+6	282	7063951478647141	CarManagerGUI_autogen/timestamp	8541a49658390dd6
+6	282	7063951478647141	CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+6	282	7063951478647141	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/timestamp	8541a49658390dd6
+6	282	7063951478647141	D:/UBB/Semester 2/OOP/CarManagerGUI/cmake-build-debug/CarManagerGUI_autogen/mocs_compilation.cpp	8541a49658390dd6
+287	3587	7063951511697206	CMakeFiles/CarManagerGUI.dir/GUI/gui.cpp.obj	7a9b7ccb46c6f9ac
+3587	4101	7063951514651955	CarManagerGUI.exe	61dafa337799f9b4

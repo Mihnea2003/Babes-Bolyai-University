@@ -1,0 +1,71 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start
+     4                                  
+     5                                  ; declare external functions needed by our program
+     6                                  extern exit, fopen, fprintf, fclose
+     7                                  import exit msvcrt.dll
+     8                                  import fopen msvcrt.dll
+     9                                  import fprintf msvcrt.dll
+    10                                  import fclose msvcrt.dll
+    11                                  
+    12                                  ; our data is declared here (the variables needed by our program)
+    13                                  segment data use32 class=data
+    14 00000000 616E612E74787400            file_name db "ana.txt", 0   ; filename to be created
+    15 00000008 7700                        access_mode db "w", 0       ; file access mode:
+    16                                                                  ; w - creates an empty file for writing
+    17 0000000A FFFFFFFF                    file_descriptor dd -1       ; variable to hold the file descriptor
+    18 0000000E 416E61206172652031-         text db "Ana are 100 mere.", 0  ; text to be write to file
+    18 00000017 3030206D6572652E00 
+    19 00000020 58                          change db "X"
+    20                                  
+    21                                  ; our code starts here
+    22                                  segment code use32 class=code
+    23                                      start:
+    24                                          ; call fopen() to create the file
+    25                                          ; fopen() will return a file descriptor in the EAX or 0 in case of error
+    26                                          ; eax = fopen(file_name, access_mode)
+    27 00000000 68[08000000]                    push dword access_mode     
+    28 00000005 68[00000000]                    push dword file_name
+    29 0000000A FF15[00000000]                  call [fopen]
+    30 00000010 83C408                          add esp, 4*2                ; clean-up the stack
+    31                                  
+    32 00000013 A3[0A000000]                    mov [file_descriptor], eax  ; store the file descriptor returned by fopen
+    33                                          
+    34                                          ; check if fopen() has successfully created the file (EAX != 0)
+    35 00000018 83F800                          cmp eax, 0
+    36 0000001B 7447                            je final
+    37                                          ; AICI FACI PROBLEMA
+    38 0000001D 48                              dec eax
+    39 0000001E 89C1                            mov ecx,eax
+    40 00000020 BE00000000                      mov esi, 0
+    41                                          loop_1:
+    42 00000025 8A86[0E000000]                      mov al, [text+esi]
+    43 0000002B 3C39                                cmp al, '9'
+    44 0000002D 7F0F                                jg end_loop
+    45 0000002F 3C30                                    cmp al, '0'
+    46 00000031 7C0B                                    jl end_loop
+    47 00000033 A0[20000000]                                mov al ,[change]
+    48 00000038 8886[0E000000]                              mov [text+esi],al
+    49                                              end_loop
+    49          ******************       warning: label alone on a line without a colon might be in error [-w+orphan-labels]
+    50 0000003E 46                                  inc esi
+    51 0000003F E2E4                            loop loop_1
+    52                                          ; write the text to file using fprintf()
+    53                                          ; fprintf(file_descriptor, text)
+    54 00000041 68[0E000000]                    push dword text
+    55 00000046 FF35[0A000000]                  push dword [file_descriptor]
+    56 0000004C FF15[00000000]                  call [fprintf]
+    57 00000052 83C408                          add esp, 4*2
+    58                                  
+    59                                          ; call fclose() to close the file
+    60                                          ; fclose(file_descriptor)
+    61 00000055 FF35[0A000000]                  push dword [file_descriptor]
+    62 0000005B FF15[00000000]                  call [fclose]
+    63 00000061 83C404                          add esp, 4
+    64                                  
+    65                                        final:
+    66                                  
+    67                                          ; exit(0)
+    68 00000064 6A00                            push dword 0      
+    69 00000066 FF15[00000000]                  call [exit]

@@ -1,0 +1,48 @@
+     1                                  bits 32 ;assembling for the 32 bits architecture
+     2                                  ; the start label will be the entry point in the program
+     3                                  global  start 
+     4                                  
+     5                                  extern  exit ; we inform the assembler that the exit symbol is foreign, i.e. it exists even if we won't be defining it
+     6                                  
+     7                                  import  exit msvcrt.dll; exit is a function that ends the process, it is defined in msvcrt.dll
+     8                                          ; msvcrt.dll contains exit, printf and all the other important C-runtime functions
+     9                                  segment  data use32 class=data ; the data segment where the variables are declared 
+    10 00000000 0201FD                      a db 2,1,-3
+    11                                      lena equ $-a   ;the length of a
+    12 00000003 040507                      b db 4,5,7
+    13                                      lenb equ $-b   ;the length of b
+    14 00000006 00<rept>                    r times lena+lenb db 0 
+    15                                  segment  code use32 class=code ; code segment
+    16                                      start:
+    17                                      ;Two byte strings A and B are given. 
+    18                                      ;Obtain the string R by concatenating the elements of B in reverse order and the negative elements of A
+    19                                      ;in R it should be R:  7, 5, 4, -3
+    20 00000000 B903000000                  mov ecx, lenb
+    21 00000005 BE02000000                  mov esi, lenb-1   ;index for b
+    22 0000000A BF00000000                  mov edi, 0       ;index for r
+    23 0000000F E310                        jecxz end_loop
+    24                                      add_elem_b:
+    25 00000011 8A86[03000000]                  mov AL, [b+esi]
+    26 00000017 8887[06000000]                  mov [r+edi], AL  ;we add the elements from b in a reverse order
+    27 0000001D 4E                              dec esi
+    28 0000001E 47                              inc edi
+    29 0000001F E2F0                        loop add_elem_b
+    30                                      end_loop:
+    31                                      
+    32 00000021 BE00000000                  mov esi, 0
+    33 00000026 B903000000                  mov ecx, lena
+    34 0000002B E31B                        jecxz end_loop2
+    35                                      add_neg_elem_a:
+    36 0000002D 8AA6[00000000]                  mov AH, [a+esi]
+    37 00000033 80FC00                          cmp AH, 0
+    38 00000036 7D0D                            jge do_nothing
+    39 00000038 8A86[00000000]                      mov AL, [a+esi]
+    40 0000003E 8887[06000000]                      mov [r+edi], AL
+    41 00000044 47                                  inc edi
+    42                                          do_nothing:
+    43 00000045 46                              inc esi
+    44 00000046 E2E5                        loop add_neg_elem_a
+    45                                      end_loop2:
+    46                                      
+    47 00000048 FF15[00000000]              call [exit]
+    48                                      

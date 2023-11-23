@@ -1,0 +1,48 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit, printf, scanf ; add printf and scanf as extern functions            
+     5                                  import exit msvcrt.dll    
+     6                                  import printf msvcrt.dll    ; tell the assembler that function printf is found in msvcrt.dll library
+     7                                  import scanf msvcrt.dll     ; similar for scanf
+     8                                  segment data use32 class=data
+     9 00000000 E7010000                	number dd 000111100111b       
+    10 00000004 257800                      format1 db "%x", 0 ;hexa
+    11 00000007 00000000                    r dd 0
+    12                                      
+    13                                  segment code use32 class=code
+    14                                      start:
+    15 00000000 BF[07000000]                    mov edi,r
+    16 00000005 B900000000                      mov ecx,0
+    17 0000000A 8B1D[00000000]                  mov ebx,[number]
+    18 00000010 FC                              cld
+    19 00000011 B8FFFFFFFF                      mov eax,-1
+    20 00000016 AB                              stosd
+    21                                          loop_1:
+    22 00000017 89D8                                mov eax,ebx
+    23 00000019 83E00F                              and eax, 0xF ; Mask lower 4 bits
+    24                                              ;adaugam in vetor numarul in baza 16
+    25 0000001C AB                                  stosd
+    26 0000001D 83C101                              add ecx,1
+    27 00000020 C1EB04                              shr ebx, 4
+    28 00000023 83FB00                          cmp ebx,0
+    29 00000026 75EF                            jne loop_1
+    30 00000028 83EF04                          sub edi,4
+    31 0000002B 89FE                            mov esi,edi
+    32 0000002D FD                              std
+    33 0000002E 89CB                            mov ebx,ecx
+    34                                          print_the_string:
+    35 00000030 AD                                  lodsd
+    36 00000031 83F8FF                              cmp eax,-1
+    37 00000034 7411                                je end_loop
+    38 00000036 50                                  push eax
+    39 00000037 68[04000000]                        push dword format1
+    40 0000003C FF15[00000000]                      call [printf]
+    41 00000042 83C408                              add esp,4 * 2
+    42                                  
+    43 00000045 EBE9                            jmp print_the_string
+    44                                          end_loop:
+    45 00000047 FF15[00000000]              call[exit]
+    46                                                  
+    47                                                  
+    48                                      

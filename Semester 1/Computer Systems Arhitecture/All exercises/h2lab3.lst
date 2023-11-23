@@ -1,0 +1,35 @@
+     1                                  bits 32 ;assembling for the 32 bits architecture
+     2                                  ; the start label will be the entry point in the program
+     3                                  global  start 
+     4                                  
+     5                                  extern  exit ; we inform the assembler that the exit symbol is foreign, i.e. it exists even if we won't be defining it
+     6                                  
+     7                                  import  exit msvcrt.dll; exit is a function that ends the process, it is defined in msvcrt.dll
+     8                                          ; msvcrt.dll contains exit, printf and all the other important C-runtime functions
+     9                                  segment  data use32 class=data ; the data segment where the variables are declared 
+    10                                      ;signed
+    11 00000000 02                          a  db 2 
+    12 00000001 5000                    	b  dw 80
+    13 00000003 7D000000                    c dd 125
+    14 00000007 5000000000000000            d dq 80
+    15                                  segment  code use32 class=code ; code segment
+    16                                  start:    ;d-a+(b+a-c)=80-2+(80+2-125)=78-43=35          a - byte, b - word, c - double word, d - qword - Signed representation
+    17 00000000 A0[00000000]                mov AL, [a]  ;AL->a
+    18 00000005 6698                        cbw         ;AL->AX
+    19 00000007 660305[01000000]            add AX,[b]  ;AX->b+a
+    20 0000000E 98                          cwde        ;AX->EAX
+    21 0000000F 2B05[03000000]              sub EAX,[c]  ;EAX->  b+a-c=-43
+    22 00000015 99                          cdq             ;EAX->EDX:EAX
+    23 00000016 0305[07000000]              add EAX, [d]   ;EAX=EAX+[d] and set the CF
+    24 0000001C 1315[0B000000]              adc EDX, [d+4] ;EDX=EDX+[d+4]+CF
+    25 00000022 50                          push EAX
+    26 00000023 59                          pop ECX
+    27 00000024 52                          push EDX
+    28 00000025 5B                          pop EBX
+    29 00000026 A0[00000000]                mov AL,[a]
+    30 0000002B 6698                        cbw
+    31 0000002D 98                          cwde
+    32 0000002E 99                          cdq
+    33 0000002F 29C1                        sub ECX,EAX
+    34 00000031 19D3                        sbb EBX,EDX
+    35 00000033 FF15[00000000]              call [exit]

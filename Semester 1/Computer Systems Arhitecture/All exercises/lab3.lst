@@ -1,0 +1,48 @@
+     1                                  bits 32 ;assembling for the 32 bits architecture
+     2                                  ; the start label will be the entry point in the program
+     3                                  global  start 
+     4                                  
+     5                                  extern  exit ; we inform the assembler that the exit symbol is foreign, i.e. it exists even if we won't be defining it
+     6                                  
+     7                                  import  exit msvcrt.dll; exit is a function that ends the process, it is defined in msvcrt.dll
+     8                                          ; msvcrt.dll contains exit, printf and all the other important C-runtime functions
+     9                                  segment  data use32 class=data ; the data segment where the variables are declared 
+    10                                      ;signed
+    11 00000000 7D000000                    a  dd 125 
+    12 00000004 FF                      	b  db -1
+    13 00000005 0C00                        c dw 12
+    14 00000007 02                          d db 2
+    15 00000008 5000000000000000            e dq 80
+    16                                  segment  code use32 class=code ; code segment
+    17                                  start: 
+    18                                      ;a+b/c-d*2-e=125+10-4-80=51
+    19                                      ;b/c
+    20 00000000 A0[04000000]                mov AL, [b]  ;AL->DX:AX
+    21 00000005 6698                        cbw ;AL->AX
+    22 00000007 6699                        cwd ;AX->DX:AX 
+    23 00000009 B400                        mov AH, 0  ;AL-AX
+    24 0000000B 66BA0000                    mov DX, 0   ;AX-DX:AX
+    25 0000000F 66F73D[05000000]            idiv word [c] ;  AX=DX:AX/c=b/c=120/12=10
+    26 00000016 6689C3                      mov BX, AX  ;BX=b/c
+    27                                      
+    28                                      ;d*2
+    29 00000019 B002                        mov AL, 2
+    30 0000001B F62D[07000000]              imul byte [d] ;AX=d*AL
+    31                                      
+    32                                      
+    33                                      ;b/c-d*2  BX-AX
+    34 00000021 6629C3                      sub BX, AX ;BX=b/c-d*2 =10-4=6
+    35                                      
+    36                                      ;a+BX
+    37 00000024 6689D8                      mov AX, BX 
+    38 00000027 98                          cwde ; AX->EAX
+    39                                      ;EAX=b/c-d*2 =10-4=6
+    40 00000028 0305[00000000]              add EAX, [a]  ;EAX=a+b/c-d*2 =125+6
+    41                                      
+    42                                      ;EAX-e
+    43 0000002E 99                          cdq ;EAX->EDX:EAX -a+b/c-d*2 
+    44                                      
+    45 0000002F 2B05[08000000]              sub EAX, [e] ;EAX=EAX-e and set CF
+    46 00000035 1B15[0C000000]              sbb EDX, [e+4] ; EDX=EDX-[e+4]-CF
+    47                                      
+    48                                      ;EDX:EAX=a+b/c-d*2-e

@@ -1,0 +1,12 @@
+# ninja log v5
+24	151	7054316121744466	CMakeFiles/Lab3_SortedIndexedListDLLA.dir/ShortTest.cpp.obj	539513c9f7fe3389
+1	529	7054316125524287	CMakeFiles/Lab3_SortedIndexedListDLLA.dir/App.cpp.obj	3e2dd1cfb63671ee
+17	539	7054316125626136	CMakeFiles/Lab3_SortedIndexedListDLLA.dir/ListIterator.cpp.obj	3f421ba2018dca0c
+12	565	7054316125886319	CMakeFiles/Lab3_SortedIndexedListDLLA.dir/SortedIndexedList.cpp.obj	a555eedb9bc9de0c
+6	647	7054316126692930	CMakeFiles/Lab3_SortedIndexedListDLLA.dir/ExtendedTest.cpp.obj	4a945b079982ec96
+647	771	7054316127881333	Lab3_SortedIndexedListDLLA.exe	b593a04b739b1bba
+2	408	7054318600085292	CMakeFiles/Lab3_SortedIndexedListDLLA.dir/App.cpp.obj	3e2dd1cfb63671ee
+409	516	7054318601116916	Lab3_SortedIndexedListDLLA.exe	b593a04b739b1bba
+3	554	7058301509005749	CMakeFiles/Lab3_SortedIndexedListDLLA.dir/SortedIndexedList.cpp.obj	a555eedb9bc9de0c
+2	222	7058301660229829	CMakeFiles/Lab3_SortedIndexedListDLLA.dir/ListIterator.cpp.obj	3f421ba2018dca0c
+223	299	7058301660955182	Lab3_SortedIndexedListDLLA.exe	b593a04b739b1bba

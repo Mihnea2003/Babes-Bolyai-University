@@ -1,0 +1,3 @@
+C:/Users/bro_b/CLionProjects/Lab4-SDA SortedBag/cmake-build-debug/CMakeFiles/Lab4_SDA_SortedBag.dir
+C:/Users/bro_b/CLionProjects/Lab4-SDA SortedBag/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/bro_b/CLionProjects/Lab4-SDA SortedBag/cmake-build-debug/CMakeFiles/rebuild_cache.dir

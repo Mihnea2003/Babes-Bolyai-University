@@ -1,0 +1,24 @@
+# ninja log v5
+0	135	7058321888614658	build.ninja	ea54abf99570af3
+9	442	7058308880437760	CMakeFiles/lab2SDa.dir/ExtendedTest.cpp.obj	95a313ad279db792
+0	84	7058308876831677	CMakeFiles/lab2SDa.dir/ShortTest.cpp.obj	12651d9df395b72a
+3	116	7058308877170529	CMakeFiles/lab2SDa.dir/Matrix.cpp.obj	b7d4eba4bd745ec5
+6	411	7058308880127757	CMakeFiles/lab2SDa.dir/App.cpp.obj	abff14a31628cfc5
+443	537	7058308881353270	lab2SDa.exe	e34f7e2ed8bebd21
+1	127	7058321888614658	build.ninja	ea54abf99570af3
+14	79	7058321889894207	CMakeFiles/lab2SDa.dir/ShortTest.cpp.obj	12651d9df395b72a
+8	100	7058321890096595	CMakeFiles/lab2SDa.dir/Matrix.cpp.obj	b7d4eba4bd745ec5
+11	276	7058321891859260	CMakeFiles/lab2SDa.dir/App.cpp.obj	abff14a31628cfc5
+2	303	7058321892122807	CMakeFiles/lab2SDa.dir/ExtendedTest.cpp.obj	95a313ad279db792
+303	372	7058321892779958	lab2SDa.exe	e34f7e2ed8bebd21
+2	261	7058322254427361	CMakeFiles/lab2SDa.dir/ExtendedTest.cpp.obj	95a313ad279db792
+262	351	7058322255297708	lab2SDa.exe	e34f7e2ed8bebd21
+2	266	7058322898896976	CMakeFiles/lab2SDa.dir/ExtendedTest.cpp.obj	95a313ad279db792
+266	336	7058322899558455	lab2SDa.exe	e34f7e2ed8bebd21
+2	288	7058323220766245	CMakeFiles/lab2SDa.dir/ExtendedTest.cpp.obj	95a313ad279db792
+288	364	7058323221472959	lab2SDa.exe	e34f7e2ed8bebd21
+13	76	7058328097240107	CMakeFiles/lab2SDa.dir/ShortTest.cpp.obj	12651d9df395b72a
+6	98	7058328097476050	CMakeFiles/lab2SDa.dir/Matrix.cpp.obj	b7d4eba4bd745ec5
+2	275	7058328099232084	CMakeFiles/lab2SDa.dir/App.cpp.obj	abff14a31628cfc5
+8	291	7058328099393494	CMakeFiles/lab2SDa.dir/ExtendedTest.cpp.obj	95a313ad279db792
+291	359	7058328100051361	lab2SDa.exe	e34f7e2ed8bebd21

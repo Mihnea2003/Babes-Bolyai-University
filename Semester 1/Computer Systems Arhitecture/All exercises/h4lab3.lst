@@ -1,0 +1,45 @@
+     1                                  bits 32 ;assembling for the 32 bits architecture
+     2                                  ; the start label will be the entry point in the program
+     3                                  global  start 
+     4                                  
+     5                                  extern  exit ; we inform the assembler that the exit symbol is foreign, i.e. it exists even if we won't be defining it
+     6                                  
+     7                                  import  exit msvcrt.dll; exit is a function that ends the process, it is defined in msvcrt.dll
+     8                                          ; msvcrt.dll contains exit, printf and all the other important C-runtime functions
+     9                                  segment  data use32 class=data ; the data segment where the variables are declared 
+    10                                      ;signed
+    11 00000000 08                          a  db 8 
+    12 00000001 0200                    	b  dw 2
+    13 00000003 7D000000                    e dd 125
+    14 00000007 5000000000000000            x dq 80
+    15                                  segment  code use32 class=code ; code segment
+    16                                      start:  ;(a*a/b+b*b)/(2+b)+e-x=(8 * 8 / 2+2*2)/(2+2)+125-80=36/4+125-80=9+125-80=54; a-byte; b-word; e-doubleword; x-qword 
+    17 00000000 A0[00000000]                    mov AL, [a]
+    18 00000005 F625[00000000]                  mul byte [a]   ;AX->a*a
+    19                                  
+    20 0000000B 6699                            cwd
+    21                                  
+    22 0000000D 66F73D[01000000]                idiv word [b]
+    23                                  
+    24 00000014 6689C3                          mov BX, AX
+    25 00000017 6689D1                          mov CX, DX ; from AX:DX -> CX:BX now
+    26                                  
+    27 0000001A 66A1[01000000]                  mov AX, [b]
+    28 00000020 66F72D[01000000]                imul word [b] ; result in DX:AX
+    29                                  
+    30 00000027 6601D8                          add AX, BX
+    31 0000002A 6611CA                          adc DX, CX ; CX:BX + DX:AX
+    32                                  
+    33 0000002D 668B1D[01000000]                mov BX, [b]
+    34 00000034 6683C302                        add BX, 2
+    35 00000038 66F7FB                          idiv BX ; result in AX
+    36                                          
+    37 0000003B 98                              cwde 
+    38                                  
+    39 0000003C 8B1D[03000000]                  mov EBX, [e]
+    40 00000042 01D8                            add EAX, EBX
+    41                                          
+    42 00000044 99                              cdq ; EDX:EAX is my number
+    43 00000045 2B05[07000000]                  sub EAX, [x]
+    44 0000004B 1B15[0B000000]                  sbb EDX, [x + 4] ; result in EDX:EAX
+    45 00000051 FF15[00000000]                  call [exit]

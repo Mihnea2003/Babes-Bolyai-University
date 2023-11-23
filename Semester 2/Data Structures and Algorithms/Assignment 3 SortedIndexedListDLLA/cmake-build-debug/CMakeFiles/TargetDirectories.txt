@@ -1,0 +1,3 @@
+C:/Users/bro_b/CLionProjects/Lab3-SortedIndexedListDLLA/cmake-build-debug/CMakeFiles/Lab3_SortedIndexedListDLLA.dir
+C:/Users/bro_b/CLionProjects/Lab3-SortedIndexedListDLLA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/bro_b/CLionProjects/Lab3-SortedIndexedListDLLA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

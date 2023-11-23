@@ -1,0 +1,91 @@
+     1                                  bits 32
+     2                                  
+     3                                  global start
+     4                                  
+     5                                  ; declare external functions needed by our program
+     6                                  extern exit, fopen, fprintf, fclose ,printf, scanf
+     7                                  import exit msvcrt.dll
+     8                                  import fopen msvcrt.dll
+     9                                  import fprintf msvcrt.dll
+    10                                  import fclose msvcrt.dll
+    11                                  import printf msvcrt.dll    
+    12                                  import scanf msvcrt.dll     
+    13                                  
+    14                                  ; our data is declared here (the variables needed by our program)
+    15                                  segment data use32 class=data
+    16 00000000 0000                        n dw 0
+    17 00000002 613D00                      message1 db "a=",0
+    18 00000005 637576616E743D00            message2 db "cuvant=",0
+    19 0000000D 256400                      format db "%d",0
+    20 00000010 257300                      format2 db "%s",0
+    21 00000013 02                          two db 2
+    22 00000014 00000000                    cuvant dd 0
+    23 00000018 00000000                    cuvant2 dd 0
+    24 0000001C 70                          litera db 'p'
+    25                                  segment  code use32 class=code ; code segment
+    26                                      start:
+    27 00000000 68[05000000]                push dword message2
+    28 00000005 FF15[00000000]              call[printf]
+    29 0000000B 83C404                      add esp,4
+    30                                      
+    31 0000000E 68[14000000]                push dword cuvant
+    32 00000013 68[10000000]                push dword format2
+    33 00000018 FF15[00000000]              call [scanf]
+    34 0000001E 83C408                      add esp,4*2
+    35                                      
+    36 00000021 68[02000000]                push dword message1
+    37 00000026 FF15[00000000]              call [printf]
+    38 0000002C 83C404                      add esp,4
+    39                                      
+    40 0000002F 68[00000000]                push dword n
+    41 00000034 68[0D000000]                push dword format
+    42 00000039 FF15[00000000]              call[scanf]
+    43 0000003F 83C408                      add esp,4*2
+    44                                      
+    45 00000042 668B0D[00000000]            mov cx,word[n]
+    46 00000049 F635[13000000]              div byte[two]
+    47 0000004F 80FC00                      cmp ah,0
+    48 00000052 752D                        jne var2
+    49 00000054 BE00000000                      mov esi,0
+    50                                          repeta:
+    51 00000059 8A86[14000000]                      mov al,[cuvant+esi]
+    52 0000005F 3C00                                cmp AL,0x00
+    53 00000061 740B                                je stop_loop
+    54 00000063 0414                                   add al,20
+    55 00000065 8886[14000000]                         mov byte[cuvant+esi],al
+    56 0000006B 46                                     inc esi
+    57 0000006C EBEB                            jmp repeta
+    58                                          stop_loop:
+    59 0000006E 68[14000000]                    push dword cuvant
+    60 00000073 68[10000000]                    push dword format2
+    61 00000078 FF15[00000000]                  call[printf]
+    62 0000007E 83C408                          add esp,4*2
+    63                                      var2:
+    64 00000081 BE00000000                      mov esi,0
+    65 00000086 BF00000000                      mov edi,0
+    66                                          repeta2:
+    67 0000008B 8A86[14000000]                      mov al,[cuvant+esi]
+    68 00000091 3C00                                cmp AL,0x00
+    69 00000093 741D                                je stop_loop1
+    70 00000095 8887[18000000]                      mov byte[cuvant2+edi],al
+    71 0000009B 47                                  inc edi
+    72 0000009C 8A1D[1C000000]                      mov bl,byte[litera]
+    73 000000A2 889F[18000000]                      mov byte[cuvant2+edi],bl
+    74 000000A8 47                                  inc edi
+    75 000000A9 8887[18000000]                      mov byte[cuvant2+edi],al
+    76 000000AF 47                                  inc edi
+    77 000000B0 EBD9                            jmp repeta2
+    78                                          stop_loop1:
+    79 000000B2 68[18000000]                    push dword cuvant2
+    80 000000B7 68[10000000]                    push dword format2
+    81 000000BC FF15[00000000]                  call[printf]
+    82 000000C2 83C408                          add esp,4*2
+    83 000000C5 FF15[00000000]              call[exit]
+    84                                      
+    85                                      
+    86                                      
+    87                                      
+    88                                      
+    89                                      
+    90                                      
+    91                                      
