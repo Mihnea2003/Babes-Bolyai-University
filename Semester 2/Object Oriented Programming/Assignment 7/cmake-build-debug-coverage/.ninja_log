@@ -1,0 +1,12 @@
+# ninja log v5
+16	507	7049978505063755	CMakeFiles/OOP_lab4.dir/errors.cpp.obj	c15efa66b6a4f990
+9	371	7050022778767369	CMakeFiles/OOP_lab4.dir/Service.cpp.obj	759a09c19327eb5e
+6	529	7050024577695335	CMakeFiles/OOP_lab4.dir/Repository.cpp.obj	67516facb6a1a063
+2	313	7050024575543588	CMakeFiles/OOP_lab4.dir/main.cpp.obj	d4205c1fdf5b96d4
+27	739	7049978507677690	CMakeFiles/OOP_lab4.dir/UserService.cpp.obj	aba3523d9582fcc3
+23	1325	7049978513544194	CMakeFiles/OOP_lab4.dir/UserRepository.cpp.obj	fe4ccda75164770a
+15	583	7050022780880747	CMakeFiles/OOP_lab4.dir/Tests.cpp.obj	4512f7225251b8d6
+6	458	7050022779635483	CMakeFiles/OOP_lab4.dir/Ui.cpp.obj	a30c924ae77ab827
+2	399	7050009325652169	CMakeFiles/OOP_lab4.dir/Domain.cpp.obj	d39f8c20001f5d17
+529	645	7050024578819522	OOP_lab4.exe	87ddcce28b646ea
+0	8	0	clean	34fde6af6779cb2

@@ -1,0 +1,110 @@
+        -:    0:Source:C:/Users/bro_b/CLionProjects/OOP_lab4/UserService.cpp
+        -:    0:Graph:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\UserService.cpp.gcno
+        -:    0:Data:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\UserService.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by bro_b on 4/3/2023.
+        -:    3://
+        -:    4:#include "userService.h"
+        -:    5:#include "errors.h"
+        -:    6:
+        -:    7:
+function _ZN11UserServiceC2ER14UserRepository called 2 returned 100% blocks executed 100%
+        2:    8:UserService::UserService(UserRepository &repo) : repo(repo) {
+        2:    9:    this->repo = repo;
+        2:    9-block  0
+call    0 returned 2
+        2:   10:}
+        -:   11:
+function _ZN11UserService3addENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_S5_iS5_ called 2 returned 50% blocks executed 96%
+        2:   12:void UserService::add(std::string title, std::string presenter, std::string duration, int likes, std::string Link)
+        -:   13:{
+        2:   14:    Tutorial t = Tutorial(title, presenter, duration, likes, Link);
+        2:   14-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   15:    try
+        -:   16:    {
+        3:   17:        this->repo.addTutorialUserRepo(t);
+        2:   17-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   17-block  1
+call    3 returned 2
+branch  4 taken 1 (fallthrough)
+branch  5 taken 1 (throw)
+        1:   17-block  2
+call    6 returned 1
+        1:   17-block  3
+call    7 returned 1
+        1:   17-block  4
+        -:   18:    }
+        1:   19:    catch (RepoError err)
+        1:   19-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+        1:   19-block  1
+call    2 returned 1
+call    3 returned 1
+        -:   20:    {
+        1:   21:        throw err;
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+        2:   22:    }
+        1:   22-block  0
+call    0 returned 1
+        1:   22-block  1
+call    1 returned 1
+        2:   23:}
+call    0 returned 1
+        1:   23-block  0
+call    1 returned 1
+function _ZN11UserService6removeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 2 returned 50% blocks executed 95%
+        2:   24:void UserService::remove(std::string title)
+        -:   25:{
+        -:   26:    try
+        -:   27:    {
+        3:   28:        this->repo.deleteTutorialUserRepo(title);
+        2:   28-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   28-block  1
+call    3 returned 2
+branch  4 taken 1 (fallthrough)
+branch  5 taken 1 (throw)
+        1:   28-block  2
+call    6 returned 1
+        1:   28-block  3
+call    7 returned 1
+        1:   28-block  4
+        -:   29:    }
+        1:   30:    catch (RepoError err)
+        1:   30-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+        1:   30-block  1
+call    2 returned 1
+call    3 returned 1
+        -:   31:    {
+        1:   32:        throw err;
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+        2:   33:    }
+        1:   33-block  0
+call    0 returned 1
+        1:   33-block  1
+call    1 returned 1
+        1:   34:}
+        -:   35:
+function _ZN11UserService12getWatchListEv called 5 returned 100% blocks executed 100%
+        5:   36:std::vector<Tutorial> UserService::getWatchList()
+        -:   37:{
+        5:   38:    return this->repo.getWatchList();
+        5:   38-block  0
+call    0 returned 5
+        -:   39:}

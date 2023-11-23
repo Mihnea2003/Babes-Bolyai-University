@@ -1,0 +1,501 @@
+        -:    0:Source:C:/Users/bro_b/CLionProjects/OOP_lab4/Domain.cpp
+        -:    0:Graph:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\Domain.cpp.gcno
+        -:    0:Data:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\Domain.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by bro_b on 3/29/2023.
+        -:    3://
+        -:    4:#include "Domain.h"
+        -:    5:#include <vector>
+        -:    6:#include <sstream>
+        -:    7:
+function _ZN8TutorialC2Ev called 3 returned 100% blocks executed 45%
+        3:    8:Tutorial::Tutorial()
+        3:    9:        : title{ "" }, presenter{ "" }, duration{ "" },likes{ 0 }, link{ "" }
+        3:    9-block  0
+call    0 returned 3
+call    1 returned 3
+branch  2 taken 3 (fallthrough)
+branch  3 taken 0 (throw)
+        3:    9-block  1
+call    4 returned 3
+call    5 returned 3
+call    6 returned 3
+branch  7 taken 3 (fallthrough)
+branch  8 taken 0 (throw)
+        3:    9-block  2
+call    9 returned 3
+call   10 returned 3
+call   11 returned 3
+branch 12 taken 3 (fallthrough)
+branch 13 taken 0 (throw)
+        3:    9-block  3
+call   14 returned 3
+call   15 returned 3
+call   16 returned 3
+branch 17 taken 3 (fallthrough)
+branch 18 taken 0 (throw)
+        3:    9-block  4
+call   19 returned 3
+    $$$$$:    9-block  5
+call   20 never executed
+    $$$$$:    9-block  6
+call   21 never executed
+    $$$$$:    9-block  7
+call   22 never executed
+    $$$$$:    9-block  8
+    $$$$$:    9-block  9
+call   23 never executed
+    $$$$$:    9-block 10
+    $$$$$:    9-block 11
+call   24 never executed
+    $$$$$:    9-block 12
+        -:   10:{
+        3:   11:}
+    $$$$$:   11-block  0
+call    0 never executed
+    $$$$$:   11-block  1
+call    1 never executed
+    $$$$$:   11-block  2
+call    2 never executed
+        -:   12:
+function _ZN8TutorialC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_RKiS7_ called 29 returned 100% blocks executed 55%
+       29:   13:Tutorial::Tutorial(const std::string& _title, const std::string& _presenter, const std::string& _duration, const int& _likes, const std::string& _link)
+       29:   14:        : title{ _title }, presenter{ _presenter }, duration{ _duration}, likes{ _likes }, link{ _link }
+       29:   14-block  0
+call    0 returned 29
+call    1 returned 29
+branch  2 taken 29 (fallthrough)
+branch  3 taken 0 (throw)
+       29:   14-block  1
+call    4 returned 29
+branch  5 taken 29 (fallthrough)
+branch  6 taken 0 (throw)
+       29:   14-block  2
+call    7 returned 29
+branch  8 taken 29 (fallthrough)
+branch  9 taken 0 (throw)
+        -:   15:{
+       29:   16:}
+       29:   16-block  0
+    $$$$$:   16-block  1
+call    0 never executed
+    $$$$$:   16-block  2
+call    1 never executed
+    $$$$$:   16-block  3
+call    2 never executed
+        -:   17:
+function _ZN8TutorialC2ERKS_ called 204 returned 100% blocks executed 59%
+      204:   18:Tutorial::Tutorial(const Tutorial& tutorial)
+      204:   18-block  0
+call    0 returned 204
+call    1 returned 204
+call    2 returned 204
+call    3 returned 204
+        -:   19:{
+      204:   20:    this->title = tutorial.title;
+call    0 returned 204
+branch  1 taken 204 (fallthrough)
+branch  2 taken 0 (throw)
+      204:   21:    this->presenter = tutorial.presenter;
+      204:   21-block  0
+call    0 returned 204
+branch  1 taken 204 (fallthrough)
+branch  2 taken 0 (throw)
+      204:   22:    this->duration = tutorial.duration;
+      204:   22-block  0
+call    0 returned 204
+branch  1 taken 204 (fallthrough)
+branch  2 taken 0 (throw)
+      204:   23:    this->likes = tutorial.likes;
+      204:   24:    this->link = tutorial.link;
+      204:   24-block  0
+call    0 returned 204
+branch  1 taken 204 (fallthrough)
+branch  2 taken 0 (throw)
+      204:   25:}
+      204:   25-block  0
+    $$$$$:   25-block  1
+call    0 never executed
+    $$$$$:   25-block  2
+call    1 never executed
+    $$$$$:   25-block  3
+call    2 never executed
+    $$$$$:   25-block  4
+call    3 never executed
+        -:   26:
+function _ZNK8Tutorial8getTitleB5cxx11Ev called 160 returned 100% blocks executed 100%
+      160:   27:std::string Tutorial::getTitle() const
+        -:   28:{
+      160:   29:    return this->title;
+      160:   29-block  0
+call    0 returned 160
+        -:   30:}
+        -:   31:
+function _ZNK8Tutorial12getPresenterB5cxx11Ev called 75 returned 100% blocks executed 100%
+       75:   32:std::string Tutorial::getPresenter() const {
+       75:   33:    return this->presenter;
+       75:   33-block  0
+call    0 returned 75
+        -:   34:}
+        -:   35:
+function _ZNK8Tutorial11getDurationB5cxx11Ev called 73 returned 100% blocks executed 100%
+       73:   36:std::string Tutorial::getDuration() const {
+       73:   37:    return this->duration;
+       73:   37-block  0
+call    0 returned 73
+        -:   38:}
+        -:   39:
+function _ZNK8Tutorial7getLikeEv called 73 returned 100% blocks executed 100%
+       73:   40:int Tutorial::getLike() const
+        -:   41:{
+       73:   42:    return this->likes;
+       73:   42-block  0
+        -:   43:}
+        -:   44:
+function _ZNK8Tutorial7getLinkB5cxx11Ev called 73 returned 100% blocks executed 100%
+       73:   45:std::string Tutorial::getLink() const
+        -:   46:{
+       73:   47:    return this->link;
+       73:   47-block  0
+call    0 returned 73
+        -:   48:}
+        -:   49:
+function _ZN8Tutorial8setTitleENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 2 returned 100% blocks executed 100%
+        2:   50:void Tutorial::setTitle(std::string _title)
+        -:   51:{
+        2:   52:    this->title = _title;
+        2:   52-block  0
+call    0 returned 2
+        2:   53:}
+        -:   54:
+function _ZN8Tutorial12setPresenterENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 1 returned 100% blocks executed 100%
+        1:   55:void Tutorial::setPresenter(std::string _presenter)
+        -:   56:{
+        1:   57:    this->presenter = _presenter;
+        1:   57-block  0
+call    0 returned 1
+        1:   58:}
+        -:   59:
+function _ZN8Tutorial11setDurationENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 1 returned 100% blocks executed 100%
+        1:   60:void Tutorial::setDuration(std::string _duration)
+        -:   61:{
+        1:   62:    this->duration = _duration;
+        1:   62-block  0
+call    0 returned 1
+        1:   63:}
+        -:   64:
+function _ZN8Tutorial7setLikeEi called 1 returned 100% blocks executed 100%
+        1:   65:void Tutorial::setLike(int _like)
+        -:   66:{
+        1:   67:    this->likes = _like;
+        1:   68:}
+        -:   69:
+function _ZN8Tutorial7setLinkENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 1 returned 100% blocks executed 100%
+        1:   70:void Tutorial::setLink(std::string _link)
+        -:   71:{
+        1:   72:    this->link = _link;
+        1:   72-block  0
+call    0 returned 1
+        1:   73:}
+        -:   74:
+function _ZNK8Tutorial8toStringB5cxx11Ev called 1 returned 100% blocks executed 47%
+        1:   75:std::string Tutorial::toString() const
+        -:   76:{
+        1:   77:    auto likeStr = std::to_string(this->likes);
+        1:   77-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        3:   78:    return "Title: " + this->title + " | Presenter: " + this->presenter + " | Duration: " + this->duration +" | Likes: " + likeStr + " | Link: " + this->link;
+        1:   78-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   78-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   78-block  2
+call    6 returned 1
+branch  7 taken 1 (fallthrough)
+branch  8 taken 0 (throw)
+        1:   78-block  3
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   78-block  4
+call   12 returned 1
+branch 13 taken 1 (fallthrough)
+branch 14 taken 0 (throw)
+        1:   78-block  5
+call   15 returned 1
+branch 16 taken 1 (fallthrough)
+branch 17 taken 0 (throw)
+        1:   78-block  6
+call   18 returned 1
+branch 19 taken 1 (fallthrough)
+branch 20 taken 0 (throw)
+        1:   78-block  7
+call   21 returned 1
+branch 22 taken 1 (fallthrough)
+branch 23 taken 0 (throw)
+        1:   78-block  8
+call   24 returned 1
+branch 25 taken 1 (fallthrough)
+branch 26 taken 0 (throw)
+        1:   78-block  9
+call   27 returned 1
+call   28 returned 1
+call   29 returned 1
+call   30 returned 1
+call   31 returned 1
+call   32 returned 1
+call   33 returned 1
+call   34 returned 1
+        1:   78-block 10
+    $$$$$:   78-block 11
+call   35 never executed
+    $$$$$:   78-block 12
+    $$$$$:   78-block 13
+call   36 never executed
+    $$$$$:   78-block 14
+    $$$$$:   78-block 15
+call   37 never executed
+    $$$$$:   78-block 16
+    $$$$$:   78-block 17
+call   38 never executed
+    $$$$$:   78-block 18
+    $$$$$:   78-block 19
+call   39 never executed
+    $$$$$:   78-block 20
+    $$$$$:   78-block 21
+call   40 never executed
+    $$$$$:   78-block 22
+    $$$$$:   78-block 23
+call   41 never executed
+    $$$$$:   78-block 24
+    $$$$$:   78-block 25
+call   42 never executed
+    $$$$$:   78-block 26
+        -:   79:
+        1:   80:}
+call    0 returned 1
+    $$$$$:   80-block  0
+call    1 never executed
+        -:   81:
+function _ZN8TutorialD2Ev called 236 returned 100% blocks executed 100%
+      236:   82:Tutorial::~Tutorial() = default;
+      236:   82-block  0
+call    0 returned 236
+call    1 returned 236
+call    2 returned 236
+call    3 returned 236
+        -:   83:
+function _Z8tokenizeRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEc called 1 returned 100% blocks executed 71%
+        1:   84:std::vector<std::string> tokenize(const std::string & str, char delimiter)
+        -:   85:{
+        1:   86:    std::vector<std::string> result;
+        1:   86-block  0
+call    0 returned 1
+        1:   87:    std::stringstream ss(str);
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   88:    std::string token;
+        1:   88-block  0
+call    0 returned 1
+        6:   89:    while (getline(ss, token, delimiter))
+        6:   89-block  0
+call    0 returned 6
+branch  1 taken 6 (fallthrough)
+branch  2 taken 0 (throw)
+        6:   89-block  1
+call    3 returned 6
+branch  4 taken 6 (fallthrough)
+branch  5 taken 0 (throw)
+        6:   89-block  2
+branch  6 taken 5
+branch  7 taken 1 (fallthrough)
+        -:   90:    {
+        5:   91:        result.push_back(token);
+        5:   91-block  0
+call    0 returned 5
+branch  1 taken 5 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   92:    }
+        2:   93:    return result;
+        1:   93-block  0
+        1:   93-block  1
+        1:   94:}
+        1:   94-block  0
+call    0 returned 1
+call    1 returned 1
+    $$$$$:   94-block  1
+call    2 never executed
+    $$$$$:   94-block  2
+call    3 never executed
+    $$$$$:   94-block  3
+call    4 never executed
+        -:   95:
+function _ZN8TutorialaSERKS_ called 5 returned 100% blocks executed 88%
+        5:   96:Tutorial& Tutorial::operator=(const Tutorial & tutorial)
+        -:   97:{
+        5:   98:    if (this == &tutorial)
+        5:   98-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 5
+        -:   99:    {
+    #####:  100:        return *this;
+    %%%%%:  100-block  0
+        -:  101:    }
+        -:  102:
+        5:  103:    this->title = tutorial.title;
+        5:  103-block  0
+call    0 returned 5
+        5:  104:    this->presenter = tutorial.presenter;
+call    0 returned 5
+        5:  105:    this->duration = tutorial.duration;
+call    0 returned 5
+        5:  106:    this->likes = tutorial.likes;
+        5:  107:    this->link = tutorial.link;
+call    0 returned 5
+        -:  108:
+        5:  109:    return *this;
+        -:  110:}
+        -:  111:
+function _ZNK8TutorialeqERKS_ called 4 returned 100% blocks executed 100%
+        4:  112:bool Tutorial::operator==(const Tutorial & checkTutorial) const
+        -:  113:{
+        4:  114:    return this->title == checkTutorial.title;
+        4:  114-block  0
+call    0 returned 4
+        -:  115:}
+        -:  116:
+function _ZlsRSoRK8Tutorial called 66 returned 100% blocks executed 66%
+       66:  117:std::ostream& operator<<(std::ostream & os, const Tutorial & tutorial)
+        -:  118:{
+       66:  119:    os << tutorial.getTitle() << ",";
+       66:  119-block  0
+call    0 returned 66
+call    1 returned 66
+branch  2 taken 66 (fallthrough)
+branch  3 taken 0 (throw)
+       66:  119-block  1
+call    4 returned 66
+branch  5 taken 66 (fallthrough)
+branch  6 taken 0 (throw)
+       66:  119-block  2
+call    7 returned 66
+    $$$$$:  119-block  3
+call    8 never executed
+    $$$$$:  119-block  4
+call    9 never executed
+       66:  120:    os << tutorial.getPresenter() << ",";
+call    0 returned 66
+call    1 returned 66
+branch  2 taken 66 (fallthrough)
+branch  3 taken 0 (throw)
+       66:  120-block  0
+call    4 returned 66
+branch  5 taken 66 (fallthrough)
+branch  6 taken 0 (throw)
+       66:  120-block  1
+call    7 returned 66
+    $$$$$:  120-block  2
+call    8 never executed
+    $$$$$:  120-block  3
+call    9 never executed
+       66:  121:    os << tutorial.getDuration() << ",";
+call    0 returned 66
+call    1 returned 66
+branch  2 taken 66 (fallthrough)
+branch  3 taken 0 (throw)
+       66:  121-block  0
+call    4 returned 66
+branch  5 taken 66 (fallthrough)
+branch  6 taken 0 (throw)
+       66:  121-block  1
+call    7 returned 66
+    $$$$$:  121-block  2
+call    8 never executed
+    $$$$$:  121-block  3
+call    9 never executed
+       66:  122:    os << tutorial.getLike() << ",";
+call    0 returned 66
+call    1 returned 66
+call    2 returned 66
+       66:  123:    os << tutorial.getLink();
+call    0 returned 66
+call    1 returned 66
+branch  2 taken 66 (fallthrough)
+branch  3 taken 0 (throw)
+       66:  123-block  0
+call    4 returned 66
+    $$$$$:  123-block  1
+call    5 never executed
+        -:  124:
+       66:  125:    return os;
+       66:  125-block  0
+        -:  126:}
+        -:  127:
+function _ZrsRSiR8Tutorial called 1 returned 100% blocks executed 84%
+        1:  128:std::istream& operator>>(std::istream & reader, Tutorial & tutorial)
+        -:  129:{
+        1:  130:    std::string line;
+        1:  130-block  0
+call    0 returned 1
+        1:  131:    std::getline(reader, line);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  132:    std::vector<std::string> tokens;
+        1:  132-block  0
+call    0 returned 1
+        1:  133:    tokens = tokenize(line, ',');
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  133-block  0
+call    3 returned 1
+call    4 returned 1
+        1:  134:    tutorial.title = tokens[0];
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  135:    tutorial.presenter = tokens[1];
+        1:  135-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  136:    tutorial.duration = tokens[2];
+        1:  136-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  137:    tutorial.likes = std::stoi(tokens[3]);
+        1:  137-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  138:    tutorial.link = tokens[4];
+        1:  138-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  139:    return reader;
+        1:  139-block  0
+        1:  140:}
+        1:  140-block  0
+call    0 returned 1
+call    1 returned 1
+    $$$$$:  140-block  1
+call    2 never executed
+    $$$$$:  140-block  2
+call    3 never executed

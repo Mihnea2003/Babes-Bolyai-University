@@ -1,0 +1,45 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Assignment 2-3_OOP.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+Ui.obj : error LNK2005: "int __cdecl addMaterial(struct MaterialRepository *,struct Material *)" (?addMaterial@@YAHPEAUMaterialRepository@@PEAUMaterial@@@Z) already defined in MaterialRepo.obj
+Ui.obj : error LNK2005: "void __cdecl addTenElements(struct MaterialRepository *)" (?addTenElements@@YAXPEAUMaterialRepository@@@Z) already defined in MaterialRepo.obj
+Ui.obj : error LNK2005: "struct MaterialRepository * __cdecl copyMaterialRepo(struct MaterialRepository *)" (?copyMaterialRepo@@YAPEAUMaterialRepository@@PEAU1@@Z) already defined in MaterialRepo.obj
+Ui.obj : error LNK2005: "struct MaterialRepository * __cdecl createMaterialRepository(int)" (?createMaterialRepository@@YAPEAUMaterialRepository@@H@Z) already defined in MaterialRepo.obj
+Ui.obj : error LNK2005: "int __cdecl deleteMaterial(struct MaterialRepository *,char * const,char * const,double)" (?deleteMaterial@@YAHPEAUMaterialRepository@@QEAD1N@Z) already defined in MaterialRepo.obj
+Ui.obj : error LNK2005: "void __cdecl destroyMaterialRepository(struct MaterialRepository *)" (?destroyMaterialRepository@@YAXPEAUMaterialRepository@@@Z) already defined in MaterialRepo.obj
+Ui.obj : error LNK2005: "int __cdecl findMaterial(struct MaterialRepository *,char * const,char * const,double)" (?findMaterial@@YAHPEAUMaterialRepository@@QEAD1N@Z) already defined in MaterialRepo.obj
+Ui.obj : error LNK2005: "int __cdecl getMaterialRepoLength(struct MaterialRepository *)" (?getMaterialRepoLength@@YAHPEAUMaterialRepository@@@Z) already defined in MaterialRepo.obj
+Ui.obj : error LNK2005: "struct DynamicArray * __cdecl getRepoMaterials(struct MaterialRepository *)" (?getRepoMaterials@@YAPEAUDynamicArray@@PEAUMaterialRepository@@@Z) already defined in MaterialRepo.obj
+Ui.obj : error LNK2005: "void __cdecl testMaterialRepo(void)" (?testMaterialRepo@@YAXXZ) already defined in MaterialRepo.obj
+Ui.obj : error LNK2005: "int __cdecl updateMaterial(struct MaterialRepository *,char *,char *,double,int)" (?updateMaterial@@YAHPEAUMaterialRepository@@PEAD1NH@Z) already defined in MaterialRepo.obj
+Ui.obj : error LNK2001: unresolved external symbol "struct Material * __cdecl createMaterial(char const *,char const *,int,double)" (?createMaterial@@YAPEAUMaterial@@PEBD0HN@Z)
+DynamicArray.obj : error LNK2001: unresolved external symbol "struct Material * __cdecl createMaterial(char const *,char const *,int,double)" (?createMaterial@@YAPEAUMaterial@@PEBD0HN@Z)
+Material.obj : error LNK2001: unresolved external symbol "struct Material * __cdecl createMaterial(char const *,char const *,int,double)" (?createMaterial@@YAPEAUMaterial@@PEBD0HN@Z)
+MaterialRepo.obj : error LNK2001: unresolved external symbol "struct Material * __cdecl createMaterial(char const *,char const *,int,double)" (?createMaterial@@YAPEAUMaterial@@PEBD0HN@Z)
+Service.obj : error LNK2001: unresolved external symbol "struct Material * __cdecl createMaterial(char const *,char const *,int,double)" (?createMaterial@@YAPEAUMaterial@@PEBD0HN@Z)
+    Hint on symbols that are defined and could potentially match:
+      "struct Material * __cdecl createMaterial(char * const,char * const,int,double)" (?createMaterial@@YAPEAUMaterial@@QEAD0HN@Z)
+Material.obj : error LNK2019: unresolved external symbol "void __cdecl setSupplier(struct Material *,char const *)" (?setSupplier@@YAXPEAUMaterial@@PEBD@Z) referenced in function "void __cdecl TestMaterial(void)" (?TestMaterial@@YAXXZ)
+    Hint on symbols that are defined and could potentially match:
+      "void __cdecl setSupplier(struct Material *,char *)" (?setSupplier@@YAXPEAUMaterial@@PEAD@Z)
+MaterialRepo.obj : error LNK2019: unresolved external symbol "int __cdecl deleteMaterial(struct MaterialRepository *,char const *,char const *,double)" (?deleteMaterial@@YAHPEAUMaterialRepository@@PEBD1N@Z) referenced in function "void __cdecl testMaterialRepo(void)" (?testMaterialRepo@@YAXXZ)
+Service.obj : error LNK2001: unresolved external symbol "int __cdecl deleteMaterial(struct MaterialRepository *,char const *,char const *,double)" (?deleteMaterial@@YAHPEAUMaterialRepository@@PEBD1N@Z)
+Ui.obj : error LNK2001: unresolved external symbol "int __cdecl deleteMaterial(struct MaterialRepository *,char const *,char const *,double)" (?deleteMaterial@@YAHPEAUMaterialRepository@@PEBD1N@Z)
+    Hint on symbols that are defined and could potentially match:
+      "int __cdecl deleteMaterial(struct MaterialRepository *,char * const,char * const,double)" (?deleteMaterial@@YAHPEAUMaterialRepository@@QEAD1N@Z)
+MaterialRepo.obj : error LNK2019: unresolved external symbol "int __cdecl updateMaterial(struct MaterialRepository *,char const *,char const *,double,int)" (?updateMaterial@@YAHPEAUMaterialRepository@@PEBD1NH@Z) referenced in function "int __cdecl addMaterial(struct MaterialRepository *,struct Material *)" (?addMaterial@@YAHPEAUMaterialRepository@@PEAUMaterial@@@Z)
+Service.obj : error LNK2001: unresolved external symbol "int __cdecl updateMaterial(struct MaterialRepository *,char const *,char const *,double,int)" (?updateMaterial@@YAHPEAUMaterialRepository@@PEBD1NH@Z)
+Ui.obj : error LNK2001: unresolved external symbol "int __cdecl updateMaterial(struct MaterialRepository *,char const *,char const *,double,int)" (?updateMaterial@@YAHPEAUMaterialRepository@@PEBD1NH@Z)
+    Hint on symbols that are defined and could potentially match:
+      "int __cdecl updateMaterial(struct MaterialRepository *,char *,char *,double,int)" (?updateMaterial@@YAHPEAUMaterialRepository@@PEAD1NH@Z)
+Service.obj : error LNK2019: unresolved external symbol "int __cdecl add(struct Service *,char const *,char const *,int,double)" (?add@@YAHPEAUService@@PEBD1HN@Z) referenced in function "void __cdecl testService(void)" (?testService@@YAXXZ)
+Ui.obj : error LNK2001: unresolved external symbol "int __cdecl add(struct Service *,char const *,char const *,int,double)" (?add@@YAHPEAUService@@PEBD1HN@Z)
+    Hint on symbols that are defined and could potentially match:
+      "int __cdecl add(struct Service *,char *,char *,int,double)" (?add@@YAHPEAUService@@PEAD1HN@Z)
+Service.obj : error LNK2019: unresolved external symbol "int __cdecl update(struct Service *,char const *,char const *,double,int)" (?update@@YAHPEAUService@@PEBD1NH@Z) referenced in function "void __cdecl testService(void)" (?testService@@YAXXZ)
+Ui.obj : error LNK2001: unresolved external symbol "int __cdecl update(struct Service *,char const *,char const *,double,int)" (?update@@YAHPEAUService@@PEBD1NH@Z)
+    Hint on symbols that are defined and could potentially match:
+      "int __cdecl update(struct Service *,char *,char *,double,int)" (?update@@YAHPEAUService@@PEAD1NH@Z)
+Ui.obj : error LNK2019: unresolved external symbol "struct DynamicArray * __cdecl getMaterialsByExpirationDate(struct Service *,double)" (?getMaterialsByExpirationDate@@YAPEAUDynamicArray@@PEAUService@@N@Z) referenced in function "void __cdecl printMaterialsBySomething(struct UI *)" (?printMaterialsBySomething@@YAXPEAUUI@@@Z)
+    Hint on symbols that are defined and could potentially match:
+      "struct DynamicArray * __cdecl getMaterialsByExpirationDate(struct Service *,int)" (?getMaterialsByExpirationDate@@YAPEAUDynamicArray@@PEAUService@@H@Z)
+Ui.obj : error LNK2019: unresolved external symbol "int __cdecl deleteMaterialUI(struct UI *)" (?deleteMaterialUI@@YAHPEAUUI@@@Z) referenced in function "void __cdecl start(struct UI *)" (?start@@YAXPEAUUI@@@Z)
+C:\Users\bro_b\source\repos\Assignment 2-3_OOP\Assignment 2-3_OOP\x64\Debug\a23.exe : fatal error LNK1120: 8 unresolved externals

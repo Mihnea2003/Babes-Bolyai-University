@@ -1,0 +1,245 @@
+        -:    0:Source:C:/Users/bro_b/CLionProjects/OOP_lab4/DynamicArray.h
+        -:    0:Graph:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\Tests.cpp.gcno
+        -:    0:Data:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\Tests.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by bro_b on 3/29/2023.
+        -:    3://
+        -:    4:
+        -:    5:#ifndef OOP_LAB4_DYNAMICARRAY_H
+        -:    6:#define OOP_LAB4_DYNAMICARRAY_H
+        -:    7:#pragma once
+        -:    8:
+        -:    9:template <typename D>
+        -:   10:class DynamicArray {
+        -:   11:private:
+        -:   12:    int capacity;
+        -:   13:    int length;
+        -:   14:    D* elems;
+        -:   15:
+        -:   16:public:
+        -:   17:
+        -:   18:    DynamicArray(int capacity = 20);
+        -:   19:
+        -:   20:    DynamicArray(const DynamicArray<D>& arr);
+        -:   21:
+        -:   22:    DynamicArray<D>& operator=(const DynamicArray<D>& arr);
+        -:   23:
+        -:   24:    D& operator[](int index);
+        -:   25:
+        -:   26:    void resize();
+        -:   27:
+        -:   28:    void addElement(D element);
+        -:   29:
+        -:   30:    void deleteElement(int position);
+        -:   31:
+        -:   32:    D* elementsGetter();
+        -:   33:
+        -:   34:    int capacityGetter() const;
+        -:   35:
+        -:   36:    int lengthGetter() const;
+        -:   37:
+        -:   38:    ~DynamicArray();
+        -:   39:
+        -:   40:};
+        -:   41:
+        -:   42:template<typename D>
+function _ZN12DynamicArrayIiEC1Ei called 2 returned 100% blocks executed 80%
+        2:   43:DynamicArray<D>::DynamicArray(int capacity)
+        -:   44:{
+        2:   45:    this->capacity = capacity;
+        2:   46:    this->length = 0;
+       2*:   47:    this->elems = new D[capacity];
+        2:   47-block  0
+branch  0 taken 2 (fallthrough)
+branch  1 taken 0
+        2:   47-block  1
+    %%%%%:   47-block  2
+call    2 never executed
+        2:   47-block  3
+call    3 returned 2
+        2:   48:}
+        -:   49:
+        -:   50:template<typename D>
+function _ZN12DynamicArrayIiEC1ERKS0_ called 1 returned 100% blocks executed 88%
+        1:   51:DynamicArray<D>::DynamicArray(const DynamicArray<D>& arr)
+        -:   52:{
+        1:   53:    this->capacity = arr.capacity;
+        1:   54:    this->length = arr.length;
+       1*:   55:    this->elems = new D[this->capacity];
+        1:   55-block  0
+branch  0 taken 1 (fallthrough)
+branch  1 taken 0
+        1:   55-block  1
+    %%%%%:   55-block  2
+call    2 never executed
+        1:   55-block  3
+call    3 returned 1
+        -:   56:
+        4:   57:    for (int i = 0; i < arr.length; i++)
+        4:   57-block  0
+branch  0 taken 3
+branch  1 taken 1 (fallthrough)
+        -:   58:    {
+        3:   59:        this->elems[i] = arr.elems[i];
+        3:   59-block  0
+        -:   60:    }
+        1:   61:}
+        -:   62:
+        -:   63:template<typename D>
+function _ZN12DynamicArrayIiEaSERKS0_ called 1 returned 100% blocks executed 91%
+        1:   64:DynamicArray<D>& DynamicArray<D>::operator=(const DynamicArray<D>& arr)
+        -:   65:{
+        -:   66:
+        1:   67:    this->length = arr.length;
+        1:   68:    this->capacity = arr.capacity;
+        -:   69:
+        1:   70:    delete[] this->elems;
+        1:   70-block  0
+branch  0 taken 1 (fallthrough)
+branch  1 taken 0
+        1:   70-block  1
+call    2 returned 1
+        -:   71:
+       1*:   72:    this->elems = new D[this->capacity];
+        1:   72-block  0
+branch  0 taken 1 (fallthrough)
+branch  1 taken 0
+        1:   72-block  1
+    %%%%%:   72-block  2
+call    2 never executed
+        1:   72-block  3
+call    3 returned 1
+        4:   73:    for (int i = 0; i < this->length; i++)
+        4:   73-block  0
+branch  0 taken 3
+branch  1 taken 1 (fallthrough)
+        -:   74:    {
+        3:   75:        this->elems[i] = arr.elems[i];
+        3:   75-block  0
+        -:   76:    }
+        -:   77:
+        1:   78:    return *this;
+        1:   78-block  0
+        -:   79:}
+        -:   80:
+        -:   81:template<typename D>
+function _ZN12DynamicArrayIiEixEi called 24 returned 100% blocks executed 100%
+       24:   82:D& DynamicArray<D>::operator[](int index)
+        -:   83:{
+       24:   84:    return this->elems[index];
+       24:   84-block  0
+        -:   85:}
+        -:   86:
+        -:   87:template<typename D>
+function _ZN12DynamicArrayIiE6resizeEv called 1 returned 100% blocks executed 90%
+        1:   88:void DynamicArray<D>::resize()
+        -:   89:{
+        1:   90:    this->capacity *= 2;
+       1*:   91:    D* newElems = new D[this->capacity];
+        1:   91-block  0
+branch  0 taken 1 (fallthrough)
+branch  1 taken 0
+        1:   91-block  1
+    %%%%%:   91-block  2
+call    2 never executed
+        1:   91-block  3
+call    3 returned 1
+        6:   92:    for (int i = 0; i < this->length; i++)
+        6:   92-block  0
+branch  0 taken 5
+branch  1 taken 1 (fallthrough)
+        -:   93:    {
+        5:   94:        newElems[i] = this->elems[i];
+        5:   94-block  0
+        -:   95:    }
+        1:   96:    delete[] this->elems;
+        1:   96-block  0
+branch  0 taken 1 (fallthrough)
+branch  1 taken 0
+        1:   96-block  1
+call    2 returned 1
+        1:   97:    this->elems = newElems;
+        1:   98:}
+        -:   99:
+        -:  100:template<typename D>
+function _ZN12DynamicArrayIiE10addElementEi called 6 returned 100% blocks executed 100%
+        6:  101:void DynamicArray<D>::addElement(D element)
+        -:  102:{
+        6:  103:    if (this->length == this->capacity)
+        6:  103-block  0
+branch  0 taken 1 (fallthrough)
+branch  1 taken 5
+        -:  104:    {
+        1:  105:        this->resize();
+        1:  105-block  0
+call    0 returned 1
+        -:  106:    }
+        6:  107:    this->elems[this->length++] = element;
+        6:  108:}
+        -:  109:
+        -:  110:template<typename D>
+function _ZN12DynamicArrayIiE13deleteElementEi called 3 returned 100% blocks executed 88%
+        3:  111:void DynamicArray<D>::deleteElement(int position)
+        -:  112:{
+        3:  113:    if (position < 0 || position >= this->length)
+        3:  113-block  0
+branch  0 taken 3 (fallthrough)
+branch  1 taken 0
+        3:  113-block  1
+branch  2 taken 0 (fallthrough)
+branch  3 taken 3
+        -:  114:    {
+    #####:  115:        return;
+    %%%%%:  115-block  0
+        -:  116:    }
+        -:  117:
+        9:  118:    for (int i = position; i < this->length - 1; i++)
+        3:  118-block  0
+        9:  118-block  1
+branch  0 taken 6
+branch  1 taken 3 (fallthrough)
+        -:  119:    {
+        6:  120:        this->elems[i] = this->elems[i + 1];
+        6:  120-block  0
+        -:  121:    }
+        3:  122:    this->length--;
+        3:  122-block  0
+        -:  123:}
+        -:  124:
+        -:  125:template<typename D>
+function _ZN12DynamicArrayIiE14elementsGetterEv called 1 returned 100% blocks executed 100%
+        1:  126:D* DynamicArray<D>::elementsGetter()
+        -:  127:{
+        1:  128:    return this->elems;
+        1:  128-block  0
+        -:  129:}
+        -:  130:
+        -:  131:template<typename D>
+function _ZNK12DynamicArrayIiE14capacityGetterEv called 3 returned 100% blocks executed 100%
+        3:  132:int DynamicArray<D>::capacityGetter() const
+        -:  133:{
+        3:  134:    return this->capacity;
+        3:  134-block  0
+        -:  135:}
+        -:  136:
+        -:  137:template<typename D>
+function _ZNK12DynamicArrayIiE12lengthGetterEv called 8 returned 100% blocks executed 100%
+        8:  138:int DynamicArray<D>::lengthGetter() const
+        -:  139:{
+        8:  140:    return this->length;
+        8:  140-block  0
+        -:  141:}
+        -:  142:
+        -:  143:template<typename D>
+function _ZN12DynamicArrayIiED1Ev called 3 returned 100% blocks executed 100%
+        3:  144:DynamicArray<D>::~DynamicArray()
+        -:  145:{
+        3:  146:    delete[] this->elems;
+        3:  146-block  0
+branch  0 taken 3 (fallthrough)
+branch  1 taken 0
+        3:  146-block  1
+call    2 returned 3
+        3:  147:}
+        -:  148:#endif //OOP_LAB4_DYNAMICARRAY_H

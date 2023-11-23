@@ -1,0 +1,1369 @@
+        -:    0:Source:C:/Users/bro_b/CLionProjects/OOP_lab4/Ui.cpp
+        -:    0:Graph:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\Ui.cpp.gcno
+        -:    0:Data:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\Ui.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by bro_b on 3/29/2023.
+        -:    3://
+        -:    4:#include "UI.h"
+        -:    5:#include "errors.h"
+        -:    6:
+function _ZN2UI9handleAddEv called 0 returned 0% blocks executed 0%
+    #####:    7:void UI::handleAdd()
+        -:    8:{
+    #####:    9:    std::string title, presenter,link,duration;
+    %%%%%:    9-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+        -:   10:    int like;
+        -:   11:
+    #####:   12:    std::cout << "Please input the title: ";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   13:    std::getline(std::cin, title);
+    %%%%%:   13-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   14:
+    #####:   15:    std::cout << "Please input the presenter: ";
+    %%%%%:   15-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   16:    std::getline(std::cin, presenter);
+    %%%%%:   16-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   17:
+    #####:   18:    std::cout << "Please input the duration: ";
+    %%%%%:   18-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   19:    std::getline(std::cin, duration);
+    %%%%%:   19-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   20:
+    #####:   21:    std::cout << "Please input the like: ";
+    %%%%%:   21-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   22:    std::cin >> like;
+    %%%%%:   22-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   23:    std::cin.get();
+    %%%%%:   23-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   24:    if (std::cin.fail())
+    %%%%%:   24-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   24-block  1
+branch  3 never executed
+branch  4 never executed
+        -:   25:    {
+    #####:   26:        std::cout << "Invalid input! \n";
+    %%%%%:   26-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   27:        std::cin.clear();
+    %%%%%:   27-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   28:        std::cin.ignore(256, '\n');
+    %%%%%:   28-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   29:        return;
+    %%%%%:   29-block  0
+        -:   30:    }
+        -:   31:
+    #####:   32:    std::cout << "Please input the link: ";
+    %%%%%:   32-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   33:    std::getline(std::cin, link);
+    %%%%%:   33-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   34:
+        -:   35:    try
+        -:   36:    {
+    #####:   37:        this->adminService.addTutorialServ(title, presenter,duration, like, link);
+    %%%%%:   37-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   37-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   37-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   37-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   37-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   37-block  5
+call   15 never executed
+call   16 never executed
+call   17 never executed
+call   18 never executed
+    $$$$$:   37-block  6
+call   19 never executed
+    $$$$$:   37-block  7
+    $$$$$:   37-block  8
+call   20 never executed
+    $$$$$:   37-block  9
+    $$$$$:   37-block 10
+call   21 never executed
+    $$$$$:   37-block 11
+    $$$$$:   37-block 12
+call   22 never executed
+    $$$$$:   37-block 13
+    #####:   38:        std::cout << "Tutorial added successfully !\n";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   39:    }
+    =====:   40:    catch (RepoError err)
+    $$$$$:   40-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   40-block  1
+call    2 never executed
+call    3 never executed
+        -:   41:    {
+    =====:   42:        std::cout << err.what() << '\n';
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   42-block  0
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    =====:   43:    }
+    $$$$$:   43-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   43-block  1
+call    4 never executed
+    $$$$$:   43-block  2
+call    5 never executed
+    #####:   44:}
+    %%%%%:   44-block  0
+    %%%%%:   44-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   44-block  2
+    %%%%%:   44-block  3
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   44-block  4
+    %%%%%:   44-block  5
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   44-block  6
+    %%%%%:   44-block  7
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   44-block  8
+call   12 never executed
+    $$$$$:   44-block  9
+call   13 never executed
+    $$$$$:   44-block 10
+call   14 never executed
+    $$$$$:   44-block 11
+call   15 never executed
+        -:   45:
+function _ZN2UI12handleRemoveEv called 0 returned 0% blocks executed 0%
+    #####:   46:void UI::handleRemove()
+        -:   47:{
+    #####:   48:    std::string title;
+    %%%%%:   48-block  0
+call    0 never executed
+        -:   49:
+    #####:   50:    std::cout << "Please input the title: ";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   51:    std::getline(std::cin, title);
+    %%%%%:   51-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   52:
+        -:   53:    try
+        -:   54:    {
+    #####:   55:        this->adminService.removeTutorialServ(title);
+    %%%%%:   55-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   55-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   55-block  2
+call    6 never executed
+    $$$$$:   55-block  3
+call    7 never executed
+    $$$$$:   55-block  4
+    #####:   56:        std::cout << "Tutorial removed successfully !\n";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   57:    }
+    =====:   58:    catch (RepoError err)
+    $$$$$:   58-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   58-block  1
+call    2 never executed
+call    3 never executed
+        -:   59:    {
+    =====:   60:        std::cout << err.what() << '\n';
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   60-block  0
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    =====:   61:    }
+    $$$$$:   61-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   61-block  1
+call    4 never executed
+    $$$$$:   61-block  2
+call    5 never executed
+    #####:   62:}
+    %%%%%:   62-block  0
+call    0 never executed
+    $$$$$:   62-block  1
+call    1 never executed
+        -:   63:
+function _ZN2UI12handleUpdateEv called 0 returned 0% blocks executed 0%
+    #####:   64:void UI::handleUpdate()
+        -:   65:{
+    #####:   66:    std::string title, newPresenter,newDuration, newLink;
+    %%%%%:   66-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+        -:   67:    int newLike;
+        -:   68:
+    #####:   69:    std::cout << "Please input the title of the tutorial you want to update: ";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   70:    std::getline(std::cin, title);
+    %%%%%:   70-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   71:
+    #####:   72:    std::cout << "Please input the new presenter: ";
+    %%%%%:   72-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   73:    std::getline(std::cin, newPresenter);
+    %%%%%:   73-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   74:
+    #####:   75:    std::cout << "Please input the new likes: ";
+    %%%%%:   75-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   76:    std::cin >> newLike;
+    %%%%%:   76-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   77:    std::cin.get();
+    %%%%%:   77-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   78:    if (std::cin.fail()|| newLike<0)
+    %%%%%:   78-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   78-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   78-block  2
+branch  5 never executed
+branch  6 never executed
+    %%%%%:   78-block  3
+    %%%%%:   78-block  4
+    %%%%%:   78-block  5
+branch  7 never executed
+branch  8 never executed
+        -:   79:    {
+    #####:   80:        std::cout << "Invalid input!\n";
+    %%%%%:   80-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   81:        std::cin.clear();
+    %%%%%:   81-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   82:        std::cin.ignore(256, '\n');
+    %%%%%:   82-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   83:        return;
+    %%%%%:   83-block  0
+        -:   84:    }
+        -:   85:
+    #####:   86:    std::cout << "Please input the new link: ";
+    %%%%%:   86-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   87:    std::getline(std::cin, newLink);
+    %%%%%:   87-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   88:
+        -:   89:    try
+        -:   90:    {
+    #####:   91:        this->adminService.updateTutorialServ(title, newPresenter,newDuration, newLike, newLink);
+    %%%%%:   91-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   91-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   91-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   91-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   91-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   91-block  5
+call   15 never executed
+call   16 never executed
+call   17 never executed
+call   18 never executed
+    $$$$$:   91-block  6
+call   19 never executed
+    $$$$$:   91-block  7
+    $$$$$:   91-block  8
+call   20 never executed
+    $$$$$:   91-block  9
+    $$$$$:   91-block 10
+call   21 never executed
+    $$$$$:   91-block 11
+    $$$$$:   91-block 12
+call   22 never executed
+    $$$$$:   91-block 13
+    #####:   92:        std::cout << "Tutorial updated successfully !\n";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   93:    }
+    =====:   94:    catch (RepoError err)
+    $$$$$:   94-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:   94-block  1
+call    2 never executed
+call    3 never executed
+        -:   95:    {
+    =====:   96:        std::cout << err.what() << '\n';
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   96-block  0
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    =====:   97:    }
+    $$$$$:   97-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:   97-block  1
+call    4 never executed
+    $$$$$:   97-block  2
+call    5 never executed
+    #####:   98:}
+    %%%%%:   98-block  0
+    %%%%%:   98-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   98-block  2
+    %%%%%:   98-block  3
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   98-block  4
+    %%%%%:   98-block  5
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   98-block  6
+    %%%%%:   98-block  7
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   98-block  8
+call   12 never executed
+    $$$$$:   98-block  9
+call   13 never executed
+    $$$$$:   98-block 10
+call   14 never executed
+    $$$$$:   98-block 11
+call   15 never executed
+        -:   99:
+function _ZN2UI14printTutorialsEv called 0 returned 0% blocks executed 0%
+    #####:  100:void UI::printTutorials()
+        -:  101:{
+    #####:  102:    std::vector<Tutorial> arr = this->adminService.getTutorialsList();
+    %%%%%:  102-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  103:    for (auto i : arr)
+    %%%%%:  103-block  0
+call    0 never executed
+call    1 never executed
+    %%%%%:  103-block  1
+call    2 never executed
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+call    6 never executed
+    %%%%%:  103-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+        -:  104:    {
+    #####:  105:        std::cout << i << '\n';
+    %%%%%:  105-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  105-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  106:    }
+    %%%%%:  106-block  0
+call    0 never executed
+    $$$$$:  106-block  1
+call    1 never executed
+    #####:  107:}
+    %%%%%:  107-block  0
+call    0 never executed
+    $$$$$:  107-block  1
+call    1 never executed
+function _ZN2UI14printWatchListEv called 0 returned 0% blocks executed 0%
+    #####:  108:void UI::printWatchList()
+        -:  109:{
+    #####:  110:    std::vector<Tutorial> arr = this->userService.getWatchList();
+    %%%%%:  110-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  111:    for (auto i : arr)
+    %%%%%:  111-block  0
+call    0 never executed
+call    1 never executed
+    %%%%%:  111-block  1
+call    2 never executed
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+call    6 never executed
+    %%%%%:  111-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+        -:  112:    {
+    #####:  113:        std::cout << i << '\n';
+    %%%%%:  113-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  113-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  114:    }
+    %%%%%:  114-block  0
+call    0 never executed
+    $$$$$:  114-block  1
+call    1 never executed
+    #####:  115:}
+    %%%%%:  115-block  0
+call    0 never executed
+    $$$$$:  115-block  1
+call    1 never executed
+function _ZN2UI14handleWatchAllEv called 0 returned 0% blocks executed 0%
+    #####:  116:void UI::handleWatchAll()
+        -:  117:{
+    #####:  118:    std::vector<Tutorial> arr = this->adminService.getTutorialsList();
+    %%%%%:  118-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  119:    std::string presenter;
+    %%%%%:  119-block  0
+call    0 never executed
+    #####:  120:    std::cout << "Please input presenter: ";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  121:    std::getline(std::cin, presenter);
+    %%%%%:  121-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  122:        for (auto i: arr) {
+    %%%%%:  122-block  0
+call    0 never executed
+call    1 never executed
+    %%%%%:  122-block  1
+call    2 never executed
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  122-block  2
+call    6 never executed
+    %%%%%:  122-block  3
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    #####:  123:            if (presenter == i.getPresenter()) {
+    %%%%%:  123-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  123-block  1
+call    3 never executed
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    #####:  124:                std::cout << i << '\n';
+    %%%%%:  124-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  124-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  125:                std::string command = std::string("start ").append(i.getLink());
+    %%%%%:  125-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:  125-block  1
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    %%%%%:  125-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  125-block  3
+call   10 never executed
+branch 11 never executed
+branch 12 never executed
+call   13 never executed
+call   14 never executed
+    $$$$$:  125-block  4
+    $$$$$:  125-block  5
+    $$$$$:  125-block  6
+    #####:  126:                system(command.c_str());
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  127:                int addToWatchList;
+    #####:  128:                std::cout << "Add to watch list? (1.Yes/2.No):\n";
+    %%%%%:  128-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  129:                std::cin >> addToWatchList;
+    %%%%%:  129-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  130:                std::cin.get();
+    %%%%%:  130-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  131:                if (addToWatchList == 1) {
+    %%%%%:  131-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  132:                    try {
+    #####:  133:                        this->userService.add(i.getTitle(), i.getPresenter(), i.getDuration(), i.getLike(),
+    %%%%%:  133-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  133-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  133-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  133-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  133-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  133-block  5
+call   15 never executed
+call   16 never executed
+call   17 never executed
+    $$$$$:  133-block  6
+call   18 never executed
+    $$$$$:  133-block  7
+    $$$$$:  133-block  8
+call   19 never executed
+    $$$$$:  133-block  9
+    $$$$$:  133-block 10
+call   20 never executed
+    $$$$$:  133-block 11
+    #####:  134:                                              i.getLink());
+    %%%%%:  134-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+call    3 never executed
+    $$$$$:  134-block  1
+call    4 never executed
+    $$$$$:  134-block  2
+        -:  135:                    }
+    =====:  136:                    catch (RepoError err) {
+    $$$$$:  136-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  136-block  1
+call    2 never executed
+call    3 never executed
+    =====:  137:                        std::cout << err.what() << '\n';
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  137-block  0
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    =====:  138:                    }
+    $$$$$:  138-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  138-block  1
+call    4 never executed
+    $$$$$:  138-block  2
+call    5 never executed
+        -:  139:                }
+        -:  140:                int next;
+    #####:  141:                std::cout << "Continue? (1.Yes/2.No):\n";
+    %%%%%:  141-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  142:                std::cin >> next;
+    %%%%%:  142-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  143:                std::cin.get();
+    %%%%%:  143-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  144:                if (next != 1) {
+    %%%%%:  144-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  145:                    break;
+    %%%%%:  145-block  0
+        -:  146:                }
+    #####:  147:            }else if (presenter.empty()){
+    %%%%%:  147-block  0
+    %%%%%:  147-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  147-block  2
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    $$$$$:  147-block  3
+call    6 never executed
+    #####:  148:                std::cout << i << '\n';
+    %%%%%:  148-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  148-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:  149:                std::string command = std::string("start ").append(i.getLink());
+    %%%%%:  149-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:  149-block  1
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    %%%%%:  149-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    %%%%%:  149-block  3
+call   10 never executed
+branch 11 never executed
+branch 12 never executed
+call   13 never executed
+call   14 never executed
+    $$$$$:  149-block  4
+    $$$$$:  149-block  5
+    $$$$$:  149-block  6
+    #####:  150:                system(command.c_str());
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+        -:  151:                int addToWatchList;
+    #####:  152:                std::cout << "Add to watch list? (1.Yes/2.No):\n";
+    %%%%%:  152-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  153:                std::cin >> addToWatchList;
+    %%%%%:  153-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  154:                std::cin.get();
+    %%%%%:  154-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  155:                if (addToWatchList == 1) {
+    %%%%%:  155-block  0
+branch  0 never executed
+branch  1 never executed
+        -:  156:                    try {
+    #####:  157:                        this->userService.add(i.getTitle(), i.getPresenter(), i.getDuration(), i.getLike(),
+    %%%%%:  157-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  157-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  157-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  157-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  157-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  157-block  5
+call   15 never executed
+call   16 never executed
+call   17 never executed
+    $$$$$:  157-block  6
+call   18 never executed
+    $$$$$:  157-block  7
+    $$$$$:  157-block  8
+call   19 never executed
+    $$$$$:  157-block  9
+    $$$$$:  157-block 10
+call   20 never executed
+    $$$$$:  157-block 11
+    #####:  158:                                              i.getLink());
+    %%%%%:  158-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+call    3 never executed
+    $$$$$:  158-block  1
+call    4 never executed
+    $$$$$:  158-block  2
+        -:  159:                    }
+    =====:  160:                    catch (RepoError err) {
+    $$$$$:  160-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  160-block  1
+call    2 never executed
+call    3 never executed
+    =====:  161:                        std::cout << err.what() << '\n';
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  161-block  0
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    =====:  162:                    }
+    $$$$$:  162-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  162-block  1
+call    4 never executed
+    $$$$$:  162-block  2
+call    5 never executed
+        -:  163:                }
+        -:  164:                int next;
+    #####:  165:                std::cout << "Continue? (1.Yes/2.No):\n";
+    %%%%%:  165-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  166:                std::cin >> next;
+    %%%%%:  166-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  167:                std::cin.get();
+    %%%%%:  167-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  168:                if (next != 1) {
+    %%%%%:  168-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  169:                    break;
+    %%%%%:  169-block  0
+        -:  170:                }
+    #####:  171:            }
+    %%%%%:  171-block  0
+    %%%%%:  171-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  171-block  2
+call    3 never executed
+    #####:  172:        }
+    %%%%%:  172-block  0
+    %%%%%:  172-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:  172-block  2
+call    3 never executed
+    #####:  173:        }
+    %%%%%:  173-block  0
+call    0 never executed
+call    1 never executed
+    $$$$$:  173-block  1
+call    2 never executed
+    $$$$$:  173-block  2
+call    3 never executed
+        -:  174:
+function _ZN2UI21handleRemoveWatchListEv called 0 returned 0% blocks executed 0%
+    #####:  175:void UI::handleRemoveWatchList()
+        -:  176:{
+    #####:  177:    std::string title;
+    %%%%%:  177-block  0
+call    0 never executed
+        -:  178:
+    #####:  179:    std::cout << "Please input the title: ";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  180:    std::getline(std::cin, title);
+    %%%%%:  180-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  181:
+        -:  182:    try
+        -:  183:    {
+    #####:  184:        this->userService.remove(title);
+    %%%%%:  184-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  184-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  184-block  2
+call    6 never executed
+    $$$$$:  184-block  3
+call    7 never executed
+    $$$$$:  184-block  4
+    #####:  185:        std::cout << "Tutorial removed successfully !\n";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  186:    }
+    =====:  187:    catch (RepoError err)
+    $$$$$:  187-block  0
+branch  0 never executed
+branch  1 never executed
+    $$$$$:  187-block  1
+call    2 never executed
+call    3 never executed
+        -:  188:    {
+    =====:  189:        std::cout << err.what() << '\n';
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  189-block  0
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    =====:  190:    }
+    $$$$$:  190-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    $$$$$:  190-block  1
+call    4 never executed
+    $$$$$:  190-block  2
+call    5 never executed
+        -:  191:    int option;
+    #####:  192:    std::cout << "Would you like to give this video a like? 1.Yes/2.No\n";
+    %%%%%:  192-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  193:    std::cin >> option;
+    %%%%%:  193-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  194:    if (option == 1){
+    %%%%%:  194-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  195:        std::vector<Tutorial> arr = this->adminService.getTutorialsList();
+    %%%%%:  195-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  196:        for (auto i: arr){
+    %%%%%:  196-block  0
+call    0 never executed
+call    1 never executed
+    %%%%%:  196-block  1
+call    2 never executed
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+call    6 never executed
+    %%%%%:  196-block  2
+call    7 never executed
+branch  8 never executed
+branch  9 never executed
+    #####:  197:            if( title == i.getTitle()){
+    %%%%%:  197-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  197-block  1
+call    3 never executed
+call    4 never executed
+branch  5 never executed
+branch  6 never executed
+    #####:  198:                this->adminService.updateTutorialServ(title, i.getPresenter(),i.getDuration(), i.getLike()+1, i.getLink());;
+    %%%%%:  198-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  198-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  198-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  198-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:  198-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:  198-block  5
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:  198-block  6
+call   18 never executed
+call   19 never executed
+call   20 never executed
+call   21 never executed
+    $$$$$:  198-block  7
+call   22 never executed
+    $$$$$:  198-block  8
+    $$$$$:  198-block  9
+call   23 never executed
+    $$$$$:  198-block 10
+    $$$$$:  198-block 11
+call   24 never executed
+    $$$$$:  198-block 12
+    $$$$$:  198-block 13
+call   25 never executed
+    $$$$$:  198-block 14
+        -:  199:            }
+    #####:  200:        }
+    %%%%%:  200-block  0
+call    0 never executed
+    $$$$$:  200-block  1
+call    1 never executed
+    #####:  201:    }
+    %%%%%:  201-block  0
+call    0 never executed
+    $$$$$:  201-block  1
+call    1 never executed
+        -:  202:
+        -:  203:
+    #####:  204:}
+    %%%%%:  204-block  0
+call    0 never executed
+    $$$$$:  204-block  1
+call    1 never executed
+        -:  205:
+        -:  206:
+function _ZN2UI16displayAdminMenuEv called 0 returned 0% blocks executed 0%
+    #####:  207:void UI::displayAdminMenu()
+        -:  208:{
+    #####:  209:    std::cout << "1. Add tutorial \n";
+    %%%%%:  209-block  0
+call    0 never executed
+    #####:  210:    std::cout << "2. Remove tutorial \n";
+call    0 never executed
+    #####:  211:    std::cout << "3. Update tutorial \n";
+call    0 never executed
+    #####:  212:    std::cout << "4. Display tutorial \n";
+call    0 never executed
+    #####:  213:    std::cout << "5. Exit \n";
+call    0 never executed
+    #####:  214:    std::cout << "Please choose an option: ";
+call    0 never executed
+    #####:  215:}
+function _ZN2UI15displayUserMenuEv called 0 returned 0% blocks executed 0%
+    #####:  216:void UI::displayUserMenu()
+        -:  217:{
+    #####:  218:    std::cout << "1. See the tutorials in the database having a given presenter \n";
+    %%%%%:  218-block  0
+call    0 never executed
+    #####:  219:    std::cout << "2. Display watching list \n";
+call    0 never executed
+    #####:  220:    std::cout << "3. Remove a tutorial from the watch list \n";
+call    0 never executed
+    #####:  221:    std::cout << "4. Exit\n";
+call    0 never executed
+    #####:  222:    std::cout << "Please choose an option: ";
+call    0 never executed
+    #####:  223:}
+        -:  224:
+function _ZN2UIC2ER7ServiceR11UserService called 1 returned 100% blocks executed 100%
+        1:  225:UI::UI(Service& adminService, UserService& userService) : adminService{ adminService }, userService{ userService } {}
+        -:  226:
+function _ZN2UI3runEv called 1 returned 100% blocks executed 22%
+        1:  227:void UI::run() {
+        -:  228:    int option;
+        1:  229:    std::cout << "1. Administrator mode\n";
+        1:  229-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  230:    std::cout << "2. User mode\n";
+        1:  230-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  231:    std::cout << "3. Exit\n\n";
+        1:  231-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  232:    std::cout << "Please choose an option: ";
+        1:  232-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  233:    std::cin >> option;
+        1:  233-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  234:    if (option == 1) {
+        1:  234-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+        -:  235:        while (true) {
+    #####:  236:            displayAdminMenu();
+    %%%%%:  236-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  237:            std::cin >> option;
+    %%%%%:  237-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  238:            std::cin.get();
+    %%%%%:  238-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  239:            if (std::cin.fail()) {
+    %%%%%:  239-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  239-block  1
+branch  3 never executed
+branch  4 never executed
+    #####:  240:                std::cout << "Invalid input!\n";
+    %%%%%:  240-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  241:                std::cin.clear();
+    %%%%%:  241-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  242:                std::cin.ignore(256, '\n');
+    %%%%%:  242-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  243:                return;
+    %%%%%:  243-block  0
+        -:  244:            }
+    #####:  245:            if (option == 1) {
+    %%%%%:  245-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  246:                this->handleAdd();
+    %%%%%:  246-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  247:            } else if (option == 2) {
+    %%%%%:  247-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  248:                this->handleRemove();
+    %%%%%:  248-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  249:            } else if (option == 3) {
+    %%%%%:  249-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  250:                this->handleUpdate();
+    %%%%%:  250-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  251:            } else if (option == 4) {
+    %%%%%:  251-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  252:                this->printTutorials();
+    %%%%%:  252-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  253:            } else if (option == 5) {
+    %%%%%:  253-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  254:                return;
+    %%%%%:  254-block  0
+        -:  255:            } else {
+    #####:  256:                std::cout << "Invalid option! Try again!\n";
+    %%%%%:  256-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  257:            }
+        -:  258:        }
+        -:  259:        }
+        1:  260:        else  if (option == 2) {
+        1:  260-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+        -:  261:        while (true) {
+    #####:  262:            displayUserMenu();
+    %%%%%:  262-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  263:            std::cin >> option;
+    %%%%%:  263-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  264:            std::cin.get();
+    %%%%%:  264-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  265:            if (std::cin.fail()) {
+    %%%%%:  265-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  265-block  1
+branch  3 never executed
+branch  4 never executed
+    #####:  266:                std::cout << "Invalid input!\n";
+    %%%%%:  266-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  267:                std::cin.clear();
+    %%%%%:  267-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  268:                std::cin.ignore(256, '\n');
+    %%%%%:  268-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  269:                return;
+    %%%%%:  269-block  0
+        -:  270:            }
+    #####:  271:            if (option == 1) {
+    %%%%%:  271-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  272:                this->handleWatchAll();
+    %%%%%:  272-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  273:            } else if (option == 2) {
+    %%%%%:  273-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  274:                this->printWatchList();
+    %%%%%:  274-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  275:            }else if (option == 3) {
+    %%%%%:  275-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  276:                this->handleRemoveWatchList();
+    %%%%%:  276-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  277:            }
+    #####:  278:            else if (option == 4) {
+    %%%%%:  278-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  279:                return;
+    %%%%%:  279-block  0
+        -:  280:            }
+        -:  281:        }
+        -:  282:        }
+        -:  283:        else
+        -:  284:    {
+        1:  285:        return;
+        1:  285-block  0
+        -:  286:    }
+        -:  287:}
+function _ZN2UID2Ev called 1 returned 100% blocks executed 100%
+        1:  288:UI::~UI() = default;

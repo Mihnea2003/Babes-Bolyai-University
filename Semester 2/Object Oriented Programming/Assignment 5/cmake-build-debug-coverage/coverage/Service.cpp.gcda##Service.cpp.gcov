@@ -1,0 +1,164 @@
+        -:    0:Source:C:/Users/bro_b/CLionProjects/OOP_lab4/Service.cpp
+        -:    0:Graph:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\Service.cpp.gcno
+        -:    0:Data:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\Service.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by bro_b on 3/29/2023.
+        -:    3://
+        -:    4:#include "service.h"
+        -:    5:#include "errors.h"
+        -:    6:
+function _ZN7ServiceC2ER10Repository called 2 returned 100% blocks executed 100%
+        2:    7:Service::Service(Repository& repo) : repo{ repo } {}
+        -:    8:
+function _ZN7Service15addTutorialServENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_S5_iS5_ called 13 returned 92% blocks executed 96%
+       13:    9:void Service::addTutorialServ(std::string title, std::string presenter, std::string duration, int like, std::string Link)
+        -:   10:{
+       13:   11:    Tutorial t = Tutorial(title, presenter,duration, like, Link);
+       13:   11-block  0
+call    0 returned 13
+branch  1 taken 13 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   12:    try
+        -:   13:    {
+       14:   14:        this->repo.addTutorialRepo(t);
+       13:   14-block  0
+call    0 returned 13
+branch  1 taken 13 (fallthrough)
+branch  2 taken 0 (throw)
+       13:   14-block  1
+call    3 returned 13
+branch  4 taken 12 (fallthrough)
+branch  5 taken 1 (throw)
+       12:   14-block  2
+call    6 returned 12
+        1:   14-block  3
+call    7 returned 1
+        1:   14-block  4
+        -:   15:    }
+        1:   16:    catch (RepoError err)
+        1:   16-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+        1:   16-block  1
+call    2 returned 1
+call    3 returned 1
+        -:   17:    {
+        1:   18:        throw err;
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+        2:   19:    }
+        1:   19-block  0
+call    0 returned 1
+        1:   19-block  1
+call    1 returned 1
+       13:   20:}
+call    0 returned 12
+        1:   20-block  0
+call    1 returned 1
+        -:   21:
+function _ZN7Service18removeTutorialServENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 2 returned 50% blocks executed 95%
+        2:   22:void Service::removeTutorialServ(std::string title)
+        -:   23:{
+        -:   24:    try
+        -:   25:    {
+        3:   26:        this->repo.deleteTutorialRepo(title);
+        2:   26-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   26-block  1
+call    3 returned 2
+branch  4 taken 1 (fallthrough)
+branch  5 taken 1 (throw)
+        1:   26-block  2
+call    6 returned 1
+        1:   26-block  3
+call    7 returned 1
+        1:   26-block  4
+        -:   27:    }
+        1:   28:    catch (RepoError err)
+        1:   28-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+        1:   28-block  1
+call    2 returned 1
+call    3 returned 1
+        -:   29:    {
+        1:   30:        throw err;
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+        2:   31:    }
+        1:   31-block  0
+call    0 returned 1
+        1:   31-block  1
+call    1 returned 1
+        1:   32:}
+        -:   33:
+function _ZN7Service18updateTutorialServENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_S5_iS5_ called 2 returned 50% blocks executed 97%
+        2:   34:void Service::updateTutorialServ(std::string title, std::string newPresenter, std::string newDuration,int newLike, std::string newLink)
+        -:   35:{
+        2:   36:    Tutorial newTutorial = Tutorial(title, newPresenter, newDuration, newLike, newLink);
+        2:   36-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   37:    try
+        -:   38:    {
+        4:   39:        this->repo.updateTutorialRepo(title, newTutorial);
+        2:   39-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   39-block  1
+call    3 returned 2
+branch  4 taken 2 (fallthrough)
+branch  5 taken 0 (throw)
+        2:   39-block  2
+call    6 returned 2
+branch  7 taken 1 (fallthrough)
+branch  8 taken 1 (throw)
+        1:   39-block  3
+call    9 returned 1
+call   10 returned 1
+        1:   39-block  4
+call   11 returned 1
+        1:   39-block  5
+        1:   39-block  6
+call   12 returned 1
+        1:   39-block  7
+        -:   40:    }
+        1:   41:    catch (RepoError err)
+        1:   41-block  0
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+        1:   41-block  1
+call    2 returned 1
+call    3 returned 1
+        -:   42:    {
+        1:   43:        throw err;
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+        2:   44:    }
+        1:   44-block  0
+call    0 returned 1
+        1:   44-block  1
+call    1 returned 1
+        2:   45:}
+call    0 returned 1
+        1:   45-block  0
+call    1 returned 1
+        -:   46:
+function _ZN7Service16getTutorialsListEv called 4 returned 100% blocks executed 100%
+        4:   47:std::vector<Tutorial> Service::getTutorialsList()
+        -:   48:{
+        4:   49:    return this->repo.getTutorialsList();
+        4:   49-block  0
+call    0 returned 4
+        -:   50:}
+        -:   51:
+function _ZN7ServiceD2Ev called 2 returned 100% blocks executed 100%
+        2:   52:Service::~Service() = default;

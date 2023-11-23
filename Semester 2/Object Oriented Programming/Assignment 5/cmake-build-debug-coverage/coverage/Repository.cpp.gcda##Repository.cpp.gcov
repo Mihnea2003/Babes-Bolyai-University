@@ -1,0 +1,331 @@
+        -:    0:Source:C:/Users/bro_b/CLionProjects/OOP_lab4/Repository.cpp
+        -:    0:Graph:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\Repository.cpp.gcno
+        -:    0:Data:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\Repository.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by bro_b on 3/29/2023.
+        -:    3://
+        -:    4:#include "Repository.h"
+        -:    5:#include "errors.h"
+        -:    6:#include <fstream>
+        -:    7:#include <algorithm>
+        -:    8:
+        -:    9:
+function _ZN10Repository19writeEntitiesToFileEv called 18 returned 100% blocks executed 78%
+       18:   10:void Repository::writeEntitiesToFile()
+        -:   11:{
+       18:   12:    if (!fileName.empty())
+       18:   12-block  0
+call    0 returned 18
+branch  1 taken 18 (fallthrough)
+branch  2 taken 0
+        -:   13:    {
+       18:   14:        std::ofstream fileOut(fileName);
+       18:   14-block  0
+call    0 returned 18
+branch  1 taken 18 (fallthrough)
+branch  2 taken 0 (throw)
+       81:   15:        for (auto tutorial : administratorList)
+       18:   15-block  0
+call    0 returned 18
+call    1 returned 18
+       63:   15-block  1
+call    2 returned 63
+call    3 returned 63
+branch  4 taken 63 (fallthrough)
+branch  5 taken 0 (throw)
+call    6 returned 63
+       81:   15-block  2
+call    7 returned 81
+branch  8 taken 63
+branch  9 taken 18 (fallthrough)
+        -:   16:        {
+       63:   17:            fileOut << tutorial << "\n";
+       63:   17-block  0
+call    0 returned 63
+branch  1 taken 63 (fallthrough)
+branch  2 taken 0 (throw)
+       63:   17-block  1
+call    3 returned 63
+branch  4 taken 63 (fallthrough)
+branch  5 taken 0 (throw)
+       63:   18:        }
+       63:   18-block  0
+call    0 returned 63
+    $$$$$:   18-block  1
+call    1 never executed
+       18:   19:        fileOut.close();
+       18:   19-block  0
+call    0 returned 18
+branch  1 taken 18 (fallthrough)
+branch  2 taken 0 (throw)
+       18:   20:    }
+       18:   20-block  0
+call    0 returned 18
+    $$$$$:   20-block  1
+call    1 never executed
+       18:   21:}
+       18:   21-block  0
+        -:   22:
+function _ZN10RepositoryC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 4 returned 100% blocks executed 62%
+        4:   23:Repository::Repository(std::string fileName)
+        4:   23-block  0
+call    0 returned 4
+call    1 returned 4
+        -:   24:{
+        4:   25:    this->fileName = fileName;
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        4:   26:}
+        4:   26-block  0
+    $$$$$:   26-block  1
+call    0 never executed
+    $$$$$:   26-block  2
+call    1 never executed
+        -:   27:
+function _ZN10Repository16findTutorialRepoENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 19 returned 21% blocks executed 85%
+       19:   28:Tutorial Repository::findTutorialRepo(std::string title)
+        -:   29:{
+       65:   30:    for (auto i : administratorList)
+       19:   30-block  0
+call    0 returned 19
+call    1 returned 19
+       50:   30-block  1
+call    2 returned 50
+call    3 returned 50
+branch  4 taken 50 (fallthrough)
+branch  5 taken 0 (throw)
+       46:   30-block  2
+call    6 returned 46
+       65:   30-block  3
+call    7 returned 65
+branch  8 taken 50
+branch  9 taken 15 (fallthrough)
+        -:   31:    {
+       50:   32:        if (i.getTitle() == title)
+       50:   32-block  0
+call    0 returned 50
+branch  1 taken 50 (fallthrough)
+branch  2 taken 0 (throw)
+       50:   32-block  1
+call    3 returned 50
+call    4 returned 50
+branch  5 taken 4 (fallthrough)
+branch  6 taken 46
+        -:   33:        {
+        8:   34:            return i;
+        4:   34-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        4:   34-block  1
+        4:   34-block  2
+        -:   35:        }
+       50:   36:    }
+       46:   36-block  0
+       50:   36-block  1
+call    0 returned 50
+branch  1 taken 46 (fallthrough)
+branch  2 taken 4
+    $$$$$:   36-block  2
+call    3 never executed
+       15:   37:    throw ValueError("Tutorial not found !");
+       15:   37-block  0
+call    0 returned 15
+call    1 returned 15
+branch  2 taken 15 (fallthrough)
+branch  3 taken 0 (throw)
+       15:   37-block  1
+call    4 returned 0
+    $$$$$:   37-block  2
+call    5 never executed
+        -:   38:}
+        -:   39:
+function _ZN10Repository15addTutorialRepoE8Tutorial called 17 returned 88% blocks executed 79%
+       17:   40:void Repository::addTutorialRepo(Tutorial tutorial)
+        -:   41:{
+        -:   42:    try
+        -:   43:    {
+       32:   44:        Tutorial t = findTutorialRepo(tutorial.getTitle());
+       17:   44-block  0
+call    0 returned 17
+branch  1 taken 17 (fallthrough)
+branch  2 taken 0 (throw)
+       17:   44-block  1
+call    3 returned 17
+branch  4 taken 2 (fallthrough)
+branch  5 taken 15 (throw)
+       15:   44-block  2
+        2:   45:        throw RepoError("This tutorial already exists !");
+call    0 returned 2
+call    1 returned 2
+branch  2 taken 2 (fallthrough)
+branch  3 taken 0 (throw)
+        2:   45-block  0
+call    4 returned 2
+    $$$$$:   45-block  1
+call    5 never executed
+        2:   46:    }
+        2:   46-block  0
+call    0 returned 2
+       17:   47:    catch (ValueError)
+       17:   47-block  0
+branch  0 taken 2 (fallthrough)
+branch  1 taken 15
+       15:   47-block  1
+call    2 returned 15
+call    3 returned 15
+        -:   48:    {
+       15:   49:        this->administratorList.push_back(tutorial);
+call    0 returned 15
+branch  1 taken 15 (fallthrough)
+branch  2 taken 0 (throw)
+       15:   50:        this->writeEntitiesToFile();
+       15:   50-block  0
+call    0 returned 15
+branch  1 taken 15 (fallthrough)
+branch  2 taken 0 (throw)
+       15:   51:    }
+       15:   51-block  0
+call    0 returned 15
+call    1 returned 15
+branch  2 taken 15 (fallthrough)
+branch  3 taken 0 (throw)
+    $$$$$:   51-block  1
+call    4 never executed
+    $$$$$:   51-block  2
+call    5 never executed
+       15:   52:}
+       15:   52-block  0
+        -:   53:
+        -:   54:
+function _ZN10Repository18deleteTutorialRepoENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 4 returned 50% blocks executed 75%
+        4:   55:void Repository::deleteTutorialRepo(std::string title)
+        -:   56:{
+function _ZZN10Repository18deleteTutorialRepoENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEENKUl8TutorialE_clES6_ called 4 returned 100% blocks executed 100%
+        8:   57:    auto it = std::remove_if(administratorList.begin(), administratorList.end(), [title](Tutorial t) { return (t.getTitle() == title); });
+        4:   57-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        4:   57-block  1
+call    3 returned 4
+call    4 returned 4
+call    5 returned 4
+branch  6 taken 4 (fallthrough)
+branch  7 taken 0 (throw)
+        4:   57-block  2
+call    8 returned 4
+    $$$$$:   57-block  3
+call    9 never executed
+    $$$$$:   57-block  4
+        4:   57-block  5
+call   10 returned 4
+call   11 returned 4
+call   12 returned 4
+        4:   58:    if (it == administratorList.end())
+call    0 returned 4
+call    1 returned 4
+branch  2 taken 2 (fallthrough)
+branch  3 taken 2
+        -:   59:    {
+        2:   60:        throw RepoError("Tutorial does not exist !");
+        2:   60-block  0
+call    0 returned 2
+call    1 returned 2
+branch  2 taken 2 (fallthrough)
+branch  3 taken 0 (throw)
+        2:   60-block  1
+call    4 returned 2
+    $$$$$:   60-block  2
+call    5 never executed
+        -:   61:    }
+        2:   62:    administratorList.pop_back();
+        2:   62-block  0
+call    0 returned 2
+        2:   63:    this->writeEntitiesToFile();
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   64:}
+        2:   64-block  0
+        -:   65:
+function _ZN10Repository18updateTutorialRepoENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE8Tutorial called 4 returned 50% blocks executed 86%
+        4:   66:void Repository::updateTutorialRepo(std::string title, Tutorial newTutorial)
+        -:   67:{
+        4:   68:    int k = 0;
+        6:   69:    for (auto i : administratorList)
+        4:   69-block  0
+call    0 returned 4
+call    1 returned 4
+        4:   69-block  1
+call    2 returned 4
+call    3 returned 4
+branch  4 taken 4 (fallthrough)
+branch  5 taken 0 (throw)
+        2:   69-block  2
+call    6 returned 2
+        6:   69-block  3
+call    7 returned 6
+branch  8 taken 4
+branch  9 taken 2 (fallthrough)
+        -:   70:    {
+        4:   71:        if (i.getTitle() == title)
+        4:   71-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        4:   71-block  1
+call    3 returned 4
+call    4 returned 4
+branch  5 taken 2 (fallthrough)
+branch  6 taken 2
+        -:   72:        {
+        2:   73:            administratorList.at(k) = newTutorial;
+        2:   73-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   73-block  1
+call    3 returned 2
+branch  4 taken 2 (fallthrough)
+branch  5 taken 0 (throw)
+        4:   74:            return;
+        2:   74-block  0
+        2:   74-block  1
+        -:   75:        }
+        2:   76:        k++;
+        4:   77:    }
+        2:   77-block  0
+        4:   77-block  1
+call    0 returned 4
+branch  1 taken 2 (fallthrough)
+branch  2 taken 2
+    $$$$$:   77-block  2
+call    3 never executed
+        2:   78:    throw RepoError("Tutorial does not exist !");
+        2:   78-block  0
+call    0 returned 2
+call    1 returned 2
+branch  2 taken 2 (fallthrough)
+branch  3 taken 0 (throw)
+        2:   78-block  1
+call    4 returned 0
+    $$$$$:   78-block  2
+call    5 never executed
+        -:   79:}
+        -:   80:
+function _ZNK10Repository16getTutorialsListEv called 6 returned 100% blocks executed 100%
+        6:   81:std::vector<Tutorial> Repository::getTutorialsList() const
+        -:   82:{
+        6:   83:    return this->administratorList;
+        6:   83-block  0
+call    0 returned 6
+        -:   84:}
+        -:   85:
+function _ZN10RepositoryD2Ev called 4 returned 100% blocks executed 100%
+        4:   86:Repository::~Repository() = default;
+        4:   86-block  0
+call    0 returned 4
+call    1 returned 4

@@ -1,0 +1,652 @@
+        -:    0:Source:C:/Users/bro_b/CLionProjects/OOP_lab4/main.cpp
+        -:    0:Graph:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\main.cpp.gcno
+        -:    0:Data:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\main.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include <iostream>
+        -:    2:#include "UI.h"
+        -:    3:#include "Tests.h"
+        -:    4:#include <crtdbg.h>
+        -:    5:#include <iostream>
+        -:    6:
+function main called 1 returned 100% blocks executed 42%
+        1:    7:int main()
+        -:    8:{
+        -:    9:
+        2:   10:    Repository repo = Repository("nothing.txt");
+        1:   10-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   10-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+call    7 returned 1
+    $$$$$:   10-block  2
+    $$$$$:   10-block  3
+        1:   11:    Service service = Service(repo);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   12:    service.addTutorialServ("How to REALLY learn C++", "The Cherno","8:12", 100, "https://www.youtube.com/watch?v=_zQqN5OYCCM");
+        1:   12-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   12-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   12-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   12-block  3
+call   12 returned 1
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   12-block  4
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   12-block  5
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+call   25 returned 1
+call   26 returned 1
+    $$$$$:   12-block  6
+call   27 never executed
+    $$$$$:   12-block  7
+    $$$$$:   12-block  8
+call   28 never executed
+    $$$$$:   12-block  9
+    $$$$$:   12-block 10
+call   29 never executed
+    $$$$$:   12-block 11
+    $$$$$:   12-block 12
+call   30 never executed
+    $$$$$:   12-block 13
+    $$$$$:   12-block 14
+call   31 never executed
+    $$$$$:   12-block 15
+    $$$$$:   12-block 16
+call   32 never executed
+    $$$$$:   12-block 17
+    $$$$$:   12-block 18
+call   33 never executed
+    $$$$$:   12-block 19
+    $$$$$:   12-block 20
+call   34 never executed
+    $$$$$:   12-block 21
+        1:   13:    service.addTutorialServ("BEST WAY to make Desktop Applications in C++", "The Cherno","25:39", 150, "https://www.youtube.com/watch?v=vWXrFetSH8w");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   13-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   13-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   13-block  2
+call   12 returned 1
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   13-block  3
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   13-block  4
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+call   25 returned 1
+call   26 returned 1
+    $$$$$:   13-block  5
+call   27 never executed
+    $$$$$:   13-block  6
+    $$$$$:   13-block  7
+call   28 never executed
+    $$$$$:   13-block  8
+    $$$$$:   13-block  9
+call   29 never executed
+    $$$$$:   13-block 10
+    $$$$$:   13-block 11
+call   30 never executed
+    $$$$$:   13-block 12
+    $$$$$:   13-block 13
+call   31 never executed
+    $$$$$:   13-block 14
+    $$$$$:   13-block 15
+call   32 never executed
+    $$$$$:   13-block 16
+    $$$$$:   13-block 17
+call   33 never executed
+    $$$$$:   13-block 18
+    $$$$$:   13-block 19
+call   34 never executed
+    $$$$$:   13-block 20
+        1:   14:    service.addTutorialServ("C++ Programming Course - Begin", "freeCodeCamp.org","59:00", 200, "https://www.youtube.com/watch?v=8jLOx1hD3_o");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   14-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   14-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   14-block  2
+call   12 returned 1
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   14-block  3
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   14-block  4
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+call   25 returned 1
+call   26 returned 1
+    $$$$$:   14-block  5
+call   27 never executed
+    $$$$$:   14-block  6
+    $$$$$:   14-block  7
+call   28 never executed
+    $$$$$:   14-block  8
+    $$$$$:   14-block  9
+call   29 never executed
+    $$$$$:   14-block 10
+    $$$$$:   14-block 11
+call   30 never executed
+    $$$$$:   14-block 12
+    $$$$$:   14-block 13
+call   31 never executed
+    $$$$$:   14-block 14
+    $$$$$:   14-block 15
+call   32 never executed
+    $$$$$:   14-block 16
+    $$$$$:   14-block 17
+call   33 never executed
+    $$$$$:   14-block 18
+    $$$$$:   14-block 19
+call   34 never executed
+    $$$$$:   14-block 20
+        1:   15:    service.addTutorialServ("How I Would Learn To Code (If I Could Start Over)", "Namanh Kapur","30:00", 110, "https://www.youtube.com/watch?v=k9WqpQp8VSU");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   15-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   15-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   15-block  2
+call   12 returned 1
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   15-block  3
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   15-block  4
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+call   25 returned 1
+call   26 returned 1
+    $$$$$:   15-block  5
+call   27 never executed
+    $$$$$:   15-block  6
+    $$$$$:   15-block  7
+call   28 never executed
+    $$$$$:   15-block  8
+    $$$$$:   15-block  9
+call   29 never executed
+    $$$$$:   15-block 10
+    $$$$$:   15-block 11
+call   30 never executed
+    $$$$$:   15-block 12
+    $$$$$:   15-block 13
+call   31 never executed
+    $$$$$:   15-block 14
+    $$$$$:   15-block 15
+call   32 never executed
+    $$$$$:   15-block 16
+    $$$$$:   15-block 17
+call   33 never executed
+    $$$$$:   15-block 18
+    $$$$$:   15-block 19
+call   34 never executed
+    $$$$$:   15-block 20
+        1:   16:    service.addTutorialServ("you will never ask about pointers again after watching this video", "Low Level Learning","15:15", 130, "https://www.youtube.com/watch?v=2ybLD6_2gKM");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   16-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   16-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   16-block  2
+call   12 returned 1
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   16-block  3
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   16-block  4
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+call   25 returned 1
+call   26 returned 1
+    $$$$$:   16-block  5
+call   27 never executed
+    $$$$$:   16-block  6
+    $$$$$:   16-block  7
+call   28 never executed
+    $$$$$:   16-block  8
+    $$$$$:   16-block  9
+call   29 never executed
+    $$$$$:   16-block 10
+    $$$$$:   16-block 11
+call   30 never executed
+    $$$$$:   16-block 12
+    $$$$$:   16-block 13
+call   31 never executed
+    $$$$$:   16-block 14
+    $$$$$:   16-block 15
+call   32 never executed
+    $$$$$:   16-block 16
+    $$$$$:   16-block 17
+call   33 never executed
+    $$$$$:   16-block 18
+    $$$$$:   16-block 19
+call   34 never executed
+    $$$$$:   16-block 20
+        1:   17:    service.addTutorialServ("Introduction to Pointers | C Programming Tutorial", "Portfolio Courses","14:34", 80, "https://www.youtube.com/watch?v=2GDiXG5RfNE");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   17-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   17-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   17-block  2
+call   12 returned 1
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   17-block  3
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   17-block  4
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+call   25 returned 1
+call   26 returned 1
+    $$$$$:   17-block  5
+call   27 never executed
+    $$$$$:   17-block  6
+    $$$$$:   17-block  7
+call   28 never executed
+    $$$$$:   17-block  8
+    $$$$$:   17-block  9
+call   29 never executed
+    $$$$$:   17-block 10
+    $$$$$:   17-block 11
+call   30 never executed
+    $$$$$:   17-block 12
+    $$$$$:   17-block 13
+call   31 never executed
+    $$$$$:   17-block 14
+    $$$$$:   17-block 15
+call   32 never executed
+    $$$$$:   17-block 16
+    $$$$$:   17-block 17
+call   33 never executed
+    $$$$$:   17-block 18
+    $$$$$:   17-block 19
+call   34 never executed
+    $$$$$:   17-block 20
+        1:   18:    service.addTutorialServ("Calugaritele", "Doru calota", "3:12",200, "https://www.youtube.com/watch?v=pTUZebhAx4c");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   18-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   18-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   18-block  2
+call   12 returned 1
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   18-block  3
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   18-block  4
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+call   25 returned 1
+call   26 returned 1
+    $$$$$:   18-block  5
+call   27 never executed
+    $$$$$:   18-block  6
+    $$$$$:   18-block  7
+call   28 never executed
+    $$$$$:   18-block  8
+    $$$$$:   18-block  9
+call   29 never executed
+    $$$$$:   18-block 10
+    $$$$$:   18-block 11
+call   30 never executed
+    $$$$$:   18-block 12
+    $$$$$:   18-block 13
+call   31 never executed
+    $$$$$:   18-block 14
+    $$$$$:   18-block 15
+call   32 never executed
+    $$$$$:   18-block 16
+    $$$$$:   18-block 17
+call   33 never executed
+    $$$$$:   18-block 18
+    $$$$$:   18-block 19
+call   34 never executed
+    $$$$$:   18-block 20
+        1:   19:    service.addTutorialServ("Pass By Reference | C Programming Tutorial", "Portfolio Courses","10:55", 20, "https://www.youtube.com/watch?v=RecxQUUEOn4");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   19-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   19-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   19-block  2
+call   12 returned 1
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   19-block  3
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   19-block  4
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+call   25 returned 1
+call   26 returned 1
+    $$$$$:   19-block  5
+call   27 never executed
+    $$$$$:   19-block  6
+    $$$$$:   19-block  7
+call   28 never executed
+    $$$$$:   19-block  8
+    $$$$$:   19-block  9
+call   29 never executed
+    $$$$$:   19-block 10
+    $$$$$:   19-block 11
+call   30 never executed
+    $$$$$:   19-block 12
+    $$$$$:   19-block 13
+call   31 never executed
+    $$$$$:   19-block 14
+    $$$$$:   19-block 15
+call   32 never executed
+    $$$$$:   19-block 16
+    $$$$$:   19-block 17
+call   33 never executed
+    $$$$$:   19-block 18
+    $$$$$:   19-block 19
+call   34 never executed
+    $$$$$:   19-block 20
+        1:   20:    service.addTutorialServ("Dynamic Memory Allocation | C Programming Tutorial", "Portfolio Courses","10:11", 0, "https://www.youtube.com/watch?v=R0qIYWo8igs");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   20-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   20-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   20-block  2
+call   12 returned 1
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   20-block  3
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   20-block  4
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+call   25 returned 1
+call   26 returned 1
+    $$$$$:   20-block  5
+call   27 never executed
+    $$$$$:   20-block  6
+    $$$$$:   20-block  7
+call   28 never executed
+    $$$$$:   20-block  8
+    $$$$$:   20-block  9
+call   29 never executed
+    $$$$$:   20-block 10
+    $$$$$:   20-block 11
+call   30 never executed
+    $$$$$:   20-block 12
+    $$$$$:   20-block 13
+call   31 never executed
+    $$$$$:   20-block 14
+    $$$$$:   20-block 15
+call   32 never executed
+    $$$$$:   20-block 16
+    $$$$$:   20-block 17
+call   33 never executed
+    $$$$$:   20-block 18
+    $$$$$:   20-block 19
+call   34 never executed
+    $$$$$:   20-block 20
+        1:   21:    service.addTutorialServ("C_132 Introduction to Dynamic Memory Allocation in C | SMA vs DMA", "Jenny's Lectures CS IT ","22:33", 10, "https://www.youtube.com/watch?v=LQXueqsbxRU");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   21-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   21-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   21-block  2
+call   12 returned 1
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   21-block  3
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   21-block  4
+call   19 returned 1
+call   20 returned 1
+call   21 returned 1
+call   22 returned 1
+call   23 returned 1
+call   24 returned 1
+call   25 returned 1
+call   26 returned 1
+    $$$$$:   21-block  5
+call   27 never executed
+    $$$$$:   21-block  6
+    $$$$$:   21-block  7
+call   28 never executed
+    $$$$$:   21-block  8
+    $$$$$:   21-block  9
+call   29 never executed
+    $$$$$:   21-block 10
+    $$$$$:   21-block 11
+call   30 never executed
+    $$$$$:   21-block 12
+    $$$$$:   21-block 13
+call   31 never executed
+    $$$$$:   21-block 14
+    $$$$$:   21-block 15
+call   32 never executed
+    $$$$$:   21-block 16
+    $$$$$:   21-block 17
+call   33 never executed
+    $$$$$:   21-block 18
+    $$$$$:   21-block 19
+call   34 never executed
+    $$$$$:   21-block 20
+        -:   22:
+        -:   23:
+        1:   24:    runAllTests();
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   25:    UserRepository userRepo = UserRepository("nothing.txt");
+        1:   25-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   25-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+call    7 returned 1
+    $$$$$:   25-block  2
+    $$$$$:   25-block  3
+        1:   26:    UserService userService = UserService(userRepo);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   27:
+        1:   28:    UI ui = UI(service,userService);
+        1:   28-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   29:    ui.run();
+        1:   29-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   30:
+        1:   31:}
+        1:   31-block  0
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+call    3 returned 1
+        1:   31-block  1
+    $$$$$:   31-block  2
+call    4 never executed
+    $$$$$:   31-block  3
+call    5 never executed
+    $$$$$:   31-block  4
+call    6 never executed
+    $$$$$:   31-block  5
+call    7 never executed

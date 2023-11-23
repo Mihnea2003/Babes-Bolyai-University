@@ -1,0 +1,38 @@
+        -:    0:Source:C:/Users/bro_b/CLionProjects/OOP_lab4/errors.cpp
+        -:    0:Graph:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\errors.cpp.gcno
+        -:    0:Data:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\errors.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by bro_b on 3/29/2023.
+        -:    3://
+        -:    4:#include "Errors.h"
+        -:    5:
+function _ZN10ValueErrorC2EPKc called 17 returned 100% blocks executed 100%
+       17:    6:ValueError::ValueError(const char* message)
+       17:    6-block  0
+call    0 returned 17
+        -:    7:{
+       17:    8:    this->message = message;
+       17:    9:}
+        -:   10:
+function _ZNK10ValueError4whatEv called 0 returned 0% blocks executed 0%
+    #####:   11:const char* ValueError::what() const noexcept
+        -:   12:{
+    #####:   13:    return this->message;
+    %%%%%:   13-block  0
+        -:   14:}
+        -:   15:
+function _ZN9RepoErrorC2EPKc called 10 returned 100% blocks executed 100%
+       10:   16:RepoError::RepoError(const char* message)
+       10:   16-block  0
+call    0 returned 10
+        -:   17:{
+       10:   18:    this->message = message;
+       10:   19:}
+        -:   20:
+function _ZNK9RepoError4whatEv called 6 returned 100% blocks executed 100%
+        6:   21:const char* RepoError::what() const noexcept
+        -:   22:{
+        6:   23:    return this->message;
+        6:   23-block  0
+        -:   24:}

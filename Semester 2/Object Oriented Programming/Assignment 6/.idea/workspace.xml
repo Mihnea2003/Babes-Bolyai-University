@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug-Coverage" ENABLED="true" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31c2dcbc-86c4-48ae-9a5d-9ac70bbedef3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Coverage" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3.3" />
+  </component>
+  <component name="ProjectId" id="2NgYdIdsPW3NcbRwBY9wSV5wcrl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/bro_b/CLionProjects/OOP_lab7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31c2dcbc-86c4-48ae-9a5d-9ac70bbedef3" name="Changes" comment="" />
+      <created>1680087278936</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680087278936</updated>
+      <workItem from="1680087282667" duration="2603000" />
+      <workItem from="1680103732589" duration="6893000" />
+      <workItem from="1680110913930" duration="138000" />
+      <workItem from="1680160430437" duration="76000" />
+      <workItem from="1680174295058" duration="2011000" />
+      <workItem from="1680348271512" duration="32000" />
+      <workItem from="1680508573054" duration="6052000" />
+      <workItem from="1680605717421" duration="784000" />
+      <workItem from="1680684298520" duration="2942000" />
+      <workItem from="1680708910040" duration="2935000" />
+      <workItem from="1680713695512" duration="468000" />
+      <workItem from="1680779360805" duration="327000" />
+      <workItem from="1680779701235" duration="2583000" />
+      <workItem from="1680856083477" duration="318000" />
+      <workItem from="1681104595373" duration="674000" />
+      <workItem from="1681106314438" duration="157000" />
+      <workItem from="1681305059217" duration="15000" />
+      <workItem from="1681384409296" duration="142000" />
+      <workItem from="1681978523341" duration="4360000" />
+      <workItem from="1681982940226" duration="336000" />
+      <workItem from="1681983285751" duration="142000" />
+      <workItem from="1681983435559" duration="39000" />
+      <workItem from="1681983484162" duration="4469000" />
+      <workItem from="1681988014004" duration="1330000" />
+      <workItem from="1682352895287" duration="13000" />
+      <workItem from="1683184628745" duration="697000" />
+      <workItem from="1683198370152" duration="2936000" />
+      <workItem from="1683292420337" duration="72000" />
+      <workItem from="1683292500159" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="../../../../CLionProjects/OOP_lab4-5-6/cmake-build-debug-coverage" NAME="OOP_lab4 Coverage Results" MODIFIED="1681987269930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="gcov/llvm" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="../../../../CLionProjects/OOP_lab4/cmake-build-debug-coverage" NAME="OOP_lab4 Coverage Results" MODIFIED="1680711668970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="gcov/llvm" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

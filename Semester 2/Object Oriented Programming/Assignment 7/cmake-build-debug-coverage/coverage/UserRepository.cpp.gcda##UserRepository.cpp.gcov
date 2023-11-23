@@ -1,0 +1,264 @@
+        -:    0:Source:C:/Users/bro_b/CLionProjects/OOP_lab4/UserRepository.cpp
+        -:    0:Graph:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\UserRepository.cpp.gcno
+        -:    0:Data:C:\Users\bro_b\CLionProjects\OOP_lab4\cmake-build-debug-coverage\CMakeFiles\OOP_lab4.dir\UserRepository.cpp.gcda
+        -:    0:Runs:1
+        -:    1://
+        -:    2:// Created by bro_b on 4/3/2023.
+        -:    3://
+        -:    4:#include "UserRepository.h"
+        -:    5:#include "errors.h"
+        -:    6:#include <fstream>
+        -:    7:#include <algorithm>
+function _ZN14UserRepositoryC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 3 returned 100% blocks executed 62%
+        3:    8:UserRepository::UserRepository(std::string fileName)
+        3:    8-block  0
+call    0 returned 3
+call    1 returned 3
+        -:    9:{
+        3:   10:    this->fileName = fileName;
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        3:   11:}
+        3:   11-block  0
+    $$$$$:   11-block  1
+call    0 never executed
+    $$$$$:   11-block  2
+call    1 never executed
+        -:   12:
+function _ZN14UserRepository19writeEntitiesToFileEv called 4 returned 100% blocks executed 78%
+        4:   13:void UserRepository::writeEntitiesToFile()
+        -:   14:{
+        4:   15:    if (!fileName.empty())
+        4:   15-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0
+        -:   16:    {
+        4:   17:        std::ofstream fileOut(fileName);
+        4:   17-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        6:   18:        for (auto tutorial : watchList)
+        4:   18-block  0
+call    0 returned 4
+call    1 returned 4
+        2:   18-block  1
+call    2 returned 2
+call    3 returned 2
+branch  4 taken 2 (fallthrough)
+branch  5 taken 0 (throw)
+call    6 returned 2
+        6:   18-block  2
+call    7 returned 6
+branch  8 taken 2
+branch  9 taken 4 (fallthrough)
+        -:   19:        {
+        2:   20:            fileOut << tutorial << "\n";
+        2:   20-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   20-block  1
+call    3 returned 2
+branch  4 taken 2 (fallthrough)
+branch  5 taken 0 (throw)
+        2:   21:        }
+        2:   21-block  0
+call    0 returned 2
+    $$$$$:   21-block  1
+call    1 never executed
+        4:   22:        fileOut.close();
+        4:   22-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        4:   23:    }
+        4:   23-block  0
+call    0 returned 4
+    $$$$$:   23-block  1
+call    1 never executed
+        4:   24:}
+        4:   24-block  0
+        -:   25:
+        -:   26:
+function _ZN14UserRepository20findTutorialUserRepoENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 5 returned 60% blocks executed 74%
+        5:   27:Tutorial UserRepository::findTutorialUserRepo(std::string title)
+        -:   28:{
+       5*:   29:    for (auto i : watchList)
+        5:   29-block  0
+call    0 returned 5
+call    1 returned 5
+        3:   29-block  1
+call    2 returned 3
+call    3 returned 3
+branch  4 taken 3 (fallthrough)
+branch  5 taken 0 (throw)
+    %%%%%:   29-block  2
+call    6 never executed
+        5:   29-block  3
+call    7 returned 5
+branch  8 taken 3
+branch  9 taken 2 (fallthrough)
+        -:   30:    {
+        3:   31:        if (i.getTitle() == title)
+        3:   31-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        3:   31-block  1
+call    3 returned 3
+call    4 returned 3
+branch  5 taken 3 (fallthrough)
+branch  6 taken 0
+        -:   32:        {
+        6:   33:            return i;
+        3:   33-block  0
+call    0 returned 3
+branch  1 taken 3 (fallthrough)
+branch  2 taken 0 (throw)
+        3:   33-block  1
+        3:   33-block  2
+        -:   34:        }
+       3*:   35:    }
+    %%%%%:   35-block  0
+        3:   35-block  1
+call    0 returned 3
+branch  1 taken 0 (fallthrough)
+branch  2 taken 3
+    $$$$$:   35-block  2
+call    3 never executed
+        2:   36:    throw ValueError("Tutorial not found !");
+        2:   36-block  0
+call    0 returned 2
+call    1 returned 2
+branch  2 taken 2 (fallthrough)
+branch  3 taken 0 (throw)
+        2:   36-block  1
+call    4 returned 0
+    $$$$$:   36-block  2
+call    5 never executed
+        -:   37:}
+        -:   38:
+function _ZN14UserRepository19addTutorialUserRepoE8Tutorial called 4 returned 50% blocks executed 79%
+        4:   39:void UserRepository::addTutorialUserRepo(Tutorial tutorial)
+        -:   40:{
+        -:   41:    try
+        -:   42:    {
+        6:   43:        Tutorial t = findTutorialUserRepo(tutorial.getTitle());
+        4:   43-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        4:   43-block  1
+call    3 returned 4
+branch  4 taken 2 (fallthrough)
+branch  5 taken 2 (throw)
+        2:   43-block  2
+        2:   44:        throw RepoError("This tutorial already exists !");
+call    0 returned 2
+call    1 returned 2
+branch  2 taken 2 (fallthrough)
+branch  3 taken 0 (throw)
+        2:   44-block  0
+call    4 returned 2
+    $$$$$:   44-block  1
+call    5 never executed
+        2:   45:    }
+        2:   45-block  0
+call    0 returned 2
+        4:   46:    catch (ValueError)
+        4:   46-block  0
+branch  0 taken 2 (fallthrough)
+branch  1 taken 2
+        2:   46-block  1
+call    2 returned 2
+call    3 returned 2
+        -:   47:    {
+        2:   48:        this->watchList.push_back(tutorial);
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   49:        this->writeEntitiesToFile();
+        2:   49-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   50:    }
+        2:   50-block  0
+call    0 returned 2
+call    1 returned 2
+branch  2 taken 2 (fallthrough)
+branch  3 taken 0 (throw)
+    $$$$$:   50-block  1
+call    4 never executed
+    $$$$$:   50-block  2
+call    5 never executed
+        2:   51:}
+        2:   51-block  0
+        -:   52:
+function _ZN14UserRepository22deleteTutorialUserRepoENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 4 returned 50% blocks executed 75%
+        4:   53:void UserRepository::deleteTutorialUserRepo(std::string title)
+        -:   54:{
+function _ZZN14UserRepository22deleteTutorialUserRepoENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEENKUl8TutorialE_clES6_ called 2 returned 100% blocks executed 100%
+        6:   55:    auto it = std::remove_if(watchList.begin(), watchList.end(), [title](Tutorial t) { return (t.getTitle() == title); });
+        4:   55-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        4:   55-block  1
+call    3 returned 4
+call    4 returned 4
+call    5 returned 4
+branch  6 taken 4 (fallthrough)
+branch  7 taken 0 (throw)
+        4:   55-block  2
+call    8 returned 4
+    $$$$$:   55-block  3
+call    9 never executed
+    $$$$$:   55-block  4
+        2:   55-block  5
+call   10 returned 2
+call   11 returned 2
+call   12 returned 2
+        4:   56:    if (it == watchList.end())
+call    0 returned 4
+call    1 returned 4
+branch  2 taken 2 (fallthrough)
+branch  3 taken 2
+        -:   57:    {
+        2:   58:        throw RepoError("Tutorial does not exist !");
+        2:   58-block  0
+call    0 returned 2
+call    1 returned 2
+branch  2 taken 2 (fallthrough)
+branch  3 taken 0 (throw)
+        2:   58-block  1
+call    4 returned 2
+    $$$$$:   58-block  2
+call    5 never executed
+        -:   59:    }
+        2:   60:    watchList.pop_back();
+        2:   60-block  0
+call    0 returned 2
+        2:   61:    this->writeEntitiesToFile();
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   62:}
+        2:   62-block  0
+        -:   63:
+function _ZNK14UserRepository12getWatchListEv called 7 returned 100% blocks executed 100%
+        7:   64:std::vector<Tutorial> UserRepository::getWatchList() const
+        -:   65:{
+        7:   66:    return this->watchList;
+        7:   66-block  0
+call    0 returned 7
+        -:   67:}
+        -:   68:
+function _ZN14UserRepositoryD2Ev called 3 returned 100% blocks executed 100%
+        3:   69:UserRepository::~UserRepository() = default;
+        3:   69-block  0
+call    0 returned 3
+call    1 returned 3

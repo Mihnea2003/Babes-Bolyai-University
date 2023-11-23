@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (a23.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Ui.c
+C:\Users\bro_b\source\repos\Assignment 2-3_OOP\Assignment 2-3_OOP\Ui.c(118,13): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'char (*)[50]'
+C:\Users\bro_b\source\repos\Assignment 2-3_OOP\Assignment 2-3_OOP\Ui.c(118,13): message : consider using '%hhd' in the format string
+C:\Users\bro_b\source\repos\Assignment 2-3_OOP\Assignment 2-3_OOP\Ui.c(242,21): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'double *'
+  Assignment 2-3_OOP.vcxproj -> C:\Users\bro_b\source\repos\Assignment 2-3_OOP\x64\Debug\Assignment 2-3_OOP.exe

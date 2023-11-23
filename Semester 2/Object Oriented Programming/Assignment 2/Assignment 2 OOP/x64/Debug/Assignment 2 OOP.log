@@ -1,0 +1,9 @@
+﻿  Main.cpp
+Material.obj : error LNK2019: unresolved external symbol "struct Material * __cdecl createMaterial(char const *,char const *,int,double)" (?createMaterial@@YAPEAUMaterial@@PEBD0HN@Z) referenced in function "void __cdecl TestMaterial(void)" (?TestMaterial@@YAXXZ)
+    Hint on symbols that are defined and could potentially match:
+      "struct Material * __cdecl createMaterial(char * const,char * const,int,double)" (?createMaterial@@YAPEAUMaterial@@QEAD0HN@Z)
+Material.obj : error LNK2019: unresolved external symbol "void __cdecl setSupplier(struct Material *,char const *)" (?setSupplier@@YAXPEAUMaterial@@PEBD@Z) referenced in function "void __cdecl TestMaterial(void)" (?TestMaterial@@YAXXZ)
+    Hint on symbols that are defined and could potentially match:
+      "void __cdecl setSupplier(struct Material *,char *)" (?setSupplier@@YAXPEAUMaterial@@PEAD@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\bro_b\source\repos\Assignment 2 OOP\x64\Debug\Assignment 2 OOP.exe : fatal error LNK1120: 3 unresolved externals
