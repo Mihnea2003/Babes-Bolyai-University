@@ -1,0 +1,216 @@
+**
+~ExeStack~~
+[(VarDeclStmt{name='varf', type=string};(varf=ValueExp{e=test.in};(OpenRFile{exp=VarExp{id='varf'}};(VarDeclStmt{name='varc', type=int};(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}}))))))))]
+~~SymbolTable~~
+{}
+~~Output~~
+[]
+~~FileTable~
+{}
+**
+
+
+**
+~ExeStack~~
+[(varf=ValueExp{e=test.in};(OpenRFile{exp=VarExp{id='varf'}};(VarDeclStmt{name='varc', type=int};(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}}))))))), VarDeclStmt{name='varf', type=string}]
+~~SymbolTable~~
+{}
+~~Output~~
+[]
+~~FileTable~
+{}
+**
+
+
+**
+~ExeStack~~
+[(varf=ValueExp{e=test.in};(OpenRFile{exp=VarExp{id='varf'}};(VarDeclStmt{name='varc', type=int};(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}})))))))]
+~~SymbolTable~~
+{varf=}
+~~Output~~
+[]
+~~FileTable~
+{}
+**
+
+
+**
+~ExeStack~~
+[(OpenRFile{exp=VarExp{id='varf'}};(VarDeclStmt{name='varc', type=int};(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}})))))), varf=ValueExp{e=test.in}]
+~~SymbolTable~~
+{varf=}
+~~Output~~
+[]
+~~FileTable~
+{}
+**
+
+
+**
+~ExeStack~~
+[(OpenRFile{exp=VarExp{id='varf'}};(VarDeclStmt{name='varc', type=int};(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}}))))))]
+~~SymbolTable~~
+{varf=test.in}
+~~Output~~
+[]
+~~FileTable~
+{}
+**
+
+
+**
+~ExeStack~~
+[(VarDeclStmt{name='varc', type=int};(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}}))))), OpenRFile{exp=VarExp{id='varf'}}]
+~~SymbolTable~~
+{varf=test.in}
+~~Output~~
+[]
+~~FileTable~
+{}
+**
+
+
+**
+~ExeStack~~
+[(VarDeclStmt{name='varc', type=int};(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}})))))]
+~~SymbolTable~~
+{varf=test.in}
+~~Output~~
+[]
+~~FileTable~
+{test.in=java.io.BufferedReader@bebdb06}
+**
+
+
+**
+~ExeStack~~
+[(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}})))), VarDeclStmt{name='varc', type=int}]
+~~SymbolTable~~
+{varf=test.in}
+~~Output~~
+[]
+~~FileTable~
+{test.in=java.io.BufferedReader@bebdb06}
+**
+
+
+**
+~ExeStack~~
+[(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}}))))]
+~~SymbolTable~~
+{varf=test.in, varc=0}
+~~Output~~
+[]
+~~FileTable~
+{test.in=java.io.BufferedReader@bebdb06}
+**
+
+
+**
+~ExeStack~~
+[(print(VarExp{id='varc'});(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}}))), ReadFile{exp=VarExp{id='varf'}, var_name='varc'}]
+~~SymbolTable~~
+{varf=test.in, varc=0}
+~~Output~~
+[]
+~~FileTable~
+{test.in=java.io.BufferedReader@bebdb06}
+**
+
+
+**
+~ExeStack~~
+[(print(VarExp{id='varc'});(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}})))]
+~~SymbolTable~~
+{varf=test.in, varc=0}
+~~Output~~
+[]
+~~FileTable~
+{test.in=java.io.BufferedReader@bebdb06}
+**
+
+
+**
+~ExeStack~~
+[(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}})), print(VarExp{id='varc'})]
+~~SymbolTable~~
+{varf=test.in, varc=0}
+~~Output~~
+[]
+~~FileTable~
+{test.in=java.io.BufferedReader@bebdb06}
+**
+
+
+**
+~ExeStack~~
+[(ReadFile{exp=VarExp{id='varf'}, var_name='varc'};(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}}))]
+~~SymbolTable~~
+{varf=test.in, varc=0}
+~~Output~~
+[0]
+~~FileTable~
+{test.in=java.io.BufferedReader@bebdb06}
+**
+
+
+**
+~ExeStack~~
+[(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}}), ReadFile{exp=VarExp{id='varf'}, var_name='varc'}]
+~~SymbolTable~~
+{varf=test.in, varc=0}
+~~Output~~
+[0]
+~~FileTable~
+{test.in=java.io.BufferedReader@bebdb06}
+**
+
+
+**
+~ExeStack~~
+[(print(VarExp{id='varc'});CloseRFile{exp=VarExp{id='varf'}})]
+~~SymbolTable~~
+{varf=test.in, varc=0}
+~~Output~~
+[0]
+~~FileTable~
+{test.in=java.io.BufferedReader@bebdb06}
+**
+
+
+**
+~ExeStack~~
+[CloseRFile{exp=VarExp{id='varf'}}, print(VarExp{id='varc'})]
+~~SymbolTable~~
+{varf=test.in, varc=0}
+~~Output~~
+[0]
+~~FileTable~
+{test.in=java.io.BufferedReader@bebdb06}
+**
+
+
+**
+~ExeStack~~
+[CloseRFile{exp=VarExp{id='varf'}}]
+~~SymbolTable~~
+{varf=test.in, varc=0}
+~~Output~~
+[0, 0]
+~~FileTable~
+{test.in=java.io.BufferedReader@bebdb06}
+**
+
+
+**
+~ExeStack~~
+[]
+~~SymbolTable~~
+{varf=test.in, varc=0}
+~~Output~~
+[0, 0]
+~~FileTable~
+{}
+**
+
+
