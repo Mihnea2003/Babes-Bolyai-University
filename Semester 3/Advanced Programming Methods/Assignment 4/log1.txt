@@ -1,0 +1,133 @@
+******************************
+PrgState{exeStack=MyStack{
+	(int v;(v=ValueExp{e=2};print(VarExp{id='v'})))
+}, symTable=MyDictionary{
+}, out=MyList{
+}, fileTable=MyFileTable{
+}, heap=MyHeap{
+}}
+******************************
+
+
+******************************
+PrgState{exeStack=MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+	int v
+}, symTable=MyDictionary{
+}, out=MyList{
+}, fileTable=MyFileTable{
+}, heap=MyHeap{
+}}
+******************************
+
+
+******************************
+PrgState{exeStack=MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+	int v
+}, symTable=MyDictionary{
+}, out=MyList{
+}, fileTable=MyFileTable{
+}, heap=MyHeap{
+}}
+******************************
+
+
+******************************
+PrgState{exeStack=MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+}, symTable=MyDictionary{
+	v: 0
+}, out=MyList{
+}, fileTable=MyFileTable{
+}, heap=MyHeap{
+}}
+******************************
+
+
+******************************
+PrgState{exeStack=MyStack{
+	(v=ValueExp{e=2};print(VarExp{id='v'}))
+}, symTable=MyDictionary{
+	v: 0
+}, out=MyList{
+}, fileTable=MyFileTable{
+}, heap=MyHeap{
+}}
+******************************
+
+
+******************************
+PrgState{exeStack=MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}, symTable=MyDictionary{
+	v: 0
+}, out=MyList{
+}, fileTable=MyFileTable{
+}, heap=MyHeap{
+}}
+******************************
+
+
+******************************
+PrgState{exeStack=MyStack{
+	print(VarExp{id='v'})
+	v=ValueExp{e=2}
+}, symTable=MyDictionary{
+	v: 0
+}, out=MyList{
+}, fileTable=MyFileTable{
+}, heap=MyHeap{
+}}
+******************************
+
+
+******************************
+PrgState{exeStack=MyStack{
+	print(VarExp{id='v'})
+}, symTable=MyDictionary{
+	v: 2
+}, out=MyList{
+}, fileTable=MyFileTable{
+}, heap=MyHeap{
+}}
+******************************
+
+
+******************************
+PrgState{exeStack=MyStack{
+	print(VarExp{id='v'})
+}, symTable=MyDictionary{
+	v: 2
+}, out=MyList{
+}, fileTable=MyFileTable{
+}, heap=MyHeap{
+}}
+******************************
+
+
+******************************
+PrgState{exeStack=MyStack{
+}, symTable=MyDictionary{
+	v: 2
+}, out=MyList{
+	2
+}, fileTable=MyFileTable{
+}, heap=MyHeap{
+}}
+******************************
+
+
+******************************
+PrgState{exeStack=MyStack{
+}, symTable=MyDictionary{
+	v: 2
+}, out=MyList{
+	2
+}, fileTable=MyFileTable{
+}, heap=MyHeap{
+}}
+******************************
+
+

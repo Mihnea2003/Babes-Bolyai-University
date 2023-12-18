@@ -1,0 +1,5435 @@
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(int v;(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))))
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(int v;(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))))
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	v=ValueExp{e=32}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	v=ValueExp{e=32}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	v=ValueExp{e=32}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	v=ValueExp{e=32}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	v=ValueExp{e=32}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	v=ValueExp{e=32}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(int v;(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))))
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+	v=ValueExp{e=10}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+	v=ValueExp{e=10}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+	print(VarExp{id='v'})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+	print(VarExp{id='v'})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	v=ValueExp{e=32}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	v=ValueExp{e=32}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+	print(VarExp{id='v'})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+	print(VarExp{id='v'})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(int v;(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))))
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+	v=ValueExp{e=10}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+	v=ValueExp{e=10}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+	print(VarExp{id='v'})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+	print(VarExp{id='v'})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	v=ValueExp{e=32}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	v=ValueExp{e=32}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+	print(VarExp{id='v'})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+	print(VarExp{id='v'})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(int v;(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))))
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+	int v
+}
+, symTable=MyDictionary{
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(Ref(int) a;(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))))
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+	Ref(int) a
+}
+, symTable=MyDictionary{
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(v=ValueExp{e=10};(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+	v=ValueExp{e=10}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+	v=ValueExp{e=10}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 0
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(new(a, ValueExp{e=30});(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	new(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=0, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))));(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	fork((Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(Write heap(a, ValueExp{e=30});(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+	print(VarExp{id='v'})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+	print(VarExp{id='v'})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+	Write heap(a, ValueExp{e=30})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(v=ValueExp{e=32};(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'}))))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=9
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	v=ValueExp{e=32}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+	v=ValueExp{e=32}
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 10
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	(print(VarExp{id='v'});print(read heap expression(VarExp{id='a'})))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+	print(VarExp{id='v'})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+	print(VarExp{id='v'})
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+	print(read heap expression(VarExp{id='a'}))
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
+******************************
+PrgState{
+id=10
+exeStack=MyStack{
+}
+, symTable=MyDictionary{
+	a: RefValue{address=1, locationType=int}
+	v: 32
+}
+, out=MyList{
+	10
+	30
+	32
+	30
+}
+, fileTable=MyFileTable{
+}
+, heap=MyHeap{
+	1: 30
+}
+}
+******************************
+
+
