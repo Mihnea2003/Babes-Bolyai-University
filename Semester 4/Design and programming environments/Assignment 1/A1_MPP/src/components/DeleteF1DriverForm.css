@@ -1,0 +1,60 @@
+.delete-f1-driver-container {
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 20px auto;
+}
+
+.delete-f1-driver-container header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.delete-f1-driver-container .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.delete-f1-driver-container .form-group {
+    margin-bottom: 20px;
+}
+
+.delete-f1-driver-container .form-label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.delete-f1-driver-container .form-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.delete-f1-driver-container .form-field:focus {
+    border-color: #007bff;
+}
+
+.delete-f1-driver-container .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-f1-driver-container .button:hover {
+    background-color: #c82333;
+}
