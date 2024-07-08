@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Topics";
+}
+
+<h1>Topics</h1>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["Message"]
+    </div>
+}
+
+<ul>
+    @foreach (var topic in Model)
+    {
+        <li>
+            <a asp-action="Posts" asp-route-topicId="@topic.Id">@topic.TopicName</a>
+        </li>
+    }
+</ul>
+
+<h2>Add a new topic</h2>
+<form asp-action="AddTopic" method="post">
+    <input type="text" name="topicName" />
+    <button type="submit">Add Topic</button>
+</form>

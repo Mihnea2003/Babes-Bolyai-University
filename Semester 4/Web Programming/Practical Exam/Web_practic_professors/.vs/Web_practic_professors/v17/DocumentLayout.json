@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_professors\\web_practic_professors\\data\\migrations\\20240611195439_seedinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|solutionrelative:web_practic_professors\\data\\migrations\\20240611195439_seedinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_professors\\web_practic_professors\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|solutionrelative:web_practic_professors\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_professors\\web_practic_professors\\views\\professor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|solutionrelative:web_practic_professors\\views\\professor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_professors\\web_practic_professors\\views\\professor\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|solutionrelative:web_practic_professors\\views\\professor\\courses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_professors\\web_practic_professors\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|solutionrelative:web_practic_professors\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_professors\\web_practic_professors\\data\\migrations\\20240611193827_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|solutionrelative:web_practic_professors\\data\\migrations\\20240611193827_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_professors\\web_practic_professors\\views\\professor\\participants.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|solutionrelative:web_practic_professors\\views\\professor\\participants.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_professors\\web_practic_professors\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|solutionrelative:web_practic_professors\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_professors\\web_practic_professors\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{334B8316-8128-44EB-B292-B20E71A7FB12}|Web_practic_professors\\Web_practic_professors.csproj|solutionrelative:web_practic_professors\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240611195439_SeedInitialData.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Data\\Migrations\\20240611195439_SeedInitialData.cs",
+              "RelativeDocumentMoniker": "Web_practic_professors\\Data\\Migrations\\20240611195439_SeedInitialData.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Data\\Migrations\\20240611195439_SeedInitialData.cs",
+              "RelativeToolTip": "Web_practic_professors\\Data\\Migrations\\20240611195439_SeedInitialData.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:54:39.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Participants.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Views\\Professor\\Participants.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_professors\\Views\\Professor\\Participants.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Views\\Professor\\Participants.cshtml",
+              "RelativeToolTip": "Web_practic_professors\\Views\\Professor\\Participants.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T19:42:30.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Courses.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Views\\Professor\\Courses.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_professors\\Views\\Professor\\Courses.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Views\\Professor\\Courses.cshtml",
+              "RelativeToolTip": "Web_practic_professors\\Views\\Professor\\Courses.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T19:42:02.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Views\\Professor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_professors\\Views\\Professor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Views\\Professor\\Index.cshtml",
+              "RelativeToolTip": "Web_practic_professors\\Views\\Professor\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T19:41:35.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfessorController.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Controllers\\ProfessorController.cs",
+              "RelativeDocumentMoniker": "Web_practic_professors\\Controllers\\ProfessorController.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Controllers\\ProfessorController.cs",
+              "RelativeToolTip": "Web_practic_professors\\Controllers\\ProfessorController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAiwFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:39:28.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240611193827_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Data\\Migrations\\20240611193827_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Web_practic_professors\\Data\\Migrations\\20240611193827_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Data\\Migrations\\20240611193827_InitialCreate.cs",
+              "RelativeToolTip": "Web_practic_professors\\Data\\Migrations\\20240611193827_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:38:27.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Web_practic_professors\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Web_practic_professors\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAYwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:37:12.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "Web_practic_professors\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Models\\Course.cs",
+              "RelativeToolTip": "Web_practic_professors\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:36:25.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "Web_practic_professors\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_professors\\Web_practic_professors\\Models\\Person.cs",
+              "RelativeToolTip": "Web_practic_professors\\Models\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T19:35:49.677Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

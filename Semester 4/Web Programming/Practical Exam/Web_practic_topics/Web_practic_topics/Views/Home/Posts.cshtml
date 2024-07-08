@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Posts";
+}
+
+<h1>Posts for @Model.TopicName</h1>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["Message"]
+    </div>
+}
+
+<ul>
+    @foreach (var post in Model.Posts)
+    {
+        <li>
+            <strong>@post.User</strong>: @post.Text <em>(@post.Date)</em>
+        </li>
+    }
+</ul>
+
+<h2>Add a new post</h2>
+<form asp-action="AddPost" asp-route-topicId="@Model.Id" method="post">
+    <textarea name="text"></textarea>
+    <button type="submit">Add Post</button>
+</form>

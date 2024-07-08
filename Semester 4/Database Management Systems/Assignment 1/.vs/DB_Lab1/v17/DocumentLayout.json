@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E0B3AF-7B56-49E9-BA19-A4C2F7ECA96F}|DB_Lab1\\DB_Lab1.csproj|C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\db_lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A7E0B3AF-7B56-49E9-BA19-A4C2F7ECA96F}|DB_Lab1\\DB_Lab1.csproj|solutionrelative:db_lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E0B3AF-7B56-49E9-BA19-A4C2F7ECA96F}|DB_Lab1\\DB_Lab1.csproj|C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\db_lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7E0B3AF-7B56-49E9-BA19-A4C2F7ECA96F}|DB_Lab1\\DB_Lab1.csproj|solutionrelative:db_lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E0B3AF-7B56-49E9-BA19-A4C2F7ECA96F}|DB_Lab1\\DB_Lab1.csproj|C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\db_lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A7E0B3AF-7B56-49E9-BA19-A4C2F7ECA96F}|DB_Lab1\\DB_Lab1.csproj|solutionrelative:db_lab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E0B3AF-7B56-49E9-BA19-A4C2F7ECA96F}|DB_Lab1\\DB_Lab1.csproj|c:\\users\\bro_b\\source\\repos\\db_lab1\\db_lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7E0B3AF-7B56-49E9-BA19-A4C2F7ECA96F}|DB_Lab1\\DB_Lab1.csproj|solutionrelative:db_lab1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E0B3AF-7B56-49E9-BA19-A4C2F7ECA96F}|DB_Lab1\\DB_Lab1.csproj|C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\db_lab1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7E0B3AF-7B56-49E9-BA19-A4C2F7ECA96F}|DB_Lab1\\DB_Lab1.csproj|solutionrelative:db_lab1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7E0B3AF-7B56-49E9-BA19-A4C2F7ECA96F}|DB_Lab1\\DB_Lab1.csproj|C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\db_lab1\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A7E0B3AF-7B56-49E9-BA19-A4C2F7ECA96F}|DB_Lab1\\DB_Lab1.csproj|solutionrelative:db_lab1\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\DB_Lab1\\Form1.cs",
+              "RelativeDocumentMoniker": "DB_Lab1\\Form1.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\DB_Lab1\\Form1.cs",
+              "RelativeToolTip": "DB_Lab1\\Form1.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAkwGUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T09:58:46.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\DB_Lab1\\Program.cs",
+              "RelativeDocumentMoniker": "DB_Lab1\\Program.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\DB_Lab1\\Program.cs [Design]",
+              "RelativeToolTip": "DB_Lab1\\Program.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T09:29:40.042Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\DB_Lab1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "DB_Lab1\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\DB_Lab1\\Form1.Designer.cs",
+              "RelativeToolTip": "DB_Lab1\\Form1.Designer.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAD4v2cAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T09:29:34.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\DB_Lab1\\Form1.resx",
+              "RelativeDocumentMoniker": "DB_Lab1\\Form1.resx",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\DB_Lab1\\Form1.resx",
+              "RelativeToolTip": "DB_Lab1\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-03-18T09:29:32.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\DB_Lab1\\Program.cs",
+              "RelativeDocumentMoniker": "DB_Lab1\\Program.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\DB_Lab1\\Program.cs",
+              "RelativeToolTip": "DB_Lab1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T08:44:19.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\DB_Lab1\\Form1.cs",
+              "RelativeDocumentMoniker": "DB_Lab1\\Form1.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\DB_Lab1\\DB_Lab1\\Form1.cs [Design]",
+              "RelativeToolTip": "DB_Lab1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T08:21:29.801Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

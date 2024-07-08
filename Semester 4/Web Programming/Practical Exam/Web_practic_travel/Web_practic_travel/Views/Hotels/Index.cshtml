@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Web_practic_travel.Models.Hotel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Hotels</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.hotelName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.destinationCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.availableRooms)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.hotelName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.destinationCity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.availableRooms)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+                <td>
+                    <form asp-action="Reserve" asp-route-id="@item.Id">
+                        <button type="submit">Reserve</button>
+                    </form>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+<h4>Author</h4>
+<form method="post" action="/Home/Login">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required />
+    <label for="document_name">Your document or movie:</label>
+    <input type="text" id="document_name" name="document_name" required />
+    <button type="submit">Login</button>
+</form>

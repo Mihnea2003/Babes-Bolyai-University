@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Person>
+@{
+    ViewData["Title"] = "Participants";
+}
+
+<h2>Participants</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var participant in Model)
+        {
+            <tr>
+                <td>@participant.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Assign Grade</h3>
+<form asp-action="AssignGrade" method="post">
+    <input type="hidden" name="courseId" value="@ViewBag.CourseId" />
+    <label for="studentId">Student ID:</label>
+    <input type="text" name="studentId" />
+    <label for="grade">Grade:</label>
+    <input type="number" name="grade" />
+    <input type="submit" value="Assign" />
+</form>

@@ -1,0 +1,295 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\views\\view1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\views\\view1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\views\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\views\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\views\\hotels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\views\\hotels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\views\\flights\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\views\\flights\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\views\\home\\choose.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\views\\home\\choose.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\data\\migrations\\20240613114744_seeding2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\data\\migrations\\20240613114744_seeding2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\data\\migrations\\20240613111158_seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\data\\migrations\\20240613111158_seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_travel\\web_practic_travel\\data\\migrations\\20240613103004_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{771E8BA8-A1DB-4ACD-A064-371D719D2DD8}|Web_practic_travel\\Web_practic_travel.csproj|solutionrelative:web_practic_travel\\data\\migrations\\20240613103004_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Web_practic_travel\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:32:06.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "Web_practic_travel\\Controllers\\ReservationsController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwEIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:40:07.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Web_practic_travel\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T10:31:47.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Views\\Flights\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Views\\Flights\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Views\\Flights\\Index.cshtml",
+              "RelativeToolTip": "Web_practic_travel\\Views\\Flights\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T10:59:17.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "View1.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Views\\View1.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Views\\View1.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Views\\View1.cshtml",
+              "RelativeToolTip": "Web_practic_travel\\Views\\View1.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T10:41:20.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "View.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Views\\View.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Views\\View.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Views\\View.cshtml",
+              "RelativeToolTip": "Web_practic_travel\\Views\\View.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T10:40:43.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Models\\Flight.cs",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Models\\Flight.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Models\\Flight.cs",
+              "RelativeToolTip": "Web_practic_travel\\Models\\Flight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:23:28.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FlightsController.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Controllers\\FlightsController.cs",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Controllers\\FlightsController.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Controllers\\FlightsController.cs",
+              "RelativeToolTip": "Web_practic_travel\\Controllers\\FlightsController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAiwDgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:39:08.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Web_practic_travel\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:20:00.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "Web_practic_travel\\Controllers\\HotelsController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAiwEAAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:39:34.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Views\\Hotels\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Views\\Hotels\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Views\\Hotels\\Index.cshtml",
+              "RelativeToolTip": "Web_practic_travel\\Views\\Hotels\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T10:59:27.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Choose.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Views\\Home\\Choose.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Views\\Home\\Choose.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Views\\Home\\Choose.cshtml",
+              "RelativeToolTip": "Web_practic_travel\\Views\\Home\\Choose.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T10:52:05.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240613114744_Seeding2.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Data\\Migrations\\20240613114744_Seeding2.cs",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Data\\Migrations\\20240613114744_Seeding2.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Data\\Migrations\\20240613114744_Seeding2.cs",
+              "RelativeToolTip": "Web_practic_travel\\Data\\Migrations\\20240613114744_Seeding2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T11:47:44.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Models\\Hotel.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Models\\Hotel.cs",
+              "RelativeToolTip": "Web_practic_travel\\Models\\Hotel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:24:59.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240613111158_Seeding.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Data\\Migrations\\20240613111158_Seeding.cs",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Data\\Migrations\\20240613111158_Seeding.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Data\\Migrations\\20240613111158_Seeding.cs",
+              "RelativeToolTip": "Web_practic_travel\\Data\\Migrations\\20240613111158_Seeding.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T11:11:58.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Models\\Reservation.cs",
+              "RelativeToolTip": "Web_practic_travel\\Models\\Reservation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:26:30.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240613103004_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Data\\Migrations\\20240613103004_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Web_practic_travel\\Data\\Migrations\\20240613103004_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_travel\\Web_practic_travel\\Data\\Migrations\\20240613103004_InitialCreate.cs",
+              "RelativeToolTip": "Web_practic_travel\\Data\\Migrations\\20240613103004_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:30:04.396Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

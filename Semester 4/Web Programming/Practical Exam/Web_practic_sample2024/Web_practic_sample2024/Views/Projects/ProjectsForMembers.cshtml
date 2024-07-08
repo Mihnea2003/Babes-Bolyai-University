@@ -1,0 +1,21 @@
+﻿@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "Projects for Member";
+}
+
+<h1>Projects for @User.Identity.Name</h1>
+
+@if (!Model.Any())
+{
+    <p>No projects found.</p>
+}
+else
+{
+    <ul>
+        @foreach (var project in Model)
+        {
+            <li>@project.Name</li>
+        }
+    </ul>
+}

@@ -1,0 +1,18 @@
+﻿<!-- Views/Home/SelectJournal.cshtml -->
+@model IEnumerable<Web_practic_journals.Models.Journal>
+
+<h2>Select a Journal</h2>
+
+<form method="post" asp-action="SelectJournal">
+    <label for="journalName">Journal Name:</label>
+    <input type="text" id="journalName" name="journalName" required />
+    <button type="submit">Select Journal</button>
+</form>
+
+<h3>Or select an existing journal</h3>
+<ul>
+    @foreach (var journal in Model)
+    {
+        <li>@journal.Name</li>
+    }
+</ul>

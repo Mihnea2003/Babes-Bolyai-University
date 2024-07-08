@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_sample2024\\web_practic_sample2024\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|solutionrelative:web_practic_sample2024\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_sample2024\\web_practic_sample2024\\views\\projects\\projectsformembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|solutionrelative:web_practic_sample2024\\views\\projects\\projectsformembers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_sample2024\\web_practic_sample2024\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|solutionrelative:web_practic_sample2024\\views\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_sample2024\\web_practic_sample2024\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|solutionrelative:web_practic_sample2024\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_sample2024\\web_practic_sample2024\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|solutionrelative:web_practic_sample2024\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_sample2024\\web_practic_sample2024\\views\\softwaredevelopers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|solutionrelative:web_practic_sample2024\\views\\softwaredevelopers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_sample2024\\web_practic_sample2024\\controllers\\softwaredeveloperscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|solutionrelative:web_practic_sample2024\\controllers\\softwaredeveloperscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_sample2024\\web_practic_sample2024\\views\\softwaredevelopers\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|solutionrelative:web_practic_sample2024\\views\\softwaredevelopers\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_sample2024\\web_practic_sample2024\\views\\projects\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|solutionrelative:web_practic_sample2024\\views\\projects\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_sample2024\\web_practic_sample2024\\models\\softwaredeveloper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|solutionrelative:web_practic_sample2024\\models\\softwaredeveloper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_sample2024\\web_practic_sample2024\\data\\migrations\\20240611062021_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4672E27-C084-4855-B173-B685A0B676AA}|Web_practic_sample2024\\Web_practic_sample2024.csproj|solutionrelative:web_practic_sample2024\\data\\migrations\\20240611062021_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Views\\Projects\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_sample2024\\Views\\Projects\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Views\\Projects\\Index.cshtml",
+              "RelativeToolTip": "Web_practic_sample2024\\Views\\Projects\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T06:37:19.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectsForMembers.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Views\\Projects\\ProjectsForMembers.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_sample2024\\Views\\Projects\\ProjectsForMembers.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Views\\Projects\\ProjectsForMembers.cshtml",
+              "RelativeToolTip": "Web_practic_sample2024\\Views\\Projects\\ProjectsForMembers.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T06:38:18.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Views\\SoftwareDevelopers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_sample2024\\Views\\SoftwareDevelopers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Views\\SoftwareDevelopers\\Index.cshtml",
+              "RelativeToolTip": "Web_practic_sample2024\\Views\\SoftwareDevelopers\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T06:33:10.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "View.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Views\\Projects\\View.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_sample2024\\Views\\Projects\\View.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Views\\Projects\\View.cshtml",
+              "RelativeToolTip": "Web_practic_sample2024\\Views\\Projects\\View.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T06:23:28.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "Web_practic_sample2024\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "Web_practic_sample2024\\Controllers\\ProjectsController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAwJwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:22:24.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SoftwareDevelopersController.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Controllers\\SoftwareDevelopersController.cs",
+              "RelativeDocumentMoniker": "Web_practic_sample2024\\Controllers\\SoftwareDevelopersController.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Controllers\\SoftwareDevelopersController.cs",
+              "RelativeToolTip": "Web_practic_sample2024\\Controllers\\SoftwareDevelopersController.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAswKMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:21:53.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Web_practic_sample2024\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Web_practic_sample2024\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:19:21.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240611062021_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Data\\Migrations\\20240611062021_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Web_practic_sample2024\\Data\\Migrations\\20240611062021_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Data\\Migrations\\20240611062021_InitialCreate.cs",
+              "RelativeToolTip": "Web_practic_sample2024\\Data\\Migrations\\20240611062021_InitialCreate.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:20:21.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "Web_practic_sample2024\\Models\\Project.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Models\\Project.cs",
+              "RelativeToolTip": "Web_practic_sample2024\\Models\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:18:57.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "View.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Views\\SoftwareDevelopers\\View.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_sample2024\\Views\\SoftwareDevelopers\\View.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Views\\SoftwareDevelopers\\View.cshtml",
+              "RelativeToolTip": "Web_practic_sample2024\\Views\\SoftwareDevelopers\\View.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T06:24:05.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SoftwareDeveloper.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Models\\SoftwareDeveloper.cs",
+              "RelativeDocumentMoniker": "Web_practic_sample2024\\Models\\SoftwareDeveloper.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_sample2024\\Web_practic_sample2024\\Models\\SoftwareDeveloper.cs",
+              "RelativeToolTip": "Web_practic_sample2024\\Models\\SoftwareDeveloper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:17:10.221Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

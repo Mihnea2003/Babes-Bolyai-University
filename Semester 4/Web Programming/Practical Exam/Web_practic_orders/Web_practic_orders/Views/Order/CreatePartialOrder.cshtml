@@ -1,0 +1,25 @@
+﻿@model Web_practic_orders.Models.Order
+
+@{
+    ViewData["Title"] = "Create Partial Order";
+}
+
+<h1>Create Partial Order</h1>
+
+<form asp-action="CreatePartialOrder">
+    <div class="form-group">
+        <label asp-for="ProductId" class="control-label"></label>
+        <select asp-for="ProductId" class="form-control" asp-items="ViewBag.Products"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Quantity" class="control-label"></label>
+        <input asp-for="Quantity" class="form-control" />
+        <span asp-validation-for="Quantity" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Add to Order" class="btn btn-primary" />
+    </div>
+</form>
+
+<a asp-action="FinalizeOrder" asp-route-username="your-username-here" class="btn btn-success">Finalize Order</a>
+<a asp-action="CancelOrder" class="btn btn-danger">Cancel Order</a>

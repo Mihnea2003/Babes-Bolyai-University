@@ -1,0 +1,12 @@
+﻿<!-- Views/Home/Index.cshtml -->
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Welcome to JournalsApp</h2>
+
+<form method="post" action="/Home/SetUser">
+    <label for="userName">Your Name:</label>
+    <input type="text" id="userName" name="userName" required />
+    <button type="submit">Set Name</button>
+</form>

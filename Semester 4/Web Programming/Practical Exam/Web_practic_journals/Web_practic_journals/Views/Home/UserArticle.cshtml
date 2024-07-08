@@ -1,0 +1,20 @@
+﻿<!-- Views/Home/UserArticles.cshtml -->
+@model IEnumerable<Web_practic_journals.Models.Article>
+
+<h2>Your Articles</h2>
+
+<table>
+    <tr>
+        <th>Summary</th>
+        <th>Date</th>
+    </tr>
+    @foreach (var article in Model)
+    {
+        <tr>
+            <td>@article.Summary</td>
+            <td>@article.Date</td>
+        </tr>
+    }
+</table>
+
+<a asp-action="AddArticle">Add New Article</a>

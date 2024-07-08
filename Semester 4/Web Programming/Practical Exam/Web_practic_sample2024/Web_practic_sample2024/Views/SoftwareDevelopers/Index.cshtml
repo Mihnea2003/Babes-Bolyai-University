@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Web_practic_sample2024.Models.SoftwareDeveloper>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<!-- Filter input -->
+<p>
+    <input type="text" id="skillFilter" placeholder="Filter by skill" onkeyup="filterDevelopers()" />
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Skills)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="developersList">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Age)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Skills)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        function filterDevelopers() {
+            var filter = document.getElementById('skillFilter').value.toLowerCase();
+            var rows = document.getElementById('developersList').getElementsByTagName('tr');
+            for (var i = 0; i < rows.length; i++) {
+                var skills = rows[i].getElementsByTagName('td')[2].innerText.toLowerCase();
+                if (skills.includes(filter)) {
+                    rows[i].style.display = '';
+                } else {
+                    rows[i].style.display = 'none';
+                }
+            }
+        }
+    </script>
+}

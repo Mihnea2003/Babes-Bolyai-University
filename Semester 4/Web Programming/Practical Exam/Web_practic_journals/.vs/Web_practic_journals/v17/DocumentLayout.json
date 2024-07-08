@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_journals\\web_practic_journals\\views\\home\\addarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|solutionrelative:web_practic_journals\\views\\home\\addarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_journals\\web_practic_journals\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|solutionrelative:web_practic_journals\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_journals\\web_practic_journals\\views\\home\\userarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|solutionrelative:web_practic_journals\\views\\home\\userarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_journals\\web_practic_journals\\views\\home\\selectjournal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|solutionrelative:web_practic_journals\\views\\home\\selectjournal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_journals\\web_practic_journals\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|solutionrelative:web_practic_journals\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_journals\\web_practic_journals\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|solutionrelative:web_practic_journals\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_journals\\web_practic_journals\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|solutionrelative:web_practic_journals\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_journals\\web_practic_journals\\models\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|solutionrelative:web_practic_journals\\models\\journal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_journals\\web_practic_journals\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|solutionrelative:web_practic_journals\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_journals\\web_practic_journals\\migrations\\20240612134058_seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E4467F-5520-47AF-A873-A4D3A59CF307}|Web_practic_journals\\Web_practic_journals.csproj|solutionrelative:web_practic_journals\\migrations\\20240612134058_seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_journals\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Web_practic_journals\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T13:49:18.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Web_practic_journals\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Web_practic_journals\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:48:20.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Web_practic_journals\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Web_practic_journals\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:41:46.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Journal.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Models\\Journal.cs",
+              "RelativeDocumentMoniker": "Web_practic_journals\\Models\\Journal.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Models\\Journal.cs",
+              "RelativeToolTip": "Web_practic_journals\\Models\\Journal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:45:13.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Models\\Article.cs",
+              "RelativeDocumentMoniker": "Web_practic_journals\\Models\\Article.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Models\\Article.cs",
+              "RelativeToolTip": "Web_practic_journals\\Models\\Article.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:45:40.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddArticle.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Views\\Home\\AddArticle.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_journals\\Views\\Home\\AddArticle.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Views\\Home\\AddArticle.cshtml",
+              "RelativeToolTip": "Web_practic_journals\\Views\\Home\\AddArticle.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T12:53:07.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_journals\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Web_practic_journals\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T12:47:47.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SelectJournal.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Views\\Home\\SelectJournal.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_journals\\Views\\Home\\SelectJournal.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Views\\Home\\SelectJournal.cshtml",
+              "RelativeToolTip": "Web_practic_journals\\Views\\Home\\SelectJournal.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T12:51:58.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserArticle.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Views\\Home\\UserArticle.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_journals\\Views\\Home\\UserArticle.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Views\\Home\\UserArticle.cshtml",
+              "RelativeToolTip": "Web_practic_journals\\Views\\Home\\UserArticle.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T12:52:39.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240612134058_Seed.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Migrations\\20240612134058_Seed.cs",
+              "RelativeDocumentMoniker": "Web_practic_journals\\Migrations\\20240612134058_Seed.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_journals\\Web_practic_journals\\Migrations\\20240612134058_Seed.cs",
+              "RelativeToolTip": "Web_practic_journals\\Migrations\\20240612134058_Seed.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:40:58.158Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

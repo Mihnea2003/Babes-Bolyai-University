@@ -1,0 +1,16 @@
+﻿<!-- Views/Home/Index.cshtml -->
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Welcome to Travel App</h2>
+
+<form method="post" action="/Home/SetUser">
+    <label for="userName">Your Name:</label>
+    <input type="text" id="userName" name="userName" required />
+    <label for="userName">Your date:</label>
+    <input type="text" id="date" name="date" required />
+    <label for="userName">Destination City:</label>
+    <input type="text" id="destination_city" name="destination_city" required />
+    <button type="submit">Begin Reservation</button>
+</form>

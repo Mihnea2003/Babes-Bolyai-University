@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - My ASP.NET Application</title>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 50px;">
+        <form asp-action="Start" asp-controller="Home" method="post">
+            <button type="submit" style="font-size: 20px; padding: 10px 20px;">Start</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\Users\bro_b\source\repos\DB_Lab1\DB_Lab1\obj\Debug\DB_Lab1.csproj.AssemblyReference.cache
+C:\Users\bro_b\source\repos\DB_Lab1\DB_Lab1\obj\Debug\WindowsFormsExample.Form1.resources
+C:\Users\bro_b\source\repos\DB_Lab1\DB_Lab1\obj\Debug\test.Program.resources
+C:\Users\bro_b\source\repos\DB_Lab1\DB_Lab1\obj\Debug\DB_Lab1.Properties.Resources.resources
+C:\Users\bro_b\source\repos\DB_Lab1\DB_Lab1\obj\Debug\DB_Lab1.csproj.GenerateResource.cache
+C:\Users\bro_b\source\repos\DB_Lab1\DB_Lab1\obj\Debug\DB_Lab1.csproj.CoreCompileInputs.cache

@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_topics\\web_practic_topics\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|solutionrelative:web_practic_topics\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_topics\\web_practic_topics\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|solutionrelative:web_practic_topics\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_topics\\web_practic_topics\\views\\home\\posts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|solutionrelative:web_practic_topics\\views\\home\\posts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_topics\\web_practic_topics\\views\\home\\topics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|solutionrelative:web_practic_topics\\views\\home\\topics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_topics\\web_practic_topics\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|solutionrelative:web_practic_topics\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_topics\\web_practic_topics\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|solutionrelative:web_practic_topics\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_topics\\web_practic_topics\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|solutionrelative:web_practic_topics\\models\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|c:\\users\\bro_b\\source\\repos\\web_practic_topics\\web_practic_topics\\data\\migrations\\20240611202354_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34E30823-6B3D-4410-8893-F54AA4ED0163}|Web_practic_topics\\Web_practic_topics.csproj|solutionrelative:web_practic_topics\\data\\migrations\\20240611202354_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Posts.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Views\\Home\\Posts.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_topics\\Views\\Home\\Posts.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Views\\Home\\Posts.cshtml",
+              "RelativeToolTip": "Web_practic_topics\\Views\\Home\\Posts.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T20:28:07.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Topics.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Views\\Home\\Topics.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_topics\\Views\\Home\\Topics.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Views\\Home\\Topics.cshtml",
+              "RelativeToolTip": "Web_practic_topics\\Views\\Home\\Topics.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T20:27:31.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Web_practic_topics\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Web_practic_topics\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T20:27:01.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Web_practic_topics\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Web_practic_topics\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwEoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T20:24:34.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240611202354_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Data\\Migrations\\20240611202354_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Web_practic_topics\\Data\\Migrations\\20240611202354_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Data\\Migrations\\20240611202354_InitialCreate.cs",
+              "RelativeToolTip": "Web_practic_topics\\Data\\Migrations\\20240611202354_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T20:23:55.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Web_practic_topics\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Web_practic_topics\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T20:23:26.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Web_practic_topics\\Models\\Post.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Models\\Post.cs",
+              "RelativeToolTip": "Web_practic_topics\\Models\\Post.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T20:23:06.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Models\\Topic.cs",
+              "RelativeDocumentMoniker": "Web_practic_topics\\Models\\Topic.cs",
+              "ToolTip": "C:\\Users\\bro_b\\source\\repos\\Web_practic_topics\\Web_practic_topics\\Models\\Topic.cs",
+              "RelativeToolTip": "Web_practic_topics\\Models\\Topic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T20:22:52.562Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
