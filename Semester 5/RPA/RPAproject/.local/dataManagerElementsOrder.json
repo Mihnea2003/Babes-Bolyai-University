@@ -1,0 +1,171 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "invoicePath&Sequence_1",
+        "extractionResults&Sequence_1",
+        "pdfText&Sequence_1",
+        "invoiceTablePath&Sequence_1",
+        "supplierName&Sequence_1",
+        "invoiceNumber&Sequence_1",
+        "amountDue&Sequence_1",
+        "amountPaid&Sequence_1",
+        "paymentStatus&Sequence_1",
+        "dueDate&Sequence_1",
+        "invoiceDate&Sequence_1",
+        "invoiceText&Sequence_1",
+        "totalAmount&Sequence_1",
+        "variable1&Sequence_1",
+        "dtPayments&Sequence_1",
+        "dtFiltered&Sequence_1",
+        "paidInvoicesPath&Sequence_1",
+        "InvoiceDataTable&Sequence_1",
+        "pdfText&Sequence_33",
+        "supplierName&Sequence_33",
+        "invoiceNumber&Sequence_33",
+        "invoiceDate&Sequence_33",
+        "amountDue&Sequence_33",
+        "amountPaid&Sequence_33",
+        "paymentStatus&Sequence_33",
+        "dtFiltered&Sequence_38",
+        "dtPayments&Sequence_38",
+        "InvoiceDataTablePath&Sequence_38",
+        "paidInvoicesPath&Sequence_38",
+        "unpaidInvoicesPath&Sequence_38"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "argument1"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ProcessInvoices.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "amountPaid&Sequence_2",
+        "paymentStatus&Sequence_2",
+        "variable1&Sequence_4",
+        "invoicePath&Sequence_2",
+        "supplierName&Sequence_2",
+        "invoiceDate&Sequence_2",
+        "dueDate&Sequence_2",
+        "totalAmount&Sequence_2",
+        "invoiceText&Sequence_2",
+        "invoiceDataTable&Sequence_2",
+        "pdfText&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_FolderPath",
+        "in_TrackerPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FolderManagement.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "argument1",
+        "supplierName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "MonthlyReport.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtPayments&Sequence_1",
+        "dtFiltered&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "CheckEmails.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "emailList&Sequence_1",
+        "invoiceNumber&Sequence_10",
+        "UnpaidInvoicesList&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "PI.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "paymentStatus&Sequence_20",
+        "invoiceTablePath&Sequence_20",
+        "pdfText&Sequence_13",
+        "invoicePath&Sequence_13",
+        "extractionResults&Sequence_13"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ProcessInvoice.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "invoicePath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "argument1"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "unpaidInvoicesPath&Sequence_1",
+        "paidInvoicesPath&Sequence_1",
+        "invoicePath&Sequence_1",
+        "variable1&Sequence_1",
+        "InvoiceDataTable&Sequence_1",
+        "projectPath&Sequence_1",
+        "dtFiltered&Sequence_1",
+        "dtPayments&Sequence_1",
+        "InvoiceDataTablePath&Sequence_1",
+        "pdfText&Sequence_2",
+        "supplierName&Sequence_2",
+        "invoiceNumber&Sequence_2",
+        "invoiceDate&Sequence_2",
+        "amountDue&Sequence_2",
+        "amountPaid&Sequence_2",
+        "paymentStatus&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "fm.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "filePath&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
