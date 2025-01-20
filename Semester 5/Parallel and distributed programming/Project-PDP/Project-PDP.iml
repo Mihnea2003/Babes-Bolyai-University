@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/GraphColoring" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../mpj-v0_44.zip!/mpj-v0_44" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$MODULE_DIR$/../mpj-v0_44.zip!/mpj-v0_44/doc/javadocs" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../mpj-v0_44.zip!/mpj-v0_44/debugger/src" />
+          <root url="jar://$MODULE_DIR$/../mpj-v0_44.zip!/mpj-v0_44/src" />
+          <root url="jar://$MODULE_DIR$/../mpj-v0_44.zip!/mpj-v0_44/test" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="lib" level="project" />
+  </component>
+</module>

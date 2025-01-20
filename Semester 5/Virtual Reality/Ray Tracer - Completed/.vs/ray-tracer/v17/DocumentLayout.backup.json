@@ -1,0 +1,264 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ray Tracer - Completed\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\rawctmask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:rawctmask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\raytracer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:raytracer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\ellipsoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:ellipsoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\colormap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:colormap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\geometry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:geometry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\vector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:vector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|d:\\ray tracer - completed\\intersection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED694687-DAD4-4577-852B-76F71FCE12B0}|ray-tracer.csproj|solutionrelative:intersection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ColorMap.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\ColorMap.cs",
+              "RelativeDocumentMoniker": "ColorMap.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\ColorMap.cs",
+              "RelativeToolTip": "ColorMap.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T06:27:23.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Image.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\Image.cs",
+              "RelativeDocumentMoniker": "Image.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\Image.cs",
+              "RelativeToolTip": "Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T17:09:52.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\Camera.cs",
+              "RelativeDocumentMoniker": "Camera.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\Camera.cs",
+              "RelativeToolTip": "Camera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T17:09:41.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Color.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\Color.cs",
+              "RelativeDocumentMoniker": "Color.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\Color.cs",
+              "RelativeToolTip": "Color.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:09:08.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Material.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\Material.cs",
+              "RelativeDocumentMoniker": "Material.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\Material.cs",
+              "RelativeToolTip": "Material.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:08:55.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Vector.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\Vector.cs",
+              "RelativeDocumentMoniker": "Vector.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\Vector.cs",
+              "RelativeToolTip": "Vector.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAswGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T15:31:50.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ellipsoid.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\Ellipsoid.cs",
+              "RelativeDocumentMoniker": "Ellipsoid.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\Ellipsoid.cs",
+              "RelativeToolTip": "Ellipsoid.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T09:16:25.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RayTracer.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\RayTracer.cs",
+              "RelativeDocumentMoniker": "RayTracer.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\RayTracer.cs",
+              "RelativeToolTip": "RayTracer.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwFUAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:37:44.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RawCTMask.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\RawCTMask.cs",
+              "RelativeDocumentMoniker": "RawCTMask.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\RawCTMask.cs",
+              "RelativeToolTip": "RawCTMask.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwGgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:37:44.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAQwGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:37:40.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Light.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\Light.cs",
+              "RelativeDocumentMoniker": "Light.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\Light.cs",
+              "RelativeToolTip": "Light.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T17:09:58.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Intersection.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\Intersection.cs",
+              "RelativeDocumentMoniker": "Intersection.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\Intersection.cs",
+              "RelativeToolTip": "Intersection.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA2wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T17:09:54.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Line.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\Line.cs",
+              "RelativeDocumentMoniker": "Line.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\Line.cs",
+              "RelativeToolTip": "Line.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T17:10:02.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Geometry.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\Geometry.cs",
+              "RelativeDocumentMoniker": "Geometry.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\Geometry.cs",
+              "RelativeToolTip": "Geometry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T17:10:49.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sphere.cs",
+              "DocumentMoniker": "D:\\Ray Tracer - Completed\\Sphere.cs",
+              "RelativeDocumentMoniker": "Sphere.cs",
+              "ToolTip": "D:\\Ray Tracer - Completed\\Sphere.cs",
+              "RelativeToolTip": "Sphere.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T17:11:08.787Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
