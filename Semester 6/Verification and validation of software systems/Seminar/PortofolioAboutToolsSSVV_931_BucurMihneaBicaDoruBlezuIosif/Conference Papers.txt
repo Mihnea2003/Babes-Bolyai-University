@@ -1,0 +1,7 @@
+Team 4: Bucur Mihnea-Andrei, Bica Doru Andrei, Blezu Iosif-Constantin 
+
+MSR2025 
+
+DPy: Code Smells Detection Tool for Python 
+
+ https://doi.org/10.5281/zenodo.14279535  
