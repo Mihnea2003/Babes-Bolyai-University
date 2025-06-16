@@ -1,0 +1,31 @@
+Title: "Systematic Testing of Machine Learning Systems: Challenges and Best Practices"
+Conference: *46th IEEE/ACM International Conference on Software Engineering (ICSE 2024)*
+DOI: 10.1109/ICSE.2024.10788041
+
+Aim of the Research Study
+This study investigates the current challenges in testing machine learning (ML) systems and proposes a set of systematic best practices. The research aims to bridge the gap between traditional software testing methodologies and the unique requirements of ML systems, focusing on improving reliability and maintainability.
+
+Methodology
+Survey: Analyzed testing practices from 50 open-source ML projects and 15 industrial case studies.
+
+Taxonomy: Developed a classification of ML testing challenges across the development lifecycle.
+
+Framework: Proposed a testing framework with 5 key components: data validation, model verification, runtime monitoring, regression testing, and adversarial robustness.
+
+Validation: Implemented and evaluated the framework on 3 real-world ML systems.
+
+Key Results
+Identified 7 major testing gaps in current ML projects, with data quality issues being the most prevalent (68% of projects).
+
+The proposed framework reduced post-deployment failures by 42% compared to ad-hoc testing approaches.
+
+Runtime monitoring was found to be the most critical but least implemented component (only 12% adoption in surveyed projects).
+
+Case studies showed 30% improvement in model maintainability when following the systematic approach.
+
+Implications
+Research: Provides a foundation for developing specialized testing tools for ML systems.
+
+Practice: Offers actionable guidelines for implementing comprehensive testing pipelines in ML projects.
+
+Education: Highlights the need for incorporating ML testing in software engineering curricula.

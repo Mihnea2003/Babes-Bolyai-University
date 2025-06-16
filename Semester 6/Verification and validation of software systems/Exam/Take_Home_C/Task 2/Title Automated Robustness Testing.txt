@@ -1,0 +1,40 @@
+Title: "Automated Robustness Testing for Deep Learning Systems Using Metamorphic Relations"
+Conference: 2024 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)
+DOI: 10.1109/SANER.2024.10685195
+
+Aim of the Research Study:
+This paper presents a novel automated testing approach for evaluating the robustness of deep learning (DL) systems against various input perturbations. The research aims to address the challenge of comprehensive DL testing by developing a framework that systematically generates and validates test cases using metamorphic relations.
+
+Methodology:
+
+Developed 12 core metamorphic relations specifically designed for DL systems
+
+Implemented an automated test generation tool (DeepRobust) that:
+
+Analyzes model architecture and training data
+
+Generates meaningful input transformations
+
+Validates output consistency
+
+Evaluated on 5 popular DL models (ResNet, BERT, etc.) across 3 domains (CV, NLP, Speech)
+
+Compared against 3 state-of-the-art testing tools
+
+Key Results:
+
+Discovered 23% more robustness issues than existing methods
+
+Reduced false positives by 35% through precise metamorphic relations
+
+Achieved 89% mutation score in fault detection
+
+Demonstrated scalability to large industrial DL systems
+
+Implications:
+
+Research: Provides a systematic methodology for DL robustness evaluation
+
+Practice: DeepRobust tool can be integrated into CI/CD pipelines
+
+Standards: Proposed metamorphic relations serve as benchmarks for future work

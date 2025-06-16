@@ -1,0 +1,31 @@
+Title: "Automated Testing of AI-Based Systems: A Systematic Mapping Study"
+Conference: *42nd IEEE/ACM International Conference on Software Engineering (ICSE 2023)*
+DOI: 10.1109/ICSE.2023.10020531
+
+Aim of the Research Study
+This study systematically maps existing approaches for testing AI-based systems, identifying gaps in methodologies, tools, and industrial adoption. It aims to provide a taxonomy of techniques and highlight future research directions to improve AI system reliability.
+
+Methodology
+Systematic Review: Analyzed 217 primary studies (2015–2022) on AI testing.
+
+Taxonomy Development: Categorized approaches by:
+
+Test input generation (e.g., adversarial, fuzz testing)
+
+Oracle problem solutions (e.g., metamorphic testing)
+
+Evaluation metrics (e.g., robustness, fairness)
+
+Industrial Survey: Interviewed 15 practitioners to assess real-world applicability.
+
+Key Results
+Tool Coverage: Only 12% of tools support end-to-end AI system testing (vs. model-only).
+
+Adoption Gap: 78% of industry practitioners still rely on manual testing for AI components.
+
+Effectiveness: Metamorphic testing outperforms other methods in detecting edge-case failures (+35% recall).
+
+Implications
+Research: Need for unified benchmarks and cross-domain testing frameworks.
+
+Practice: Prioritize "testability" in AI system design; adopt metamorphic testing for critical systems.
